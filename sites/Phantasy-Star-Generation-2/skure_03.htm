@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+var ebenenref, aktdiv, i, max=3;
+
+function ZeigeEbene(Nr)
+{
+aktdiv=0;
+for (i=1; i<=max; i++)
+{
+ebenenref="ebene"+i;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (i==Nr)
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (i==Nr)
+{
+document.layers[ebenenref].visibility="visible";
+}
+else
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (i==Nr)
+{
+document.all[ebenenref].style.visibility="visible";
+}
+else
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+}
+
+function VersteckeEbene(Nr)
+{
+ebenenref="ebene"+Nr;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (Nr!=aktdiv)
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (Nr!=aktdiv)
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (Nr!=aktdiv)
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+
+//-->
+</script>
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+</head>
+
+<body background="design/back.gif">
+<div id=fix>
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+<tr>
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+<div id=scroll>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td rowspan=12><img src="design/space.gif" width="14" height="2" alt="" border="0"></td>
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="18" alt="" border="0"></td>
+</tr>
+<tr>
+<td colspan=3>
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Skure Spaceport Floor BF3</span></td>
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td rowspan=11><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+<td colspan=3>
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">Information</span></td>
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td background="design/frame_mm.gif" rowspan=9 align=center><!--Map-->
+<br><img src="maps/skure03.png" width="600" height="530" alt="" border="0">
+</td>
+<td background="design/frame_rm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td background="design/frame_mm.gif" width=130 valign=top><!--Info--><p>
+<b>What's to find:</b><br>
+1&nbsp;&nbsp;&nbsp;5600 Mesetas<br>
+2&nbsp;&nbsp;&nbsp;Mogic Hat<br>
+3&nbsp;&nbsp;&nbsp;4800 Mesetas<br>
+4&nbsp;&nbsp;&nbsp;8200 Mesetas<br>
+5&nbsp;&nbsp;&nbsp;3000 Mesetas<br>
+6&nbsp;&nbsp;&nbsp;7800 Mesetas<br>
+7&nbsp;&nbsp;&nbsp;9800 Mesetas
+<br><br>
+<b>Important:</b><br>
+Look at all those treasures. The owner must have forgotten them or simply does not dare to enter the spaceport any more!
+<br><br>
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Way to Aukba</a><br>
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Way to Zosa</a><br>
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)">Way to Ryuon</a>
+</td>
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="320" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+</tr>
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+</tr>
+</tr>
+<tr>
+<td colspan=3>
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">Agenda</span></td>
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td background="design/frame_mm.gif" valign=top><img src="maps/ele_up.png" width="28" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Elevator up<br><img src="maps/chest.gif" width="27" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Container<br><img src="maps/musk_cat.gif" width="21" height="24" alt="" border="0" align=absmiddle hspace=14 vspace=5>Musk Cat
+</td>
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="40" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+</tr>
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td colspan=3>
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">More</span></td>
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td background="design/frame_mm.gif" width=130 align=center><!--Info--><p>
+<a href="skure_02.htm" onfocus="this.blur()">To Floor BF2</a><br>
+<a href="skure_01.htm" onfocus="this.blur()">To Floor BF1</a>
+</td>
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="40" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+</tr>
+</table>
+<br>
+<div class="transbox" id="ebene3" style="Position: absolute; Left: 279px; Top: 480px; Visibility: hidden;"><img src="maps/ryuon_b3f.gif" width="191" height="83" alt="" border="0"></div>
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 297px; Top: 184px; Visibility: hidden;"><img src="maps/zosa_b3f.gif" width="205" height="221" alt="" border="0"></div>
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 210px; Top: 184px; Visibility: hidden;"><img src="maps/aukba_b3f.gif" width="203" height="89" alt="" border="0"></div><br>
+
+</div>
+</body>
+</html>

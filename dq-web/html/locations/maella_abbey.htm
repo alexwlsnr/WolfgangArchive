@@ -1,0 +1,715 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Maella Abbey Dragon Quest 8 The Journey of the Cursed King</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+<!--
+
+var ebenenref, aktdiv, i, max=6;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+      <!--
+
+
+
+      if (document.layers)
+
+      {
+
+      var startbreite = window.innerWidth;
+
+      var starthoehe = window.innerHeight;
+
+      }
+
+
+
+      function StylesLost()
+
+      {
+
+      if (document.layers && window.innerWidth != startbreite
+
+       || window.innerHeight != starthoehe)
+
+      {
+
+      location.reload();
+
+      }
+
+      }
+
+
+
+      //-->
+
+      </SCRIPT>
+
+
+
+
+
+</HEAD>
+
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+
+
+<DIV ID="ebene6" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/ma_mini_medal2.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5 vspace=5 align=absmiddle>Mini Medal</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/locations/ma_church.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Offers the following services:</b>
+
+<li> Confession (Save)
+
+<li> Divination
+
+<li> Resurrection
+
+<li> Purification
+
+<li> Benediction</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/ma_mini_medal.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5 vspace=5 align=absmiddle>Mini Medal</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/ma_holy_water.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/holy_water.png" width="25" height="22" alt="" border="0" hspace=5 vspace=5 align=absmiddle>Holy Water</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/ma_26g.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/gold_icon.png" width="25" height="22" alt="" border="0" hspace=5 vspace=5 align=absmiddle>26 coins</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/ma_mini_medal3.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5 vspace=5 align=absmiddle>Mini Medal</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=fix>
+
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+
+<tr><td colspan=2><span class="header">Maella Abbey</span></td></tr>
+
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=3 cellpadding=0>
+
+<tr><td><img src="../../pictures/design/space.gif" width="310" height="37" alt="" border="0"></td></tr>
+
+<tr>
+
+<td><img src="../../pictures/locations/maella_abby_map.png" width="278" height="207" alt="" border="0" usemap="#goddies">
+
+<map name="goddies">
+
+<area alt="" coords="202,8,218,28" href="#" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()"><!--near Abbot-->
+
+<area alt="" coords="188,54,204,74" href="#" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()"><!--near Bridge-->
+
+<area alt="" coords="119,62,136,81" href="#" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()"><!--left wall-->
+
+<area alt="" coords="149,118,167,138" href="#" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()"><!--right wall-->
+
+<area alt="" coords="96,122,116,143" href="#" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()"><!--Church-->
+
+<area alt="" coords="150,57,168,76" href="#" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)" onfocus="this.blur()"><!--Mini Medal inside-->
+
+</map>
+
+</td>
+
+
+
+</tr>
+
+<tr><td>
+
+<table border=0>
+
+<tr><td colspan=3>
+
+Welcome to Maella Abbey. Ok, a warm welcome is <br>somehow different, but time will tell. Let's hope you <br>leave here as everybodies friend.
+
+<br><br>Note: There is more to be done here than picking <br>
+
+up the items shown on the map above.<br><br>Click the appropriate button for the information <br>of your choice.<br><br></td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr>
+
+<td><table border=0 cellspacing=0 cellpadding=0>
+
+<tr class="norm">
+
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/but_m.png" height=23><a href="../locations/se_loc_index.htm" target="main" onfocus="this.blur()">&nbsp;Back to overview&nbsp;</a></td>
+
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table></td>
+
+<td align=center><table border=0 cellspacing=0 cellpadding=0>
+
+<tr class="norm">
+
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/but_m.png" height=23><a href="../events/event_24_index.htm" target="main" onfocus="this.blur()">&nbsp;To Events&nbsp;</a></td>
+
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table></td>
+
+<td align=right><table border=0 cellspacing=0 cellpadding=0>
+
+<tr class="norm">
+
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/but_m.png" height=23><a href="r_abbey_index.htm" target="main" onfocus="this.blur()">&nbsp;Next Location&nbsp;</a></td>
+
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table></td>
+
+</tr>
+
+</table>
+
+</td></tr>
+
+</table>
+
+</div>
+
+
+
+
+
+</BODY>
+
+</HTML>

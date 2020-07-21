@@ -1,0 +1,304 @@
+body  {
+
+	scrollbar-face-color : #42425A;
+
+	scrollbar-shadow-color : #222222;
+
+	scrollbar-highlight-color : #C6C25A;
+
+	scrollbar-3dlight-color : #D1CE79;
+
+	scrollbar-darkshadow-color : #939033;
+
+	scrollbar-track-color : #52525A;
+
+	scrollbar-arrow-color : #D1CE79;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+a  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+a:hover  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+
+
+a.smaller  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 11px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+a.smaller:hover  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+a.black  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #000000;
+
+	text-decoration : none;
+
+}
+
+
+
+a.black:hover  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+b  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 12px;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+b.white  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 12px;
+
+	color : #000000;
+
+	text-decoration : none;
+
+}
+
+
+
+p  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+td  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+	
+
+}
+
+td.s1  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	filter:dropshadow(color=#000000,offx=1,offy=1);
+
+	text-decoration : none;	
+
+}
+
+
+
+.header  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-size : 20px;
+
+	color : #D1CE79;
+
+	font-weight : bold;
+
+	text-decoration : none;
+
+	margin-top : 10px;
+
+}
+
+
+
+.header1  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 16px;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+
+
+.header2  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 12px;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+.brown  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 12px;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+
+
+ul { 
+
+	list-style-image: url(design/spot.gif)
+
+}
+
+li { 
+
+	list-style-image: url(design/spot.gif)
+
+}
+
+
+
+}
+
+td.sch {BORDER-TOP: #B2AE3E 1px solid; border-left: #B2AE3E 1px solid;
+
+font-size: 12px; filter:dropshadow(color=#000000,offx=1,offy=1);color:#ffffff;
+
+}
+
+td.not {
+
+	BORDER-TOP: 1px solid #D1CE79;
+
+	border-left: 1px solid #D1CE79;
+
+	border-right: 1px solid #C6C25A;
+
+}
+
+table.sch {BORDER-TOP: #B2AE3E 1px solid; border-left: #B2AE3E 1px solid;
+
+BORDER-BOTTOM: #B2AE3E 2px solid; border-right: #B2AE3E 2px solid;
+
+}
+
+	
+
+.s1 {font-size: 12px; filter:dropshadow(color=#ffffff,offx=1,offy=1);color:#ffffff;
+
+}
+

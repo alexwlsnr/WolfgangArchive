@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Untitled</title>
+
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+
+
+var ebenenref, aktdiv, i, max=14;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</script>
+
+
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+
+</head>
+
+
+
+<body background="design/back.gif">
+
+<div id=fix>
+
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+
+<tr>
+
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td rowspan=8><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Planet Dezoris</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=3><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=122><span class="header1">Information</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif"><!--Map-->
+
+</map>
+
+<img src="planets/dezoris.jpg" width="600" height="470" alt="" border="0">
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=134 valign=top><!--Info--><p>
+
+Mother Brain's influence on Dezoris can't have been that big. This planet is still as icy as ever and is inhabited, of course, by the Dezorian natives.<br><br>To finish the adventure you have to visit serveral places here. <br><b>Move</b> over the names and an enlarged picture will be shown. <br>A <b>Click</b> and you 'warp' there. This does not work with the exits from Skure, because there is nothing special about them.<br>
+
+<table cellpadding=2 cellspacing=0>
+
+<tr>
+
+<td width=70><a href="skure_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Skure</a></td>
+
+<td><a href="aukba.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Aukba</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="zosa.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)">Zosa</a></td>
+
+<td><a href="ryuon.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)">Ryuon</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="crevice_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)">Crevice</a></td>
+
+<td><a href="mansion_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)">Mansion</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="menobe_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(7)" OnMouseOut="VersteckeEbene(7)">Menobe</a></td>
+
+<td><a href="guaron_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(8)" OnMouseOut="VersteckeEbene(8)">Guaron</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="naval_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(9)" OnMouseOut="VersteckeEbene(9)">Naval</a></td>
+
+<td><a href="ikuto_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(10)" OnMouseOut="VersteckeEbene(10)">Ikuto</a></td>
+
+</tr>
+
+<tr>
+
+<td colspan=2><a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(11)" OnMouseOut="VersteckeEbene(11)">Exit to Aukba</a>
+
+</tr>
+
+<tr>
+
+<td colspan=2><a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(12)" OnMouseOut="VersteckeEbene(12)">Exit to Zosa</a></td>
+
+</tr>
+
+<tr>
+
+<td colspan=2><a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(13)" OnMouseOut="VersteckeEbene(13)">Exit to Ryuon</a>
+
+</tr>
+
+<tr>
+
+<td colspan=2><a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(14)" OnMouseOut="VersteckeEbene(14)">Exit to Naval</a>
+
+</tr>
+
+</table>
+
+
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+<br>
+
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 258px; Top: 240px; Visibility: hidden;"><img src="planets/skure.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 300px; Top: 50px; Visibility: hidden;"><img src="planets/aukba.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene3" style="Position: absolute; Left: 540px; Top: 110px; Visibility: hidden;"><img src="planets/zosa.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene4" style="Position: absolute; Left: 540px; Top: 420px; Visibility: hidden;"><img src="planets/ryuon.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene5" style="Position: absolute; Left:100px; Top: 130px; Visibility: hidden;"><img src="planets/crevice.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene6" style="Position: absolute; Left: 20px; Top: 230px; Visibility: hidden;"><img src="planets/mansion.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene7" style="Position: absolute; Left: 105px; Top: 50px; Visibility: hidden;"><img src="planets/dungeon.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene8" style="Position: absolute; Left: 540px; Top: 175px; Visibility: hidden;"><img src="planets/dungeon.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene9" style="Position: absolute; Left: 155px; Top: 445px; Visibility: hidden;"><img src="planets/dungeon.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene10" style="Position: absolute; Left: 420px; Top: 50px; Visibility: hidden;"><img src="planets/dungeon.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene11" style="Position: absolute; Left: 258px; Top: 155px; Visibility: hidden;"><img src="planets/exit.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene12" style="Position: absolute; Left: 390px; Top: 165px; Visibility: hidden;"><img src="planets/exit.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene13" style="Position: absolute; Left: 240px; Top: 390px; Visibility: hidden;"><img src="planets/exit.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene14" style="Position: absolute; Left: 57px; Top: 330px; Visibility: hidden;"><img src="planets/exit.png" width="60" height="60" alt="" border="0"></div>
+
+<br>
+
+</div>
+
+</body>
+
+</html>
+

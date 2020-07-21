@@ -1,0 +1,36 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+awjsmngold10#$@info#$@0#$@1#$@0#$@0#$@5#$@#$@0#$@1000#$@0#$@arial,helvetica,times new roman#$@6#$@0#$@0#$@0#$@FFFFFF#$@120#$@0#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Home of Phantasy Star#$@#$@_self#$@120#$@25#$@hopf02.gif#$@hopf01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+i1#$@i0#$@Phantasy Star 1#$@#$@_self#$@120#$@25#$@psi02.gif#$@psi01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i2#$@i0#$@Phantasy Star 2#$@#$@_self#$@120#$@25#$@psii02.gif#$@psii01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i3#$@i0#$@Phantasy Star 3#$@#$@_self#$@120#$@25#$@psiii02.gif#$@psiii01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i4#$@i0#$@Phantasy Star 4#$@#$@_self#$@120#$@25#$@psiv02.gif#$@psiv01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i5#$@i0#$@Phantasy Star Gaiden#$@#$@_self#$@120#$@25#$@psg02.gif#$@psg01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i6#$@#$@Home of Shining Force#$@#$@_self#$@120#$@25#$@hosf02.gif#$@hosf01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+i7#$@i6#$@Shining Force#$@#$@_self#$@120#$@25#$@sf02.gif#$@sf01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i8#$@i6#$@Shining Force II#$@#$@_self#$@120#$@25#$@sfii02.gif#$@sfii01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i9#$@i6#$@Shining Force III#$@#$@_self#$@120#$@25#$@sfiii02.gif#$@sfiii01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i10#$@i6#$@Shining Force CD#$@#$@_self#$@120#$@25#$@sfcd02.gif#$@sfcd01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i11#$@i6#$@Shining Force Gaiden#$@#$@_self#$@120#$@25#$@sfg02.gif#$@sfg01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i12#$@#$@Home of Lunar#$@#$@_self#$@120#$@25#$@hol02.gif#$@hol01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+i13#$@i12#$@Lunar the Silver Star#$@#$@_self#$@120#$@25#$@lss02.gif#$@lss01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i14#$@i12#$@Lunar Eternal Blue#$@#$@_self#$@120#$@25#$@leb02.gif#$@leb01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i15#$@i12#$@Lunar Eternal Blue Mega CD#$@#$@_self#$@120#$@25#$@lmcd02.gif#$@lmcd01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i16#$@#$@Home of Golden Sun#$@#$@_self#$@120#$@25#$@hogs02.gif#$@hogs01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+i17#$@i16#$@Golden Sun#$@#$@_self#$@120#$@25#$@gs02.gif#$@gs01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i18#$@i16#$@Golden Sun II#$@#$@_self#$@120#$@25#$@gs202.gif#$@gs201.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@1#$@
+i19#$@#$@Home of Royal Stone#$@#$@_self#$@120#$@25#$@hors02.gif#$@hors01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+i20#$@#$@Home of Dragon Force#$@#$@_self#$@120#$@25#$@hodf02.gif#$@hodf01.gif#$@408080#$@83C0C0#$@00FF00#$@008040#$@#$@0#$@
+</Item_Parameters>

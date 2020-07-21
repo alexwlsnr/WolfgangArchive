@@ -1,0 +1,316 @@
+Quantity Digits to Accompany Item Modifier Codes 
+00 - Nothing	*
+01 - Bronze Knife	*
+02 - Steel Knife	*
+03 - Hunter Knife	*
+04 - Steel Sword	*
+05 - Broad Sword	*
+06 - Bastard Sword	*
+07 - Great Sword	*
+08 - Epee	*
+09 - Foil		*
+0A - Rapier	*
+0B - Iron Blade	*
+0C - Battle Blade	*
+0D - Steel Blade	*
+0E - Botty Blade
+0F - Iron Ninjato
+10 - Stl Ninjato	*
+11 - Bronze Lance	*
+12 - Iron Lance	*
+13 - Heavy Lance	*
+14 - Steel Lance	*
+15 - Spear	*
+16 - Power Spear	*
+17 - Battle Spear	*
+18 - Halberd	*
+19 - Hvy Halberd
+1A - Poleaxe	*
+1B - Small Axe	*
+1C - Power Axe	*	
+1D - Battle Axe	*
+1E - Great Axe	*
+1F - Hand Axe	*
+20 - Irn Hand Axe	*
+21 - Stl Hand Axe	*
+22 - Mace	*
+23 - Flail		*
+24 - Maul		*
+25 - Bronze Claw	*
+26 - Iron Claw	*
+27 - Steel Claw	*
+28 - Battle Claw
+29 - Cloth Glove	*
+2A - Iron Glove	*
+2B - Steel Glove	*
+2C - Cestus	*
+2D - Iron Cestus	*
+2E - Steel Cestus	*
+2F - Wooden Rod	*
+30 - Bronze Rod	*
+31 - Talisman Rod	*
+32 - Small Wand	*
+33 - Magic Wand	*
+34 - Angel Wand	*
+35 - Power Ankh	*
+36 - Saint Ankh	*
+37 - Misty Ankh	*
+38 - Small Bow	*
+39 - Short Bow	*
+3A - Faerie Bow	*
+3B - King's Bow	*
+3C - Light X-Bow	*
+3D - Heavy X-Bow	*
+3E - Arbalest	*
+3F - Low Bow	*
+40 - Hvy Long Bow	*
+41 - Elven Bow	*
+42 - Scimitar	*
+43 - Gladius
+44 - Power Ring	*
+45 - Protect Ring	*
+46 - Magic Ring	*
+47 - Gale Ring	*
+48 - Attack Ring	*
+49 - Lock Up
+4A - Silver Ring	*
+4B - Life Ring	*
+4C - Nimble Ring	*
+4D - White Ring	*
+4E - Black Ring	*
+4F - Ibiru Ring	*
+50 - Artemis Pin	*
+51 - Apollo Pin
+52 - Iron Bracer	*
+53 - Steel Bracer	*
+54 - Medical Herb	*
+55 - Healing Drop	*
+56 - Potion		*
+57 - Healing Rain	*
+58 - Goddess Tear	*
+59 - Tope Light	*
+5A - Antidote Herb	*
+5B - Fairy Powder	*
+5C - Angel's Wing	*
+5D - Power Wine	*
+5E - Armor Milk	*
+5F - Quick Chickn	*
+60 - Nimble Onion	*
+61 - Happy Cookie	*
+62 - Health Bread	*
+63 - Brain Food	*
+64 - Brave Apple	*
+65 - Lrg Mithril	*
+66 - Sml Mithril	*
+67 - Dark Matter	*
+68 - Iron Circlet	*
+69 - Steel Tiara	*
+6A - Swift Boots	*
+6B - Shadow Bowl	*
+6C - Dark Bowl	*
+6D - Loincloth	*
+6E - Power Undies	*
+6F - Mithril Dirk	*
+70 - Butter Knife	*
+71 - Killer Knife	*
+72 - Sneaky Knife
+73 - Joker Knife
+74 - Countersword	*
+75 - Shiva Sword	*
+76 - Leviathan
+77 - Dark Sword	*
+78 - Phoenix Sword	*
+79 - Justice Sword	*
+7A - Magic Rapier
+7B - Mist Rapier
+7C - Shiny Rapier
+7D - Dark Rapier
+7E - Luste Blade	*
+7F - Rune Blade
+80 - Photon Blade	*
+81 - Venom Blade	*
+82 - Force Blade
+83 - Nelson Lance	*
+84 - Holy Lance
+85 - Dargon Lance
+86 - Ultra Lance	*
+87 - Silver Spear	*
+88 - Counter Spear
+89 - Rune Spear
+8A - Beast Spear
+8B - Comet Spear
+8C - Holy Halberd
+8D - Star Halberd
+8E - Ark Halberd
+8F - Dark Halberd	*
+90 - Heat Axe	*
+91 - Gigantic Axe
+92 - Sharp Axe
+93 - Gaia Axe	*
+94 - Sorrow Axe	*
+95 - Accurate Axe	*
+96 - Super Axe
+97 - Arrow Axe
+98 - Ultra Axe
+99 - Saint's Mace
+9A - Revence Mace	*
+9B - Power Hammer
+9C - Macho Maul	*
+9D - Mithril Claw	*
+9E - Tiger Claw
+9F - Berserk
+A0 - Pokey Claw	*
+A1 - Spiked Glove
+A2 - Muscle Glove
+A3 - Spark Glove
+A4 - Magna Glove
+A5 - Pretty Glove	*
+A6 - Giant Cestus	*
+A7 - Mist Cestus
+A8 - Wire Cestus
+A9 - Holy Cestus
+AA - Torture Rod	*
+AB - Sleepy Rod
+AC - Soul Rod
+AD - Tiamat Rod	*
+AE - Demon Rod
+AF - Jester Wand
+B0 - Jewel Wand
+B1 - Witch Wand
+B2 - Spark Wand
+B3 - Wendigo Wand	*
+B4 - Tornado Ankh		*
+B5 - Silence Ankh
+B6 - Blessed Ankh
+B7 - Holy Ankh	*
+B8 - Moon Bow
+B9 - Dragon Bow
+BA - Breaker Bow
+BB - Kantar's Bow
+BC - Caylon's Bow
+BD - Hunder X-Bow	*
+BE - Flame X-Bow
+BF - Sonic X-Bow	*
+C0 - Needle X-Bow
+C1 - Magnum Bow	*
+C2 - Storm Bow
+C3 - Meteor Bow
+C4 - Pulsar Bow
+C5 - Wind Cutter	*
+C6 - Bone Eater
+C7 - Rumbling Sea
+C8 - Kusanagi
+C9 - Muramasa
+CA - Cross Star
+CB - Fox Shuriken
+CC - Shaken	*
+CD - Deadly Star
+CE - Octagon Star
+CF - Wind Star
+D0 - Metal Wing	*
+D1 - Silver Wing	*
+D2 - Battle Wing	*
+D3 - Silk Wing	*
+D4 - Sonic Wing	*
+D5 - Cosmic Wing	*
+D6 - Zero Wing	*
+D7 - Stealth Wing
+D8 - Light Anchor
+D9 - Heavy Anchor	*
+DA - Power Anchor	*
+DB - Spin Anchor	*
+DC - Crash Anchor
+DD - Grav Anchor	*
+DE - Cut Flower	*
+DF - Chicken Feed	*
+E0 - Volcano Wand*	
+E1 - Large Egg	*
+E2 - Ship's Key	*
+E3 - Statue Gem	*
+E4 - Mitra Ankh	*
+E5 - Elbesem Orb	*
+E6 - Divine Cane	*
+E7 - Negate Cane
+E8 - Spark Blade
+E9 - Hill Rn Map	*
+EA - Blue Rn Map	*
+EB - Middle RnMap*
+EC - Desert RnMap*
+ED - Tower RnMap	*
+EE - Kingdom RnMap*
+EF - Elbesem Orb	*
+F0-FD - Not Set	*
+FE - Pen Beak	*
+FF - Take Off 	*
+
+
+0E - Botty Blade
+0F - Iron Ninjato
+19 - Hvy Halberd
+28 - Battle Claw
+43 - Gladius
+49 - Lock Up
+51 - Apollo Pin
+72 - Sneaky Knife
+73 - Joker Knife
+76 - Leviathan
+7A - Magic Rapier
+7B - Mist Rapier
+7C - Shiny Rapier
+7D - Dark Rapier
+7F - Rune Blade
+82 - Force Blade
+84 - Holy Lance
+85 - Dargon Lance
+88 - Counter Spear
+89 - Rune Spear
+8A - Beast Spear
+8B - Comet Spear
+8C - Holy Halberd
+8D - Star Halberd
+8E - Ark Halberd
+91 - Gigantic Axe
+92 - Sharp Axe
+96 - Super Axe
+97 - Arrow Axe
+98 - Ultra Axe
+99 - Saint's Mace
+9B - Power Hammer
+9E - Tiger Claw
+9F - Berserk
+A1 - Spiked Glove
+A2 - Muscle Glove
+A3 - Spark Glove
+A7 - Mist Cestus
+A8 - Wire Cestus
+A9 - Holy Cestus
+AB - Sleepy Rod
+AC - Soul Rod
+AF - Jester Wand
+B0 - Jewel Wand
+B1 - Witch Wand
+B2 - Spark Wand
+B5 - Silence Ankh
+B6 - Blessed Ankh
+B8 - Moon Bow
+B9 - Dragon Bow
+BA - Breaker Bow
+BC - Caylon's Bow
+BE - Flame X-Bow
+C0 - Needle X-Bow
+C2 - Storm Bow
+C3 - Meteor Bow
+C4 - Pulsar Bow
+C6 - Bone Eater
+C7 - Rumbling Sea
+C8 - Kusanagi
+CA - Cross Star
+CB - Fox Shuriken
+CD - Deadly Star
+CE - Octagon Star
+CF - Wind Star
+	D7 - Stealth Wing
+	D8 - Light Anchor
+	DC - Crash Anchor
+E7 - Negate Cane
+E8 - Spark Blade

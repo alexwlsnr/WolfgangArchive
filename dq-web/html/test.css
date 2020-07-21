@@ -1,0 +1,128 @@
+html, body {
+
+    top:0; left:0; right:0;
+
+    min-height:100%;
+
+    margin:0;
+
+    padding:0;
+
+    width:100%;
+
+	overflow:hidden;
+
+	scrollbar-face-color : #323E50;
+
+	scrollbar-shadow-color : #7C8F9E;
+
+	scrollbar-highlight-color : #8F9BA3;
+
+	scrollbar-3dlight-color : #7C8F9E;
+
+	scrollbar-darkshadow-color : #101063;
+
+	scrollbar-track-color : #3D4B61;
+
+	scrollbar-arrow-color : #7C8F9E;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #8F9BA3;
+
+	text-decoration : none;
+
+}
+
+
+
+a img {
+
+  border: 0;
+
+}
+
+
+
+a { font-family: sans-serif; font-weight: normal; font-size:12px; color: #8F9BA3; text-decoration: none }
+
+td { font-family: sans-serif; font-weight: normal; font-size:12px; color: #8F9BA3; text-decoration: none }
+
+table.sortable {
+
+  border-spacing: 0;
+
+  border: 1px solid #000;
+
+  border-collapse: collapse;
+
+  text-align: center;
+
+}
+
+
+
+table.sortable th, table.sortable td {
+
+  text-align: right;
+
+  padding: 2px 4px 2px 4px;
+
+  width: 100px;
+
+  border-style: solid;
+
+  border-color: #8F9BA3;
+
+}
+
+
+
+table.sortable th {
+
+  border-width: 0px 2px 2px 2px;
+
+  background : url(../pictures/design/back_01.png);
+
+}
+
+
+
+table.sortable td {
+
+  border-width: 0px 2px 0px 2px;
+
+}
+
+
+
+table.sortable tr.odd td {
+
+  background-color: #3D4B61;
+
+}
+
+
+
+table.sortable tr.even td {
+
+  background : url(../pictures/design/back_01.png);
+
+}
+
+
+
+table.sortable tr.sortbottom td {
+
+  border-top: 1px solid #444;
+
+  background-color: #ccc;
+
+  font-weight: bold;
+
+}
+

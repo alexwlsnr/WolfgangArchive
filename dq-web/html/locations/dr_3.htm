@@ -1,0 +1,521 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Dark Ruins Dragon Quest 8 The Journey of the Cursed King</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+<!--
+
+var ebenenref, aktdiv, i, max=3;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+      <!--
+
+
+
+      if (document.layers)
+
+      {
+
+      var startbreite = window.innerWidth;
+
+      var starthoehe = window.innerHeight;
+
+      }
+
+
+
+      function StylesLost()
+
+      {
+
+      if (document.layers && window.innerWidth != startbreite
+
+       || window.innerHeight != starthoehe)
+
+      {
+
+      location.reload();
+
+      }
+
+      }
+
+
+
+      //-->
+
+      </SCRIPT>
+
+
+
+
+
+</HEAD>
+
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/dr_lb2_mimic.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/canin_box.png" width="25" height="22" alt="" border="0" vspace=3 hspace=5 align=absmiddle>Mimic</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/dr_lb2_s_ashes.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/saints_ashes.png" width="25" height="22" alt="" border="0" vspace=5 hspace=5 align=absmiddle>Saint's Ashes</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/dr_b1_m_med_dr_scale.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" vspace=5 hspace=5 align=absmiddle>Mini Medal<img src="../../pictures/items/dragon_scale.png" width="25" height="22" alt="" border="0" vspace=5 hspace=5 align=absmiddle>Drag. Scale</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=fix>
+
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+
+<tr><td colspan=2><span class="header">Dark Ruins (Part 3, Level B3)</span></td></tr>
+
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=3 cellpadding=0>
+
+<tr><td colspan=2 valign=top><img src="../../pictures/design/space.gif" width="524" height="37" alt="" border="0"></td></tr>
+
+<tr><td><img src="../../pictures/dungeons/d_ruins_lb3.png" width="261" height="200" alt="" border="0"><br><br>
+
+</td>
+
+<td><img src="../../pictures/dungeons/dr_tip3.png" width="261" height="200" alt="" border="0"><br><br>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><a href="dr_2.htm" onfocus="this.blur()">&nbsp;Back to Level B1 - B2</a></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td align=right>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><a href="dr_4.htm" onfocus="this.blur()">&nbsp;To Level B4&nbsp;</a></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+
+
+</BODY>
+
+</HTML>

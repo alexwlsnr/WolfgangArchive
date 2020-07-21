@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<title>Home of Shining the Holy Arc</title>
+	<link rel="STYLESHEET" type="text/css" href="../sf.css">
+	<SCRIPT LANGUAGE="JavaScript">
+var image0 = new Image(); image0.src = "monument.png";
+var image1 = new Image(); image1.src = "pixie_maple.png";
+var image2 = new Image(); image2.src = "pixie_cherry.png";
+var image3 = new Image(); image3.src = "pixie_willow.png";
+var image4 = new Image(); image4.src = "pixie_cedar.png";
+var image5 = new Image(); image5.src = "pixie_palm.png";
+var image6 = new Image(); image6.src = "pixie_apple.png";
+var image7 = new Image(); image7.src = "pixie_lime.png";
+var image8 = new Image(); image8.src = "pixie_pear.png";
+var image9 = new Image(); image9.src = "pixie_plum.png";
+var image10 = new Image(); image10.src = "pixie_baldric.png";
+</script>
+</head>
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow: -moz-scrollbars-vertical; overflow-x: 'hidden'; overflow-y: 'auto';" bgcolor="#002080" BACKGROUND="../design/blues2.gif">
+
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+<tr><td background="../design/rl.gif" width="7"><img src="../design/space.gif" width=7 alt="" border="0"></td>
+<td valign=top><br><p>
+<table border=0>
+<tr>
+<td colspan=3>
+<table cellspacing=0 cellpadding=0 border=0 width=100%>
+<tr>
+<td background="../design/rtl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rt.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rtr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td class=s1><span class="header1">Pixie List (Pixies)</span>&nbsp;&nbsp;&nbsp;<b>Click on the names to get the screenshots with the location</b></td>
+<td background="../design/rr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rbl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rb.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rbr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=s1 width=120 height=100% valign=bottom align=center><img src="pixie_anim.gif" width="117" height="91" alt="" border="0"><br><br><br><br><br><table cellspacing=0 cellpadding=0 border=0 width=100%>
+<tr>
+<td background="../design/rtl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rt.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rtr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td class=s1 align=center><a class="map" href="fairies01.htm" onfocus="this.blur()">&nbsp;&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;</td>
+<td background="../design/rr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rbl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rb.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rbr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table></td>
+<td valign=top width=250>
+
+<table border=0 cellspacing=2 cellpadding=3>
+<script language=javascript>
+	
+	texte = new Array("Maple","Cherry","Willow","Cedar","Palm","Apple","Lime","Pear","Plum","Baldric");
+	ort	  = new Array("Forest of Confusion","Desire Village","Forest Cave","Dungeon Well","Mountain Cave","Far East Village","Enrich Dungeon revised","West Shrine","East Shrine","Desire Mine revised");
+
+	srollVarianten = 0; 		// 0 = von unten nach oben, 1 = von rechts nach links
+	
+	
+for (i = 0; i < texte.length; i++)
+
+{
+	if (i == texte.length-1);
+	(srollVarianten==0) ?
+	(i == 0) ? posY = 0 : posY = (190*i)+(25*i) :
+	(i == 0) ? posY = 0 : posY = (300*i)+(25*i);
+
+	document.write("<tr><td align=right class=s1><b>"+[i+1]+"</b><td class=s1>"+"<a href='javascript:getPos("
+	+posY+")' onfocus='this.blur()' style='text-decoration:none'>"+texte[i]+"</a></td><td class=s1>"+ort[i]+"</td></tr>");
+}
+var thePos=dimx=Dimx=0,time;
+
+function getPos(pos)
+{
+	thePos 	= pos-(pos*2);
+
+	browser	= navigator.appName;
+	usAgent = navigator.userAgent;
+
+	if (browser == "Microsoft Internet Explorer" || usAgent.indexOf("Opera") >- 1)
+	clearTimeout(time);
+
+	dmx();
+}
+function dmx()
+{
+	time 	= setTimeout("dmx()",0);
+
+	dimx 	= Math.round(Dimx+=((thePos)-Dimx)*4/20);
+
+	if (document.getElementById)
+	{
+		(srollVarianten==0) ?
+		document.getElementById("jumper").style.top  = dimx :
+		document.getElementById("jumper").style.left = dimx;
+	}
+	else if (document.all)
+	{
+		(srollVarianten==0) ?
+		document.all["jumper"].style.top  = dimx :
+		document.all["jumper"].style.left = dimx;
+	}
+
+	if (thePos == dimx) clearTimeout(time);
+}
+</script>
+
+</table></td>
+<td valign=bottom class=s1>
+<table cellspacing=0 cellpadding=0 border=0 width=100%>
+<tr>
+<td background="../design/rtl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rt.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rtr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td>
+<script language=javascript>
+////////////////////////////////////////////////
+// dmx slidershow by robert engelhardt © 2003 //
+//    slightly changed by wolfgang landgraf   //
+//              womstar@uni.de                //
+//       vermerk bitte stehn lassen!          //
+////////////////////////////////////////////////
+//    der macher des scriptes distanziert     //
+//       sich von dem inhalt der seite        //
+////////////////////////////////////////////////
+
+	bilder = new Array("pixie_maple.png","pixie_cherry.png","pixie_willow.png","pixie_cedar.png","pixie_palm.png","pixie_apple.png","pixie_lime.png","pixie_pear.png","pixie_plum.png","pixie_baldric.png");
+
+	srollVarianten = 0; 		// 0 = von unten nach oben, 1 = von rechts nach links
+
+	document.write("<div id='rahmen' style='width:300; height:190; overflow:hidden'>");
+	
+	(srollVarianten==0) ?
+	document.write("<div id='jumper' style='position:relative;top:0;left:0'>") :
+	document.write("<div id='jumper' style='position:relative;left:0;top:0'>");
+
+	(srollVarianten==0) ?
+	document.write("<table width=300 cellspacing=0 cellpadding=0>") :
+	document.write("<table height=190 cellspacing=0 cellpadding=0>");
+
+
+for (i=0;i<bilder.length;i++)
+{
+	(srollVarianten==0) ?
+	document.write("<tr><td width=300 height=190>") :
+	document.write("<td width=300 height=190>");
+
+	(srollVarianten==0) ?
+	document.write("<img src="+bilder[i]+"></td></tr>"
+	+"<tr><td height=25></td></tr>") :
+	document.write("<img src="+bilder[i]+"></td>"
+	+"<td><div style='width:25'></div></td>");
+}
+
+	document.write("</table></div></div>");
+
+</script>
+
+</td>
+<td background="../design/rr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/rbl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rb.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rbr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table><br><b>Pixies attack enemies coming from the front</b>
+</td>
+</tr>
+</table>
+</td>
+<td background="../design/rr.gif" width="7"><img src="../design/space.gif" width=7 alt="" border="0"></td></tr>
+<tr>
+<td background="../design/rbl.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="../design/rb.gif"><img src="../design/space.gif"  height="7" alt="" border="0"></td>
+<td background="../design/rbr.gif" width="7" height="7"><img src="../design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table>
+
+</body>
+</html>

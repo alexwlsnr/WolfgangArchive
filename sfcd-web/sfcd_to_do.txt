@@ -1,0 +1,343 @@
+SF CD
+Countryside Gardiana	(Intro)
+Countryside Miniyom	(Chapter 1)
+Countryside Asreet	(Chapter 2)
+Cypress Mainland	(Chapter 3)
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+Weapons		Value	Costs	Special
+----------------------------------------------------------------------------
+Wooden Sword	+ 3ATK	   60G	--
+Short Sword	+ 5ATK	  100G	--
+Middle Sword	+ 8ATK	  180G	--
+Steel Sword	+16ATK	  680G	--
+Critical Sword	+26ATK	 4000G	--
+Broad Sword	+21ATK	 1200G	--
+Dark Sword	+35ATK	15000G	Cursed !!
+Sword of Hajya	+34ATK	    xx	Can't be sold!
+Club		+ 3ATK	   40G	--
+Short Axe	+ 6ATK	  120G	--
+Hand Axe	+ 9ATK	  200G	--
+Middle Axe	+14ATK	  380G	--
+Battle Axe	+20ATK	  800G	--
+Heat Axe	+25ATK	 1600G	Blaze Level 2
+Great Axe	+28ATK	 5000G	--
+Atlas Axe	+30ATK	 9000G	Blaze Level 3
+Evil Axe	+34ATK	14000G	Cursed !!
+Wooden Arrow	+ 3ATK	   60G	--
+Iron Arrow	+ 6ATK	  110G	--
+Steel Arrow	+11ATK	  300G	--
+Robins Arrow	+16ATK	  700G	--
+Assault Shell	+17ATK	 2200G	--
+Great Shot	+23ATK	 5500G	--
+Buster Shot	+26ATK	 9500G	--
+Leather Glove	+ 5ATK	  190G	--
+Battle Glove	+15ATK 	1200G	--
+Power Glove	+10ATK	  500G	--
+Iron Claw	+15ATK	 4500G	--
+Wooden Staff	+ 4ATK	   40G	--
+Bronze Rod	+ 6ATK	  140G	--
+Power Stick	+ 9ATK	  600G	--
+Protect Staff	+16ATK	 3200G	+2DEF
+Holy Staff	+20ATK	 7800G	2 HP restore after move
+Demon Rod	+30ATK	12000G	Cursed !!
+Flail		+15ATK	 1400G	--
+Wooden Stick	+ 3ATK	   50G	Near Attacks only
+Spear		+ 6AK	  120G	Far Attacks
+Bronze Lance	+ 9ATK	  250G	Near Attacks only
+Steel Lance	+13ATK	  400G	Near Attacks only
+Power Spear	+18ATK	  780G	Far Attacks
+Chrome Lance	+22ATK	 1500G	Near Attacks only
+Halberd		+24ATK	 5500G	Near Attacks only
+Valkyrie	+28ATK	 8500G	Far Attacks
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+Rings
+----------------------------------------------------------------------------
+Protect Ring	+5DEF	10000G	BOOST Lvl.1
+Black Ring	+10ATK	 8500G
+Quick Ring	+5AGIs	12000G
+Running Ring	+2MOV	10000G
+Evil Ring	+10ATK	 9500G
+Power Ring	+5ATK	10000G
+White Ring	+10DEF	10000G
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+Items
+----------------------------------------------------------------------------
+Medical Herb	--	   10G	Heals 10HP
+Healing Seed	--	  200G	Heals more HP
+Antidote	--	   20G	Cures poison
+Angel Wing	--	   40G	Acts like EGRESS Spell
+Powerful Wine	ATK +	    xx
+Protect Milk	DEF +	    xx
+Quick Chicken	AGL +	    xx
+Running Pimento	MOV +	    xx
+Cheerful Bread	HP +	    xx
+Healing Rain		20000G	Heals all to maximum
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+Missing Animations (Heroes)
+Name	Attack	Block	Magic	P/Att.	P/Block	P/Magic	Profession
+----------------------------------------------------------------------------
+Nick	ok	ok	xx	ok	ok	ok	Swordman/Hero
+Wendy	ok	ok	ok	ok	ok	ok	Magican/Wizard
+Sig	ok	ok	ok	ok	ok	ok	Monk/Master Monk
+Cray	ok	ok	ok	ok	ok	ok	Monk/Master Monk
+Apis	ok/ok	ok	xx	ok/ok	ok	xx	Knight/Paladin
+Shade	ok	ok	xx	ok	ok	xx	Archer/Sniper
+Ruce	ok	ok	xx	ok	ok	ok (AA)	Warrior/Gladiator
+Claude	ok	ok	xx	ok	ok	xx	Birdman/Birdwarrior
+Stock	ok	ok	xx	ok	ok	xx	Ranger/Bowknight
+Mayfair	ok	ok	ok	ok	ok	ok	Priest/Vicar
+Yeesha	ok	ok	ok	ok	ok	ok	Magican/Wizard
+Gyan	ok	ok	xx	ok	ok	xx	Beast/Berserker
+Domingo	xx	xx	xx	ok	ok	ok	Magic Caster
+Kashing	ok/ok	ok	xx	ok/ok	ok	xx	Knight/Paladin
+Gates	xx	xx	xx	ok	ok	ok (HA) Gladiator
+Shriek	xx	xx	xx	ok	ok	xx	Birdwarrior
+Randolf	xx	xx	xx	ok/ok	ok	xx	Paladin
+Amigo	xx	xx	xx	ok	ok	ok	Magic Caster
+Lug	xx	xx	xx	ok	ok	ok (HA)	Gladiator
+----------------------------------------------------------------------------
+Name	Attack	Block	Magic	P/Att.	P/Block	P/Magic	Profession
+
+
+----------------------------------------------------------------------------
+Missing Animations (Enemies)
+Enemy		Status	Icon	Attack	Block	Magic
+----------------------------------------------------------------------------
+Huge Bat	ok	ok	ok	ok	xx
+Incubus		ok	ok	ok	ok	ok
+Dark Mage	ok	ok	ok	ok	ok
+Goblin		ok	ok	ok	ok	xx
+Scavenger	ok	ok	ok	ok	xx
+Dwarf		ok	ok	ok	ok	xx
+Cypress Knight	ok	ok	ok	ok	ok
+Death Archer	ok	ok	ok	ok	xx
+Ratman		ok	ok	ok	ok	xx
+Brass Loader	ok	ok	ok	ok	xx
+Rat Fly		ok	ok	ok	ok	xx
+Hell Soldier	ok	ok	ok	ok	xx
+Priest		ok	ok	ok	ok	ok
+Zombie		ok	ok	ok	ok	xx	may poison
+Skeleton	ok	ok	ok	ok	xx
+Master Mage	ok	ok	ok	ok	ok
+Pegasus Knight	ok	ok	ok	ok	ok
+Hell Sniper	ok	ok	ok	ok	xx
+Arch Knight	ok	ok	ok	ok	ok
+Bazoo		ok	ok	ok	ok	ok
+Lizardman	ok	ok	ok	ok	ok -->	Heat Axe
+Bishop		ok	ok	ok	ok	ok
+Sorcerer	ok	ok	ok	ok	ok
+Bowrider	ok	ok	ok	ok	xx
+Deadly Born	ok	ok	ok	ok	xx
+Gargoyle	ok	ok	ok	ok	ok
+Worm		ok	ok	ok	ok	xx	may poison
+Evil Pixy	ok	ok	ok	ok	xx
+Ghoul		ok	ok	ok	ok	xx
+Magic. Mushroom	ok	ok	ok	ok	xx
+Minotaur	ok	ok	ok	ok	xx
+Fizzle Ball	ok	ok	ok	xx	xx	Defeat to use magic
+Brass Gunner	ok	ok	ok	ok	xx
+Cerberus	ok	ok	ok	ok	ok	Magic aka Flameblow
+Hawkman		ok	ok	ok	ok	ok
+Demon Master	ok	ok	ok	ok	ok
+Cleric		ok	ok	ok	ok	ok
+Belial		ok	ok	ok	ok	ok
+Dantom		ok	ok	ok	ok	ok
+Dulahan		ok	ok	ok	ok	ok
+Golem		ok	ok	ok	ok	xx
+Edmond		ok	ok	ok	ok	ok
+Evil Bishop	ok	ok	ok	ok	ok
+Executioner	ok	ok	ok	ok	xx
+Assassin	ok	ok	ok	ok	xx
+Chimera		ok	ok	ok	ok	ok
+Wyvern		ok	ok	ok	ok	ok
+Geppel		ok	ok	ok	ok	ok -->	Atlas Axe
+Skull Knight	ok	ok	ok	ok	ok
+Frabell		ok	ok	ok	ok	ok
+Bazoo (2)	ok	ok	ok	ok	ok
+Woldol		ok	ok	ok	ok	ok
+Evil Monster	ok	ok	ok	ok	ok
+Taros		ok	ok	ok	ok	xx
+Sentinel	ok	ok	ok	ok	xx
+Woldol (2)	ok	ok	ok	ok	ok
+----------------------------------------------------------------------------
+Enemies		Status	Icon	Attack	Block	Magic	Special
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+Battles
+----------------------------------------------------------------------------
+Battle 1
+nothing special
+
+Battle 2
+Wodden Sword
+Wodden Stick
+Club
+Wodden Arrow
+Wodden Staff
+2x Medical Herb
+
+Battle 3
+Protect Milk
+Quick Chicken
+Bronce Lance
+
+Battle4
+Hand Axe
+Medical Herb (chest top left)
+Powerful Wine (chest top right)
+Cheerful Bread (chest medium left)
+
+Battle 5
+Middle Sword (chest top right)
+Running Pimento
+Steel Arrow
+
+Battle 6
+2x Medical Herb
+Antidote
+
+Battle 7
+2x Medical Herb
+Powerful Wine
+Protect Milk
+Antidote
+
+Battle8
+Cheerful Bread
+Steel Sword
+
+Battle 9
+Quick Ring (chest bottom left)
+Battle Axe (chest top right)
+Power Spear (chest top left)
+Chest middle left is empty
+
+Battle 10
+Assault Shell
+Protect Staff
+
+Battle 11
+nothing special
+
+Battle 12
+Black Ring
+Demon Rod
+Caution: 4 Worms will appear when you are half way through the scene.
+
+Battle 13
+Heat Axe
+Protect Ring
+Critical Sword (chest bottom left)
+Halberd (chest top right)
+Chest top left is empty
+
+Battle 14
+Buster Shot
+Healing Rain
+
+Battle 15
+Running Ring
+
+Battle 16
+Power Ring
+
+Battle 17
+Evil Ring
+
+Battle 18
+Valkyrie
+
+Battle 19
+Atlas Axe
+White Ring
+
+Battle 20
+Evil Axe
+
+Battle 21a
+nothing special
+
+Battle 21b
+Sword of Hajya
+
+A-C 13
+-----------------
+- Arch Knight
+- Assassin
+- Bazoo
+- Bazoo (2)
+- Belial
+- Bishop
+- Bowrider
+- Brass Gunner
+- Brass Loader
+- Cerberus
+- Chimera
+- Cleric
+- Cypress Knight
+
+D-F 14
+-----------------
+- Dantom
+- Dark Mage
+- Deadly Born
+- Death Archer
+- Demon Master
+- Dulahan
+- Dwarf
+- Edmond
+- Evil Pixy
+- Evil Bishop
+- Evil Monster
+- Executioner
+- Fizzle Ball
+- Frabell
+
+G-M 14
+-----------------
+- Gargoyle
+- Geppel
+- Ghoul
+- Goblin
+- Golem
+- Hawk Man
+- Hell Sniper
+- Hell Soldier
+- Huge Bat
+- Incubus
+- Lizardman
+- Magic. Mushroom
+- Master Mage
+- Minotaur
+
+P-Z 15
+-----------------
+- Pegasus Knight
+- Priest
+- Rat Fly
+- Ratman
+- Scavenger
+- Skeleton
+- Skull Knight
+- Sorcerer
+- Sentinel
+- Taros
+- Woldol
+- Woldol (2)
+- Worm
+- Wyvern
+- Zombie

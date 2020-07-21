@@ -1,0 +1,193 @@
+body  {
+
+	scrollbar-face-color : #EFEFEF;
+
+	scrollbar-shadow-color : #222222;
+
+	scrollbar-highlight-color : #C6C6C6;
+
+	scrollbar-3dlight-color : #D1CE79;
+
+	scrollbar-darkshadow-color : #939033;
+
+	scrollbar-track-color : #EFEFEF;
+
+	scrollbar-arrow-color : #000000;
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+a  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #ffffff;
+
+	text-decoration : none;
+
+}
+
+
+
+a:hover  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #D1CE79;
+
+	text-decoration : none;
+
+}
+
+
+
+a.black  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	font-size : 12px;
+
+	color : #000000;
+
+	text-decoration : none;
+
+}
+
+
+
+a.black:hover  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : normal;
+
+	color : #727272;
+
+	text-decoration : none;
+
+}
+
+b  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 13px;
+
+	color : #232222;
+
+	text-decoration : none;
+
+}
+
+b.black  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight : bold;
+
+	font-size : 16px;
+
+	color : #000000;
+
+	text-decoration : none;
+
+}
+
+
+
+td.s2  {
+
+	background-image: url(design/mm.gif);
+
+}
+
+
+
+td.s1  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight: bold;
+
+	font-size: 13px;
+
+	color:#232222; 
+
+	filter:dropshadow(color=#f0f0f0,offx=1,offy=1);
+
+	text-decoration : none;
+
+}
+
+
+
+td.s3  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-weight: normal;
+
+	font-size: 13px;
+
+	color:#232222; 
+
+	filter:dropshadow(color=#f0f0f0,offx=1,offy=1);
+
+	text-decoration : none;
+
+}
+
+
+
+.header  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-size : 20px;
+
+	color : #232222;
+
+	font-weight : bold;
+
+	text-decoration : none;
+
+	margin-top : 10px;
+
+}
+
+
+
+.header1  {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-size : 18px;
+
+	color : #232222;
+
+	font-weight : bold;
+
+	text-decoration : none;
+
+}

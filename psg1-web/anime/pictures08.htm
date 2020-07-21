@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+	<SCRIPT LANGUAGE="JavaScript">
+var image0 = new Image(); image0.src = "../design/sto_off.gif";
+var image1 = new Image(); image1.src = "../design/pic_off.gif";
+var image2 = new Image(); image2.src = "../design/gm_off.gif";
+var image3 = new Image(); image3.src = "../design/sit_off.gif";
+var image4 = new Image(); image4.src = "../design/bk_off.gif";
+var image5 = new Image(); image5.src = "casba_dragon01.png";
+var image6 = new Image(); image6.src = "meet_tajima01.png";
+var image7 = new Image(); image7.src = "meet_tajima02.png";
+var image8 = new Image(); image8.src = "meet_tajima04.png";
+var image9 = new Image(); image9.src = "meet_rd_dragon01.png";
+var image10 = new Image(); image10.src = "meet_rd_dragon02.png";
+var image11 = new Image(); image11.src = "meet_medusa01.png";
+var image12 = new Image(); image12.src = "meet_medusa02.png";
+var image13 = new Image(); image13.src = "bone_golem_pic.png";
+</script>
+</script>
+<link rel="STYLESHEET" type="text/css" href="../ps1.css">
+</head>
+
+<body background="../design/back.gif" marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td colspan=2><img src="../design/even_more.gif" width="167" height="48" alt="" border="0"></td>
+<td colspan=2 align=right><img src="../design/ps1_mini.gif" width="205" height="60" alt="" border="0" hspace=10 vspace=6></tr>
+<tr>
+<td><img src="../design/space.gif" width="20" height="3" alt="" border="0"></td>
+<td>
+<script language=javascript>
+////////////////////////////////////////////////
+// dmx slidershow by robert engelhardt © 2003 //
+//    slightly changed by wolfgang landgraf   //
+//              womstar@uni.de                //
+//       vermerk bitte stehn lassen!          //
+////////////////////////////////////////////////
+//    der macher des scriptes distanziert     //
+//       sich von dem inhalt der seite        //
+////////////////////////////////////////////////
+
+	bilder = new Array("casba_dragon01.png","meet_tajima01.png","meet_tajima02.png","meet_tajima03.png","meet_rd_dragon01.png","meet_rd_dragon02.png","meet_medusa01.png","meet_medusa02.png","bone_golem_pic.png");
+
+	srollVarianten = 1; 		// 0 = von unten nach oben, 1 = von rechts nach links
+
+	document.write("<div id='rahmen' style='width:296; height:192; overflow:hidden'>");
+	
+	(srollVarianten==0) ?
+	document.write("<div id='jumper' style='position:relative;top:0;left:0'>") :
+	document.write("<div id='jumper' style='position:relative;left:0;top:0'>");
+
+	(srollVarianten==0) ?
+	document.write("<table width=296 cellspacing=0 cellpadding=0>") :
+	document.write("<table height=192 cellspacing=0 cellpadding=0>");
+
+
+for (i=0;i<bilder.length;i++)
+{
+	(srollVarianten==0) ?
+	document.write("<tr><td width=296 height=192>") :
+	document.write("<td width=296 height=192>");
+
+	(srollVarianten==0) ?
+	document.write("<img src="+bilder[i]+"></td></tr>"
+	+"<tr><td height=25></td></tr>") :
+	document.write("<img src="+bilder[i]+"></td>"
+	+"<td><div style='width:25'></div></td>");
+}
+
+	document.write("</table></div></div>");
+
+</script>
+</td>
+<td valign=top><table border=0><tr><td><span class="header1">Meet some enemies</span></td></tr>
+<script language=javascript>
+	
+	texte = new Array("The blue Casba Dragon","Behind this door...","...Noah's old Master...","...Tajima is waiting","Open this door...","...for fighting the Red Dragon","Beware, behind this door...","...your party meets Medusa","Guardian of the Iron Fang");
+
+	srollVarianten = 1; 		// 0 = von unten nach oben, 1 = von rechts nach links
+	
+	
+for (i = 0; i < texte.length; i++)
+
+{
+	if (i == texte.length-1);
+	(srollVarianten==0) ?
+	(i == 0) ? posY = 0 : posY = (192*i)+(25*i) :
+	(i == 0) ? posY = 0 : posY = (296*i)+(25*i);
+
+	document.write("<tr><td class=s1>"+"<a href='javascript:getPos("
+	+posY+")' onfocus='this.blur()' style='text-decoration:underline'>"+texte[i]+"</a></td></tr>");
+}
+var thePos=dimx=Dimx=0,time;
+
+function getPos(pos)
+{
+	thePos 	= pos-(pos*2);
+
+	browser	= navigator.appName;
+	usAgent = navigator.userAgent;
+
+	if (browser == "Microsoft Internet Explorer" || usAgent.indexOf("Opera") >- 1)
+	clearTimeout(time);
+
+	dmx();
+}
+function dmx()
+{
+	time 	= setTimeout("dmx()",0);
+
+	dimx 	= Math.round(Dimx+=((thePos)-Dimx)*4/20);
+
+	if (document.getElementById)
+	{
+		(srollVarianten==0) ?
+		document.getElementById("jumper").style.top  = dimx :
+		document.getElementById("jumper").style.left = dimx;
+	}
+	else if (document.all)
+	{
+		(srollVarianten==0) ?
+		document.all["jumper"].style.top  = dimx :
+		document.all["jumper"].style.left = dimx;
+	}
+
+	if (thePos == dimx) clearTimeout(time);
+}
+</script>
+</table>
+</td>
+<td rowspan=2 valign=top align=right width=125><br>
+<a href="../more/story.htm" onmouseover="image0.src='../design/sto_on.gif';" onmouseout="image0.src='../design/sto_off.gif';" target="main" onfocus="this.blur()"><img name="image0" src= "../design/sto_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+<a href="../anime/pictures.htm" onmouseover="image1.src='../design/pic_on.gif';" onmouseout="image1.src='../design/pic_off.gif';" target="main" onfocus="this.blur()"><img name="image1" src= "../design/pic_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+<a href="../midis/music.htm" onmouseover="image2.src='../design/gm_on.gif';" onmouseout="image2.src='../design/gm_off.gif';" target="main" onfocus="this.blur()"><img name="image2" src= "../design/gm_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br><br>
+<a href="../site/site.htm" onmouseover="image4.src='../design/bk_on.gif';" onmouseout="image4.src='../design/bk_off.gif';" target="main" onfocus="this.blur()"><img name="image4" src= "../design/bk_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+<a href="../site/sitemap.htm" onmouseover="image3.src='../design/sit_on.gif';" onmouseout="image3.src='../design/sit_off.gif';" target="main" onfocus="this.blur()"><img name="image3" src= "../design/sit_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+</td>
+</tr>
+<tr>
+<td colspan=3 valign=top align=right><br>
+
+</td>
+</tr>
+<tr>
+<td><img src="../design/space.gif" width="20" height="3" alt="" border="0"></td>
+<td><img src="../design/space.gif" width="300" height="3" alt="" border="0" hspace=10></td>
+<td width=225>&nbsp;<a href="pictures09.htm">Next Pictures</a></td>
+<td><img src="../design/space.gif" width="125" height="3" alt="" border="0"></td>
+</tr>
+</table>
+
+</body>
+</html>

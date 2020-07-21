@@ -1,0 +1,426 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Untitled</title>
+
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+
+
+var ebenenref, aktdiv, i, max=2;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</script>
+
+
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+
+</head>
+
+
+
+<body background="design/back.gif">
+
+<div id=fix>
+
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+
+<tr>
+
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td rowspan=8><img src="design/space.gif" width="14" height="2" alt="" border="0"></td>
+
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Menobe Dungeon 2. Floor</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=3><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">Information</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif"><!--Map-->
+
+<img src="maps/menobe_02.jpg" width="600" height="330" alt="" border="0">
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=130 valign=top><!--Info--><p>
+
+<b>What's to find:</b><br>
+
+12,000 Mesetas
+
+<br><br>
+
+<b>Important:</b><br>
+
+Mind falling from the edges of the building ofr you have to start <br>all over again. <br>Cheat, if you like.<br><br>
+
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Path to Nei Crown</a><br>
+
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Path to Neimet</a>
+
+<br><br>If you are in need of some money (who doesn't??), grab 12,000 Mesetas from the chest as you pass by the container.
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+</tr>
+
+<tr><td colspan=7><img src="design/space.gif" width="10" height="10" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Agenda</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=3><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">More</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" valign=top><img src="maps/stairs1_up.gif" width="30" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Stairs Up<img src="maps/stairs1_dw.gif" width="30" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Stairs Down<img src="maps/chest.gif" width="27" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Container
+
+
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=130 align=center><!--Info--><p>
+
+<a href="menobe_01.htm" onfocus="this.blur()">To floor 1</a><br>
+
+<a href="menobe_03.htm" onfocus="this.blur()">To floor 3</a>
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+<br>
+
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 37px; Top: 56px; Visibility: hidden;"><img src="maps/nm_02.gif" width="285" height="216" alt="" border="0"></div>
+
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 350px; Top: 123px; Visibility: hidden;"><img src="maps/nc_02.gif" width="113" height="232" alt="" border="0"></div><br>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,113 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+ps01#$@info#$@0#$@1#$@266#$@67#$@0#$@#$@0#$@1000#$@2#$@arial,helvetica,times new roman#$@10#$@0#$@0#$@0#$@000000#$@0#$@30#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Site Info#$@#$@info#$@60#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i1#$@i0#$@Startpage#$@start.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i2#$@i0#$@News#$@news.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i3#$@i0#$@Credits#$@credits.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i4#$@i0#$@Sitemap#$@sitemap.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i5#$@i0#$@Contact#$@contact.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i6#$@i0#$@Main Menu#$@choose.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i7#$@#$@Planets#$@#$@info#$@60#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i8#$@i7#$@Palma#$@palma.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i9#$@i7#$@Motavia#$@motavia.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i10#$@i7#$@Dezoris#$@dezoris.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i11#$@#$@Towns#$@#$@info#$@55#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i12#$@i11#$@Abion#$@abion.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i13#$@i11#$@Aircastle#$@aircastle.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i14#$@i11#$@Bortevo#$@bortevo.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i15#$@i11#$@Camineet#$@camineet.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i16#$@i11#$@Casba#$@casba.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i17#$@i11#$@Drasgow#$@drasgow.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i18#$@i11#$@Eppi#$@eppi.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i19#$@i11#$@Gothic#$@gothic.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i20#$@i11#$@Loar#$@loar.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i21#$@i11#$@Motavia Port#$@m_port.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i22#$@i11#$@Palma Port#$@p_port.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i23#$@i11#$@Parolit#$@parolit.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i24#$@i11#$@Paseo#$@paseo.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i25#$@i11#$@Scion#$@scion.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i26#$@i11#$@Skure#$@skure.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i27#$@i11#$@Sopia#$@sopia.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i28#$@i11#$@Twintown#$@twintown.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i29#$@i11#$@Uzo#$@uzo.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i30#$@#$@Items#$@#$@info#$@45#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i31#$@i30#$@Armor#$@armor.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i32#$@i30#$@Axes#$@axes.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i33#$@i30#$@Canes#$@canes.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i34#$@i30#$@Communicate#$@communicate.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i35#$@i30#$@Detection#$@detection.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i36#$@i30#$@Fangs#$@http://#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i37#$@i30#$@Fur#$@fur.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i38#$@i30#$@Guns#$@guns.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i39#$@i30#$@Gloves#$@gloves.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i40#$@i30#$@Healing#$@healing.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i41#$@i30#$@Identification#$@identification.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i42#$@i30#$@Keys#$@keys.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i43#$@i30#$@Mantles#$@mantles.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i44#$@i30#$@Orientation#$@orientation.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i45#$@i30#$@Protection#$@protection.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i46#$@i30#$@Shields#$@shields.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i47#$@i30#$@Swords#$@swords.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i48#$@i30#$@Teleport#$@teleport.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i49#$@i30#$@Trading#$@trading.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i50#$@i30#$@Transport#$@transport.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i51#$@#$@Enemies#$@#$@info#$@65#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i52#$@i51#$@Enemies A-B#$@a_b.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i53#$@i51#$@Enemies C-E#$@c_e.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i54#$@i51#$@Enemies F-G#$@f_g.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i55#$@i51#$@Enemies H-M#$@h_m.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i56#$@i51#$@Enemies N-R#$@n_r.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i57#$@i51#$@Enemies S#$@s.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i58#$@i51#$@Enemies T-Z#$@t_z.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i59#$@i51#$@Bosses#$@bosses.htm#$@info#$@90#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i60#$@#$@Dungeons A#$@#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i61#$@i60#$@Camineet Dungeon#$@dungeon01.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i62#$@i60#$@Odin Dungeon#$@dungeon02.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i63#$@i60#$@Naula Cave#$@dungeon03.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i64#$@i60#$@South of Scion#$@dungeon04.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i65#$@i60#$@Gothic Passage#$@dungeon05.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i66#$@i60#$@Luveno's Hideout#$@dungeon06.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i67#$@i60#$@Abion Passage#$@dungeon07.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i68#$@i60#$@Doc Mad Dungeon#$@dungeon08.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i69#$@i60#$@Drasgow Dungeon#$@dungeon09.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i70#$@i60#$@Medusa Tower#$@dungeon10.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i71#$@i60#$@Lost Island#$@dungeon11.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i72#$@i60#$@Baya Malay Passage 1#$@dungeon12.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i73#$@i60#$@Baya Malay Passage 2#$@dungeon13.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i74#$@i60#$@Baya Malay Tower#$@dungeon14.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i75#$@i60#$@Air Castle#$@dungeon15.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i76#$@#$@Dungeons B#$@#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i77#$@i76#$@Palace Passage#$@dungeon16.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i78#$@i76#$@Naharu Cave#$@dungeon17.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i79#$@i76#$@Casba Cave#$@dungeon18.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i80#$@i76#$@Tajima Cave#$@dungeon19.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i81#$@i76#$@Paseo Palace#$@dungeon20.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i82#$@i76#$@Dezoris Passage 1#$@dungeon21.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i83#$@i76#$@Dezoris Passage 2#$@dungeon22.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i84#$@i76#$@Dezoris Passage 3#$@dungeon23.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i85#$@i76#$@Dezoris Passage 4#$@dungeon24.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i86#$@i76#$@Dezoris Passage 5#$@dungeon25.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i87#$@i76#$@Skure Passage#$@dungeon26.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i88#$@i76#$@Twintown Passage#$@dungeon27.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i89#$@i76#$@Gumbious Tower#$@dungeon28.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i90#$@i76#$@Fort Guaron#$@dungeon29.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i91#$@i76#$@Laconian Shield Hide#$@dungeon30.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i92#$@i76#$@Aero Prism Dungeon#$@dungeon31.htm#$@info#$@140#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i93#$@#$@And More#$@#$@info#$@65#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@0#$@
+i94#$@i93#$@Music#$@music.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i95#$@i93#$@Heroes#$@heroes.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i96#$@i93#$@Backgrounds#$@backgrounds.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+i97#$@i93#$@Walkthrough#$@walkthrough.htm#$@info#$@80#$@20#$@#$@#$@C68484#$@B56B6B#$@000000#$@E0E0E0#$@#$@1#$@
+</Item_Parameters>

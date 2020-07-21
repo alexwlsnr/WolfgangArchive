@@ -1,0 +1,146 @@
+Dava Final Episode
+
+----------------------------------------------------------------------------
+Missing Animations (Enemies)
+Enemy		Status	Icon	Attack	Block	Magic
+----------------------------------------------------------------------------
+Dava Bat	ok	ok	ok	ok	xx	may let sleep
+Dava Born	ok	ok	ok	ok	xx
+Dava Zombie	ok	ok	ok	ok	xx	may poison
+Dava Pixie	ok	ok	ok	ok	ok
+Dava Ghoul	ok	ok	ok	ok	xx
+Groggy Dwarf	ok	ok	ok	ok	xx	may confuse
+Dava Knight	ok	ok	ok	ok	ok
+Bow Master	ok	ok	ok	ok	xx
+Berserker Knight ok	ok	ok	ok	ok
+Necromancer	ok	ok	ok	ok	ok
+Dark Priest	ok	ok	ok	ok	ok
+Chu Rao		ok	ok	ok	ok	ok	Flame Breath
+Komainu		ok	ok	ok	ok	ok	Flame Breath
+Satsuki		ok	ok	ok	ok	xx	Attacks can decrease
+Mutsuki		ok	ok	ok	ok	xx	defence and quickness
+Uzuki		ok	ok	ok	ok	ok
+Yayoi		ok	ok	ok	ok	ok
+Kisaragi	ok	ok	ok	ok	ok
+Goblin Pupil	ok	ok	ok	ok	ok
+Dark Paladin	ok	ok	ok	ok	ok	Attack may silence
+White Dragon	ok	ok	ok	ok	ok	Icy Breath
+Metal Gunner	ok	ok	ok	ok	xx
+King Chimera	ok	ok	ok	ok	ok	Flame Breath
+Lich		ok	ok	ok	ok	ok
+Arch Bishop	ok	ok	ok	ok	ok
+Bulldor		ok	ok	ok	(ok)	xx
+Wonder Mush	ok	ok	ok	ok	xx
+Dava		ok	ok	ok	(ok)	ok/ok
+----------------------------------------------------------------------------
+Enemies		Status	Icon	Attack	Block	Magic	Special
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Weapons		Value	Costs	Special
+----------------------------------------------------------------------------
+Large Axe	+27ATK	 9400G	--
+Kamikaze Axe	+41ATK	13100G 	DEF gets 0!!, cursed!
+Mystery Staff	+24ATK	11200G 	+2MP after each turn
+Great Rod	+19ATK	 8200G	--
+Hyper Cannon	+33ATK   9900G	--
+Misty Knuckle	+14ATK	 5200G	--
+Kizer Knuckle	+25ATK	13900G	AGI gets 0!!, cursed!
+Javelin		+24ATK	 9200G	--
+Venom Javelin	+35ATK	14200G	cursed
+Buster Sword	+25ATK	11000G	--
+Iris Blade	+26ATK	15500G	MOV gets 0!!, cursed
+Chrome Lance2	+29ATK	12000G	near attacks only!
+Earth Axe	+32ATK	13100G	--
+Counter Sword	+30ATK	14800G	--
+Murasame	??	15000G	event. for Higins or Rush
+Murasana	??	15000G	event. for Higins or Rush
+Chirrup Hammer	+19ATK	  100G	--
+Work Glove	 +5ATK     50G	--
+
+----------------------------------------------------------------------------
+Items		Costs	Special
+----------------------------------------------------------------------------
+Pegasus Wings	3000G	may be used for promotion to Pegasus Knight
+Mithril		2000G	--
+
+Battle 1
+Mithril
+Medical Herb
+Venom Javelin	(cursed)
+Running Pimento
+Evil Ring
+
+Battle 2
+Angel Wing
+Healing Seed
+Earth Axe
+Mystery Staff
+Quick Chicken
+Pegasus Wing
+Cheerful Bread
+
+Battle 3
+Quick Ring
+Antidote
+Murasana
+Counter Sword
+Kamikaze Axe
+Running Ring
+Healing Seed
+Murasame
+
+Battle 4
+2x Work Glove
+Angel Wing
+Chrome Lance
+Kizer Knuckle
+Mithril
+Healing Rain
+Power Ring
+Chirrup Hummer
+
+Battle 5
+Antidote
+White Ring
+Black Ring
+Protect Ring
+2x Healing Seed
+Iris Blade (cursed)
+
+
+Museum Bonus Chapter
+
+Equipments
+Giant Knuckle	+17ATK
+Shotgun		+28ATK
+
+Arch Bishop
+Berserker Knight
+Bow Master
+Chu Rao
+Bulldor
+Dark Paladin
+Dark Priest
+Dava
+Dava Bat
+Dava Born
+Dava Ghoul
+Dava Knight
+Dava Pixie
+Dava Zombie
+Groggy Dwarf
+Goblin Pupil
+King Chimera
+Kisaragi
+Komainu
+Lich
+Metal Gunner
+Mutsuki
+Necromancer
+Satsuki
+Uzuki
+White Dragon
+Wonder Mush
+Yayoi
+

@@ -1,0 +1,759 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Town of Simpleton Dragon Quest 8 The Journey of the Cursed King</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+<!--
+
+var ebenenref, aktdiv, i, max=5;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+      <!--
+
+
+
+      if (document.layers)
+
+      {
+
+      var startbreite = window.innerWidth;
+
+      var starthoehe = window.innerHeight;
+
+      }
+
+
+
+      function StylesLost()
+
+      {
+
+      if (document.layers && window.innerWidth != startbreite
+
+       || window.innerHeight != starthoehe)
+
+      {
+
+      location.reload();
+
+      }
+
+      }
+
+
+
+      //-->
+
+      </SCRIPT>
+
+
+
+
+
+</HEAD>
+
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+
+
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/sim_inn.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Simpleton Inn</b><br>
+
+&nbsp;&nbsp;Offers day and overnight service<br>
+
+&nbsp;&nbsp;Price: 8 coins / person
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/sim_item.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Simpleton Armour and Item 'Shop'</b>
+
+<table width=200 border=0>
+
+<tr>
+
+<td colspan=2><b>Item / Armour</b></td>
+
+<td align=right><b>Gold</b></td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/medicinal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Medicinal Herb</td>
+
+<td align=right>8</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/antidotal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Antidotal Herb</td>
+
+<td align=right>10</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/holy_water.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Holy Water</td>
+
+<td align=right>20</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/chimaera_wing.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Chimaera Wing</td>
+
+<td align=right>25</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/chain_mail.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Chain Mail</td>
+
+<td align=right>500</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/turban.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Turban</td>
+
+<td align=right>410</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/sim_weap.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Simpleton Weapon 'Shop'</b>
+
+<table width=200 border=0>
+
+<tr>
+
+<td colspan=2><b>Weapon</b></td>
+
+<td align=right><b>Gold</b></td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/rapier.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Rapier</td>
+
+<td align=right>300</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/thorn_whip.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Thorn Whip</td>
+
+<td align=right>350</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/wizard_staff.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Wizard's Staff</td>
+
+<td align=right>1,300</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/long_spear.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Long Spear</td>
+
+<td align=right>1,700</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/sledgehammer.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Sledgehammer</td>
+
+<td align=right>1,700</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/sim_pub.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Simpleton Pub</b><br>
+
+&nbsp;<b class="indent">What's to be done:</b>
+
+<li> Meet Angelo
+
+<li> Have some fun
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/sim_church.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Offers the following services:</b>
+
+<li> Confession (Save)
+
+<li> Divination
+
+<li> Resurrection
+
+<li> Purification
+
+<li> Benediction
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<div id=fix>
+
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+
+<tr><td colspan=2><span class="header">Town of Simpleton</span></td></tr>
+
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=5 cellpadding=0>
+
+<tr><td><img src="../../pictures/design/space.gif" width="310" height="37" alt="" border="0"></td></tr>
+
+<tr>
+
+<td><img src="../../pictures/towns/simpleton_map.png" width="278" height="207" alt="" border="0" usemap="#simpleton"><map name="simpleton">
+
+<area alt="" coords="87,98,109,121" href="#" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()"><!--Church-->
+
+<area alt="" coords="146,93,166,115" href="sim_pub.htm" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()"><!--Pub-->
+
+<area alt="" coords="185,115,203,94" href="#" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()"><!--Weapons-->
+
+<area alt="" coords="166,132,185,93" href="#" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()"><!--Armour-->
+
+<area alt="" coords="104,54,131,76" href="#" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()"><!--Inn-->
+
+</map>
+
+</td>
+
+
+
+</tr>
+
+<tr><td>
+
+<table border=0 width=524>
+
+<tr><td width=278>
+
+Meet another party member in the Simpleton pub. He will not join here but a bit later he will become a reliable fighting (and healing) member of your team. If you ask  what's his name: Angelo.<br><br>Enjoy a special pub scene here. I liked it very much and I am sorry not to have captured every aspect of the scene in the event section. So I recommend that you should make a special save file if you want to view it more often (like me).<br><br></td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr><td colspan=2>Use the map above for more information. A mouseover reveals the obvious while a mouseclick may show even more information about the chosen house or location (Spoilers included). Keep in mind that not all mouseover active areas are clickable, too.</td></tr>
+
+</table>
+
+</td></tr>
+
+</table>
+
+</div>
+
+
+
+
+
+</BODY>
+
+</HTML>

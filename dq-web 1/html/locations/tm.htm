@@ -1,0 +1,579 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Troll's Maze Dragon Quest 8 The Journey of the Cursed King</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+<!--
+
+var ebenenref, aktdiv, i, max=3;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+      <!--
+
+
+
+      if (document.layers)
+
+      {
+
+      var startbreite = window.innerWidth;
+
+      var starthoehe = window.innerHeight;
+
+      }
+
+
+
+      function StylesLost()
+
+      {
+
+      if (document.layers && window.innerWidth != startbreite
+
+       || window.innerHeight != starthoehe)
+
+      {
+
+      location.reload();
+
+      }
+
+      }
+
+
+
+      //-->
+
+      </SCRIPT>
+
+
+
+
+
+</HEAD>
+
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/search/tm_info.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/design/space.gif" width="5" height="22" alt="" border="0" align=absmiddle>Meet two Boss Trolls here!</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/tm_m_medal.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" vspace=3 hspace=5 align=absmiddle>Mini Medal</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/tm_hell_sabre.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><img src="../../pictures/items/hell_sabre.png" width="25" height="22" alt="" border="0" vspace=3 hspace=5 align=absmiddle>Hell Sabre</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=fix>
+
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+
+<tr><td colspan=2><span class="header">Troll's Maze</span></td></tr>
+
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=3 cellpadding=0>
+
+<tr><td colspan=3><img src="../../pictures/design/space.gif" width="524" height="37" alt="" border="0"></td></tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/dungeons/tm_01.png" width="250" height="190" alt="" border="0">
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr><td width=262 rowspan=2><img src="../../pictures/dungeons/trolls_maze.png" width="261" height="200" alt="" border="0" usemap="#goodies">
+
+<map name="goodies">
+
+<area alt="" coords="116,125,137,145" href="#" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()">
+
+<area alt="" coords="199,31,220,50" href="#" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()">
+
+<area alt="" coords="100,44,119,66" href="#" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()">
+
+</map>
+
+</td>
+
+<td valign=top colspan=2>Once the Black Citadell has risen, come back<br>
+
+to Argonia and visit the house of the Gouvernor. <br>
+
+The entrance to the Troll's Maze is the shining <br>
+
+mirror on the first floor. Your mission is simple, <br>
+
+save the kidnapped family from being eaten!</td>
+
+</tr>
+
+<tr>
+
+<td align=left width=131 valign=bottom>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><a href="sw_loc_index.htm" target="main" onfocus="this.blur()">&nbsp;Back to overview&nbsp;</a></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td align=right width=131 valign=bottom>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><a href="fs_sw1_index.htm" target="main" onfocus="this.blur()">&nbsp;Next Location&nbsp;</a></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+
+
+</BODY>
+
+</HTML>

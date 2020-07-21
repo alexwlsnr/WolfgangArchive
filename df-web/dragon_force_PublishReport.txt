@@ -1,0 +1,45 @@
+=============================================================================
+This message contain the information about how to publish the Javascript menu. Please read it carefully!
+All necessary files be saved in the same directory the project file (*.jmbg) in. If you still not
+save the current project, save it first! This message will aslo be saved in a text file along with
+project file named "ProjectName_PublishReport.txt".
+=============================================================================
+
+[Javascript menu script file(s)]:
+  awjsmenugold10.js
+
+[Image File(s)]: They should be copied to the same directory the script file in!
+  design/wein_i.gif
+  design/space.gif
+  design/teiris_i.gif
+  design/junon_i.gif
+  design/gongos_i.gif
+  design/mikhal_i.gif
+  design/reinhart_i.gif
+  design/leon_i.gif
+  design/goldark_i.gif
+  design/zanon_i.gif
+  design/sidecast_i.gif
+  design/hidden_i.gif
+  design/history_i.gif
+  design/game_i.gif
+  design/main_i.gif
+  design/wein_a.gif
+  design/teiris_a.gif
+  design/junon_a.gif
+  design/gongos_a.gif
+  design/mikhal_a.gif
+  design/reinhart_a.gif
+  design/leon_a.gif
+  design/goldark_a.gif
+  design/zanon_a.gif
+  design/sidecast_a.gif
+  design/hidden_a.gif
+  design/history_a.gif
+  design/game_a.gif
+  design/main_a.gif
+
+
+=============================================================================
+End of Publish Report
+=============================================================================

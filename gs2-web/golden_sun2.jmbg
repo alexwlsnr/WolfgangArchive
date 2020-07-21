@@ -1,0 +1,158 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+golden_sun2#$@main#$@0#$@1#$@10#$@46#$@0#$@#$@0#$@1000#$@2#$@arial,helvetica,sans-serif#$@9#$@0#$@0#$@1#$@C0C0C0#$@25#$@18#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Jump to#$@#$@#$@40#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i1#$@i0#$@Startpage#$@start.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i2#$@i0#$@Golden Sun#$@start.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i3#$@#$@Site Info#$@#$@#$@60#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i4#$@i3#$@News#$@site/news.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i5#$@i3#$@Sitemap#$@site/map.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i6#$@i3#$@Credits#$@site/credits.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i7#$@i3#$@Copyright#$@site/copyright.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i8#$@i3#$@Contact#$@site/contact.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i9#$@#$@Characters#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i10#$@i9#$@Heroes#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i11#$@i10#$@Felix#$@characters/felix.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i12#$@i10#$@Jenna#$@characters/jenna.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i13#$@i10#$@Sheba#$@characters/sheba.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i14#$@i10#$@Picard#$@characters/picard.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i15#$@i10#$@Isaak#$@characters/isaak.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i16#$@i10#$@Garret#$@characters/garret.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i17#$@i10#$@Ivan#$@characters/ivan.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i18#$@i10#$@Mia#$@characters/mia.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i19#$@i9#$@Djinns#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i20#$@i19#$@Jupiter#$@characters/jupiter.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i21#$@i19#$@Mars#$@characters/mars.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i22#$@i19#$@Mercury#$@characters/mercury.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i23#$@i19#$@Venus#$@characters/venus.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i24#$@i9#$@Sidecast#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i25#$@i24#$@Friends#$@characters/friends.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i26#$@i24#$@Foes#$@characters/foes.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i27#$@i24#$@VIPs#$@characters/vips.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i28#$@#$@Psynergy#$@#$@#$@70#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i29#$@i28#$@Classes#$@psynergy/classes.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i30#$@i28#$@Spells#$@psynergy/spells.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i31#$@i28#$@Summonings#$@psynergy/summon.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i32#$@i28#$@Combinations#$@psynergy/summon.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i33#$@#$@Items#$@#$@#$@50#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i34#$@i33#$@Armory#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i35#$@i34#$@Clothing#$@items/clothes/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i36#$@i34#$@Armors#$@items/armory/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i37#$@i34#$@Shields#$@items/shields/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i38#$@i34#$@Gloves#$@items/gloves/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i39#$@i34#$@Armlets#$@items/armlets/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i40#$@i34#$@Helmets#$@items/helmets/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i41#$@i34#$@Circlets#$@items/circlets/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i42#$@i34#$@Boots#$@items/boots/items.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i43#$@i33#$@Weapons#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i44#$@i43#$@Light Swords#$@items/light_swords/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i45#$@i43#$@Long Blades#$@items/long_blades/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i46#$@i43#$@Axes#$@items/axes/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i47#$@i43#$@Maces#$@items/maces/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i48#$@i43#$@Rods / Staffs#$@items/staffs/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i49#$@i43#$@Ankhs / Canes#$@items/ankhs/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i50#$@i43#$@Wands#$@items/wands/items.htm#$@main#$@90#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i51#$@i33#$@Items#$@#$@_self#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i52#$@i51#$@Power Ups#$@items/power_ups/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i53#$@i51#$@Psynergy#$@items/psynergy/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i54#$@i51#$@Attacking#$@items/attack/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i55#$@i51#$@Healing#$@items/healing/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i56#$@i51#$@Important Items#$@items/important/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i57#$@i51#$@Utilities#$@items/utilities/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i58#$@i51#$@Rings#$@items/rings/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i59#$@i51#$@Blacksmith#$@items/blacksmith/items.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i60#$@#$@Towns#$@#$@#$@50#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i61#$@i60#$@Dehli#$@towns/dehli.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i62#$@i60#$@Kandora#$@towns/kandora.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i63#$@i60#$@Madora#$@towns/madora.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i64#$@i60#$@Alpura#$@towns/alpura.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i65#$@i60#$@Popichi#$@towns/popichi.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i66#$@i60#$@Mikasera#$@towns/mikasera.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i67#$@i60#$@Niri#$@towns/niri.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i68#$@i60#$@Kimbombo#$@towns/kimbombo.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i69#$@i60#$@Galabas#$@towns/galabas.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i70#$@i60#$@Izumo#$@towns/izumo.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i71#$@i60#$@Champ#$@towns/champ.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i72#$@i60#$@Yaramu#$@towns/yaramu.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i73#$@i60#$@Lemuria#$@towns/lemuria.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i74#$@i60#$@Shaman#$@towns/shaman.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i75#$@i60#$@Ateka#$@towns/ateka.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i76#$@i60#$@Giana#$@towns/giana.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i77#$@i60#$@Robba#$@towns/robba.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i78#$@i60#$@Procus#$@towns/procus.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i79#$@#$@Maps#$@#$@#$@50#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i80#$@i79#$@Buildings#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i81#$@i80#$@Venus Lighthouse#$@dungeons/buildings/venus_lighthouse.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i82#$@i80#$@Kimbombo Statue#$@dungeons/buildings/kimbombo_statue.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i83#$@i80#$@Tower of Neptune#$@towns/tower.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i84#$@i80#$@South Tower#$@dungeons/buildings/south_tower.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i85#$@i80#$@North Tower#$@dungeons/buildings/north_tower.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@008040#$@#$@2#$@
+i86#$@i80#$@Jupiter Lighthouse#$@dungeons/buildings/jupiter.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i87#$@i80#$@Mars Lighthouse#$@dungeons/buildings/mars.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i88#$@i80#$@Anemos Temple#$@dungeons/buildings/anemos.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i89#$@i79#$@Ships#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i90#$@i89#$@Pirat's Ship#$@dungeons/ships/pirat.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i91#$@i89#$@Lemurian Ship#$@dungeons/ships/lemurian.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i92#$@i79#$@Caves#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i93#$@i92#$@Kandora Cave#$@dungeons/caves/kandora.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i94#$@i92#$@Indora Cave#$@dungeons/caves/indra.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i95#$@i92#$@Ocenia Cave#$@dungeons/caves/ocenia.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i96#$@i92#$@Kimbombo Cave#$@dungeons/caves/kimbombo.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i97#$@i92#$@Seashrine Cave#$@dungeons/caves/seashrine.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i98#$@i92#$@Daupa Cave#$@dungeons/caves/daupa.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i99#$@i92#$@Angaria Cave#$@dungeons/caves/angaria.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i100#$@i92#$@South Peak Cave#$@dungeons/caves/south_peak.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i101#$@i92#$@Yanpi Cave#$@dungeons/caves/yanpi_cave.htm#$@main#$@100#$@21#$@#$@#$@006384#$@83C0C0#$@FFFFFF#$@000000#$@#$@2#$@
+i102#$@i92#$@Northern Cave#$@dungeons/caves/northern_cave.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i103#$@i79#$@Countryside#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i104#$@i103#$@Suhalla#$@dungeons/country/suhalla.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i105#$@i103#$@Dakan Plains#$@dungeons/country/dakan.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i106#$@i103#$@Ocenia Pass#$@dungeons/country/ocenia_pass.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i107#$@i103#$@Yanpi Desert#$@dungeons/country/yanpi.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i108#$@i103#$@Gondowan Pass#$@dungeons/country/indra_gondowan.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i109#$@i103#$@Ming Moutains#$@dungeons/country/ming.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i110#$@i103#$@Wild Ocean#$@dungeons/country/wild_ocean.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i111#$@i103#$@North Ocean#$@dungeons/country/north_ocean.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i112#$@i103#$@Northern Map#$@dungeons/country/north_map.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i113#$@i103#$@World Map#$@dungeons/country/world_map.htm#$@main#$@120#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i114#$@i79#$@Moutains#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i115#$@i114#$@Ayers Rock#$@dungeons/moutains/ayers_rock.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i116#$@i114#$@Aqua Rock#$@dungeons/moutains/aqua_rock.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i117#$@i114#$@Gaia Rock#$@dungeons/moutains/gaia_rock.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i118#$@i114#$@Magma Rock#$@dungeons/moutains/magma_rock.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i119#$@i79#$@Turtle Quest#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i120#$@i119#$@Icy Town#$@sidequest/icy_town.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i121#$@i119#$@Bird Island#$@sidequest/bird_island.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i122#$@i119#$@Osenia Island#$@sidequest/osenia _island.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i123#$@i119#$@Endora Island#$@sidequest/endora_island.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i124#$@i119#$@Turtle Island#$@sidequest/turtle_island.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i125#$@i79#$@Sidequests#$@#$@#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@1#$@
+i126#$@i125#$@West Island#$@sidequest/west_island.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i127#$@i125#$@Hisperia Village#$@sidequest/hisperia.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i128#$@i125#$@Gondowan Pit#$@sidequest/gondowan.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i129#$@i125#$@Kelto#$@sidequest/kelto.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@2#$@
+i130#$@#$@Enemies#$@#$@#$@70#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i131#$@i130#$@Enemies A-E#$@enemies/a_e.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i132#$@i130#$@Enemies F-I#$@enemies/f_i.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i133#$@i130#$@Enemies K-N#$@enemies/k_n.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i134#$@i130#$@Enemies O-S#$@enemies/o_s.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i135#$@i130#$@Enemies T-Z#$@enemies/t_z.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i136#$@i130#$@Boss Enemies#$@enemies/bosses.htm#$@main#$@100#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i137#$@#$@And more...#$@#$@#$@70#$@21#$@#$@#$@006384#$@4AADD6#$@EFDE63#$@000000#$@#$@0#$@
+i138#$@i137#$@Backgrounds#$@more/back.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i139#$@i137#$@Midi Music#$@more/music.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i140#$@i137#$@Other Stuff...#$@more/other.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i141#$@i137#$@Prologue#$@more/prologue.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+i142#$@i137#$@Epilogue#$@more/epilogue.htm#$@main#$@80#$@21#$@#$@#$@006384#$@4AADD6#$@FFFFFF#$@000000#$@#$@1#$@
+</Item_Parameters>

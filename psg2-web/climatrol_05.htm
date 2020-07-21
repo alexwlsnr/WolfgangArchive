@@ -1,0 +1,460 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Untitled</title>
+
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+
+
+var ebenenref, aktdiv, i, max=4;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</script>
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+
+</head>
+
+
+
+<body background="design/back.gif">
+
+<div id=fix>
+
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+
+<tr>
+
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td rowspan=12><img src="design/space.gif" width="14" height="2" alt="" border="0"></td>
+
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="18" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Climatrol Center 6. Floor</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=11><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">Information</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" rowspan=9 align=center><!--Map-->
+
+<br><img src="maps/climatrol_06.png" width="600" height="370" alt="" border="0">
+
+</td>
+
+<td background="design/frame_rm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=130 valign=top><!--Info--><p>
+
+<b>What's to find:</b><br>
+
+1&nbsp;&nbsp;&nbsp;Monofluid<br>
+
+2&nbsp;&nbsp;&nbsp;Dimate
+
+<br><br>
+
+Let's cheat again: <br>you will enter <a class="white" href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">HERE</a> <br>for the first time. <br>Now use <a class="white" href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">THIS</a> lift for floor 7. You will return <a class="white" href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)">HERE</a>, only to leave by using <a class="white" href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)">THIS</a> elevator.
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="180" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+
+</tr>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">Agenda</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" valign=top><img src="maps/ele_up.png" width="28" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Elevator up<br><img src="maps/ele_dw.png" width="28" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Elevator down<br><img src="maps/chest.gif" width="30" height="30" alt="" border="0" align=absmiddle hspace=10 vspace=5>Container
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="40" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=118><span class="header1">More</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=130 align=center><!--Info--><p>
+
+<a href="climatrol_04.htm" onfocus="this.blur()">To floor 5</a><br>
+
+<a href="climatrol_06.htm" onfocus="this.blur()">To floor 7</a>
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="40" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+<div class="transbox" id="ebene4" style="Position: absolute; Left: 307px; Top: 373px; Visibility: hidden;"><img src="maps/atl.gif" width="30" height="30" alt="" border="0"></div>
+
+<div class="transbox" id="ebene3" style="Position: absolute; Left: 294px; Top: 276px; Visibility: hidden;"><img src="maps/atl.gif" width="30" height="30" alt="" border="0"></div>
+
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 73px; Top: 149px; Visibility: hidden;"><img src="maps/atl.gif" width="30" height="30" alt="" border="0"></div>
+
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 37px; Top: 113px; Visibility: hidden;"><img src="maps/atl.gif" width="30" height="30" alt="" border="0"></div>
+
+</div>
+
+<br>
+
+</div>
+
+</body>
+
+</html>
+

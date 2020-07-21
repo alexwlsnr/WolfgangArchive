@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Home of the Golden Sun</title>
+	<link rel="STYLESHEET" type="text/css" href="golden_sun.css">
+	<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+// Courtesy of SimplytheBest.net (http://simplythebest.net/info/dhtml_scripts.html)
+gSlideshowInterval = 4;
+gNumberOfImages = 4;
+
+gImages = new Array(gNumberOfImages);
+gImages[0] = "characters/isaak1.gif";
+gImages[1] = "characters/mia1.gif";
+gImages[2] = "characters/garret1.gif";
+gImages[3] = "characters/ivan1.gif";
+
+function canManipulateImages() {
+	if (document.images)
+		return true;
+	else
+		return false;
+}
+function loadSlide(imageURL) {
+	if (gImageCapableBrowser) {
+		document.slide.src = imageURL;
+		return false;
+	}
+	else {
+		return true;
+	}
+}
+function nextSlide() {
+	gCurrentImage = (gCurrentImage + 1) % gNumberOfImages;
+	loadSlide(gImages[gCurrentImage]);
+}
+gImageCapableBrowser = canManipulateImages();
+gCurrentImage = 0;
+setInterval("nextSlide()",gSlideshowInterval * 1000);
+// -->
+function preload() {
+  if (!document.images) return;
+  var ar = new Array();
+  var arguments = preload.arguments;
+  for (var i = 0; i < arguments.length; i++) {
+    ar[i] = new Image();
+    ar[i].src = arguments[i];
+  }
+}
+
+</script>
+</SCRIPT>
+</head>
+<BODY TEXT="#000000" bgcolor="#006384" BACKGROUND="design/back.gif" LINK="#0000FF" VLINK="#808080" ALINK="#00CEFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0"onLoad="preload('characters/isaak1.gif', 'characters/mia1.gif', 'characters/garret1.gif', 'characters/ivan1.gif')">
+
+<table border=0 cellpadding=0 cellspacing=0 width=740>
+<tr>
+<td valign=top colspan=2><img src="design/golden_sun_big.gif" width=232 height=118 alt="" border="0" hspace=10 vspace=20></td>
+</tr>
+<tr><td colspan=2><img src="design/space.gif" width=400 height=5 alt="" border="0"><br><span class="header1">The unofficial &quot;Home of the Golden Sun&quot; site welcomes you!</span></td></tr>
+<tr><td><p>Again, another &quot;great&quot; page for a great game has opened. This time it deals with a game for the <br>Gameboy Advanced. <br><br>All those who know my further pages know that I normally only create gamesites for Sega <br>consoles. Ok, there are two sites about the Lunar versions for Playstation, but these games <br>were published for the Sega MegaCD, too. <br><br>Indeed, Golden Sun is the first game I played on a Nintendo device and, to tell the truth, it was <br>because of this game I actually bought a Gameboy Advanced to play it. As I always say, <br>Software sells Hardware!
+<p>Golden Sun was created by Camelot Soft, a Japanese game developing company, which <br>published the Shining Force series for Sega. If you ever played one of the Shining Force <br>games, you will soon be familiar with the colorful battle scences, items like Mythril and last <br>but not least, the detailed work on the whole game which shows how much love and effort <br>the developers put into it. So it was only natural that Golden Sun gets its place within my <br>series of <b>&quot;Home of the ...&quot;</b> websites.
+<p>Ok, enough smalltalk, surf and enjoy. If you like to get more information take a look under <br><b>News</b> in the Site Info section.<br><br><span class="footer">JAVA-Script code included, enable Java-Script on your browser.<br>Designed for a resolution of 800 x 600 pixels and 65.000 colors. <p>All quoted text, logos, screenshots, and artwork copyright and courtesy <BR>Camelot Soft and Nintendo, Japan.</td><td valign=bottom><img src="characters/isaak1.gif" width=189 height=343 alt="" border="0" name="slide" vspace=1></td></tr>
+<tr><td colspan=2><p>&copy; 2002, Wolfgang Landgraf, Germany<br><br>If you want to get information about a different game come back here and press this button.<br><br><table cellpadding="0" cellspacing="0" border="0" bgcolor="#c0c0c0">
+<tr><td><table width="100%" border="0" cellspacing="1" cellpadding=3><tr bgcolor="#006384"><td onMouseover="this.bgColor='#4AADD6'" onMouseout="this.bgColor='#006384'"><a href="../choose.htm" target="_top">To other games</a></td></tr></table></td></tr></table><br><br></td></tr>
+</table>
+<br><br>
+</body>
+</html>

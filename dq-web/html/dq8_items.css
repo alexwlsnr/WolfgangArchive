@@ -1,0 +1,19 @@
+a { font-family: sans-serif; font-weight: normal; font-size:12px; color: #8F9BA3; text-decoration: none }
+
+a:hover { color: #dddddd; text-decoration: none }
+
+a.plain:hover { font-size:12px; color: black; text-decoration: none }
+
+.header { font-family: sans-serif; font-weight: bold; font-size:20px; color: #8F9BA3; text-decoration: none }
+
+tr.norm { font-family: sans-serif; font-weight: normal; font-size:12px; color: black; text-decoration: none; background : transparent }
+
+td { font-family: sans-serif; font-weight: normal; font-size:12px; color: black; text-decoration: none }
+
+b { text-indent:3px; font-family: sans-serif; font-weight: bold; font-size:12px; color: black; text-decoration: none }
+
+li { text-indent:5px}
+
+td.sh_left {border-left: #8F9BA3 2px solid;}
+
+td.sh_right {border-right: #8F9BA3 2px solid;}

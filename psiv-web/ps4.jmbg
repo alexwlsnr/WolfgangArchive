@@ -1,0 +1,126 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+ps4#$@info#$@0#$@1#$@92#$@67#$@0#$@#$@0#$@1000#$@2#$@arial,helvetica,sans-serif#$@10#$@0#$@0#$@1#$@5A8CBD#$@25#$@20#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Site Info#$@#$@#$@60#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i1#$@i0#$@Startpage#$@start.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i2#$@i0#$@News#$@site/news.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i3#$@i0#$@Sitemap#$@site/map.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i4#$@i0#$@Credits#$@site/credits.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i5#$@i0#$@Copyright#$@site/copyright.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i6#$@i0#$@Contact#$@site/contact.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i7#$@i0#$@Main Menu#$@../choose.htm#$@_top#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i8#$@#$@Characters#$@#$@#$@70#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i9#$@i8#$@Heroes#$@#$@#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i10#$@i9#$@Chaz#$@characters/chaz.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i11#$@i9#$@Alys#$@characters/alys.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i12#$@i9#$@Hahn#$@characters/hahn.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i13#$@i9#$@Rune#$@characters/rune.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i14#$@i9#$@Gryz#$@characters/gryz.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i15#$@i9#$@Raja#$@characters/raja.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i16#$@i9#$@Kyra#$@characters/kyra.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i17#$@i9#$@Wren#$@characters/wren.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i18#$@i9#$@Demi#$@characters/demi.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i19#$@i8#$@Friends#$@#$@#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i20#$@i19#$@Academy Folks#$@characters/academy.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i21#$@i19#$@Inn and Shops#$@characters/inns.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i22#$@i19#$@Relatives#$@characters/relatives.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i23#$@i19#$@Must see#$@characters/important.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i24#$@i8#$@Foes#$@#$@#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i25#$@i24#$@General Jusa#$@characters/jusa.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i26#$@i24#$@Mysterious Zio#$@characters/zio.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i27#$@i24#$@Emperor Lassic#$@characters/lassic.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i28#$@i24#$@Archeologist Seth#$@characters/seth.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i29#$@i24#$@Three Guardians#$@characters/guardians.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i30#$@i24#$@Profound Darkness#$@characters/darkness.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i31#$@#$@Planets#$@#$@#$@50#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i32#$@i31#$@Motavia#$@planets/motavia.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i33#$@i31#$@Dezoris#$@planets/dezoris.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i34#$@i31#$@Rykros#$@planets/rykros.htm#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i35#$@#$@Towns#$@#$@#$@50#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i36#$@i35#$@on Motavia#$@#$@#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i37#$@i36#$@Aiedo#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i38#$@i36#$@Kadary#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i39#$@i36#$@Krup#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i40#$@i36#$@Mile#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i41#$@i36#$@Molcum#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i42#$@i36#$@Monsen#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i43#$@i36#$@Nalya#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i44#$@i36#$@Piata#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i45#$@i36#$@Termi#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i46#$@i36#$@Tonoe#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i47#$@i36#$@Torinco#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i48#$@i36#$@Uzo#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i49#$@i36#$@Zema#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i50#$@i35#$@on Dezoris#$@#$@#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i51#$@i50#$@Esper Mansion#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i52#$@i50#$@Gumbius#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i53#$@i50#$@Jut#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i54#$@i50#$@Meese#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i55#$@i50#$@Raya Temple#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i56#$@i50#$@Reshel#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i57#$@i50#$@Ryuon#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i58#$@i50#$@Tyler#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i59#$@i50#$@Zosa#$@towns/kandora.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i60#$@#$@Dungeons#$@#$@info#$@70#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i61#$@i60#$@on Motavia#$@#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i62#$@i61#$@Piata Academy#$@dungeons/buildings/venus_lighthouse.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i63#$@i61#$@Birth Valley#$@dungeons/buildings/kimbombo_statue.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i64#$@i61#$@Tonoe Passage#$@towns/tower.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i65#$@i61#$@Tonoe Warehouse#$@dungeons/buildings/south_tower.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i66#$@i61#$@Biolab Dungeon#$@dungeons/buildings/north_tower.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i67#$@i61#$@Nalya Wreckage#$@dungeons/buildings/jupiter.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i68#$@i61#$@Kadary Passage#$@dungeons/buildings/mars.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i69#$@i61#$@Zio's Castle#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i70#$@i61#$@Vehicle Control#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i71#$@i61#$@Plate Center#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i72#$@i61#$@Ladea Tower#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i73#$@i61#$@Nurvus Dungeon#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i74#$@i61#$@Motavia Spaceport#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i75#$@i61#$@Fissur of Fear#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i76#$@i61#$@Soldier Temple#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i77#$@i61#$@Bird's Dungeon#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i78#$@i61#$@Valhal Dungeon#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i79#$@i61#$@Profound Darkness#$@dungeons/buildings/anemos.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i80#$@i60#$@on Dezoris#$@#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i81#$@i80#$@Spaceport Passage#$@dungeons/ships/pirat.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i82#$@i80#$@Dezorian Spaceport#$@dungeons/ships/lemurian.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i83#$@i80#$@Myst Vale#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i84#$@i80#$@Clmatrol Center#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i85#$@i80#$@Weapon Center#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i86#$@i80#$@Gumbius Temple#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i87#$@i80#$@Garuberk Tower#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i88#$@i80#$@Esper Mansion#$@#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i89#$@i60#$@on Rykros#$@#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i90#$@i89#$@Tower of Silence#$@dungeons/caves/kandora.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i91#$@i89#$@Tower of Courage#$@dungeons/caves/indra.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i92#$@i89#$@Tower of Strength#$@dungeons/caves/ocenia.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i93#$@i89#$@Tower of Anger#$@dungeons/caves/kimbombo.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i94#$@i60#$@in Outerspace#$@#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i95#$@i94#$@Zelan Satellite#$@dungeons/country/suhalla.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i96#$@i94#$@Kuran Satellite#$@dungeons/country/dakan.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i97#$@i94#$@Air Castle#$@dungeons/country/ocenia_pass.htm#$@info#$@120#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@2#$@
+i98#$@#$@Enemies#$@#$@info#$@65#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i99#$@i98#$@Enemies A-C#$@enemies/a_c.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i100#$@i98#$@Enemies D-F#$@enemies/d_f.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i101#$@i98#$@Enemies G-J#$@enemies/g_j.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i102#$@i98#$@Enemies K-R#$@enemies/k_r.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i103#$@i98#$@Enemies S#$@enemies/s.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i104#$@i98#$@Enemies T-Z#$@enemies/t_z.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i105#$@i98#$@Boss Enemies#$@enemies/bosses.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i106#$@#$@And more...#$@#$@info#$@80#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@0#$@
+i107#$@i106#$@Hunter's Guild#$@more/back.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i108#$@i106#$@Walkthrough#$@more/music.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i109#$@i106#$@Picture Gallery#$@more/other.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+i110#$@i106#$@Midi Music#$@more/prologue.htm#$@info#$@100#$@20#$@#$@#$@84A5CE#$@638CB8#$@000000#$@FFFFFF#$@#$@1#$@
+</Item_Parameters>

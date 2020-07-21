@@ -1,0 +1,210 @@
+<HTML>
+<HEAD>
+<script language="JavaScript">
+<!--
+//This script copyright 1996 4th Post Graphics/A. J. Sedlak
+//All rights reserved
+//E-mail the author at ajs249@psu.edu
+//Slightly modified by W.Landgraf to support MSIE 4.x
+
+b_name = navigator.appName;
+b_version = parseFloat(navigator.appVersion);
+
+if (b_name == "Netscape" && b_version < 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Netscape" && b_version == 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Netscape" && b_version >= 3.0)
+        {
+        is_ok = 'true';
+        }
+else if (b_name == "Microsoft Internet Explorer" && b_version <= 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Microsoft Internet Explorer" && b_version >= 3.0)
+        {
+        is_ok = 'true';
+        }
+else
+        {
+        is_ok = 'false';
+        }
+
+if (is_ok== 'true') {
+    standard = new MakeArray(15)
+    over = new MakeArray(15)
+    click = new MakeArray(15)
+    words = new MakeArray(15)
+
+    standard[1].src = "bnew01.gif"
+    standard[2].src = "bsm01.gif"
+    standard[3].src = "bh01.gif"
+    standard[4].src = "bsc01.gif"
+    standard[5].src = "bmg01.gif"
+    standard[6].src = "bb01.gif"
+    standard[7].src = "bm01.gif"
+    standard[8].src = "be01.gif"
+    standard[9].src = "bt01.gif"
+    standard[10].src = "bdun01.gif"
+    standard[11].src = "ben01.gif"
+    standard[12].src = "bbo01.gif"
+    standard[13].src = "bti01.gif"
+    standard[14].src = "leb-b01.gif"
+    standard[15].src = "psb-1.gif"
+
+    over[1].src = "bnew02.gif"
+    over[2].src = "bsm02.gif"
+    over[3].src = "bh02.gif"
+    over[4].src = "bsc02.gif"
+    over[5].src = "bmg02.gif"
+    over[6].src = "bb02.gif"
+    over[7].src = "bm02.gif"
+    over[8].src = "be02.gif"
+    over[9].src = "bt02.gif"
+    over[10].src = "bdun02.gif"
+    over[11].src = "ben02.gif"
+    over[12].src = "bbo02.gif"
+    over[13].src = "bti02.gif"
+    over[14].src = "leb-b02.gif"
+    over[15].src = "psb-2.gif"
+
+    click[1].src = "bnew03.gif"
+    click[2].src = "bsm03.gif"
+    click[3].src = "bh03.gif"
+    click[4].src = "bsc03.gif"
+    click[5].src = "bmg03.gif"
+    click[6].src = "bb03.gif"
+    click[7].src = "bm03.gif"
+    click[8].src = "be03.gif"
+    click[9].src = "bt03.gif"
+    click[10].src = "bdun03.gif"
+    click[11].src = "ben03.gif"
+    click[12].src = "bbo03.gif"
+    click[13].src = "bti03.gif"
+    click[14].src = "leb-b03.gif"
+    click[15].src = "psb-3.gif"
+
+    words[1] = "Lunar Silver Star Start of the Tour"
+    words[2] = "Lunar Silver Star Helpful Sitemap"
+    words[3] = "Lunar Silver Star Heroes"
+    words[4] = "Lunar Silver Star Sidecast"
+    words[5] = "Lunar Silver Star Magic"
+    words[6] = "Lunar Silver Star Weapons"
+    words[7] = "Lunar Silver Star Armory"
+    words[8] = "Lunar Silver Star Items"
+    words[9] = "Lunar Silver Star Towns"
+    words[10] = "Lunar Silver Star Dungeons"
+    words[11] = "Lunar Silver Star Enemies"
+    words[12] = "Lunar Silver Star Bosses"
+    words[13] = "Lunar Silver Star Even More"
+    words[14] = "Lunar2 Eternal Blue Section"
+    words[15] = "Back to other RPGs"
+}
+
+    function MakeArray(n) {
+      this.length = n
+      for (var i = 1; i<=n; i++) {
+        this[i] = new Image()
+        }
+      return this
+    }
+    function msover(num) {
+      if (is_ok== 'true') {
+        if (over[num].src != "") {
+          document.images[num-1].src = over[num].src
+          window.status = words[num]
+        }
+      }
+    }
+
+    function msout(num) {
+      if (is_ok== 'true') {
+        if (standard[num].src != ""){
+          document.images[num-1].src = standard[num].src
+          window.status = ' '
+        }
+      }
+    }
+
+    function msclk(num) {
+      if (is_ok== 'true') {
+        if (click[num].src != ""){
+          document.images[num-1].src = click[num].src
+        }
+      }
+    }
+
+
+// -->
+</script>
+<TITLE>Menu</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="0f1242">
+<a href="news.htm" "#" target="main" onmouseover="msover(1) ; return true" onmouseout="msout(1)" ;
+onClick="msclk(1) ; return true">
+<img border=0 src="bnew01.gif" HSPACE=1></a><BR>
+
+<a href="sidemap.htm" "#" target="main" onmouseover="msover(2) ; return true" onmouseout="msout(2)" ;
+onClick="msclk(2) ; return true">
+<img border=0 src="bsm01.gif" HSPACE=1></a><BR>
+
+<a href="heroes.htm" "#" target="main" onmouseover="msover(3) ; return true" onmouseout="msout(3)" ;
+onClick="msclk(3) ; return true">
+<img border=0 src="bh01.gif" HSPACE=1></a><BR>
+
+<a href="sidecast.htm" "#" target="main" onmouseover="msover(4) ; return true" onmouseout="msout(4)" ;
+onClick="msclk(4) ; return true">
+<img border=0 src="bsc01.gif" HSPACE=1></a><BR>
+
+<a href="magic1.htm" "#" target="main" onmouseover="msover(5) ; return true" onmouseout="msout(5)" ;
+onClick="msclk(5) ; return true">
+<img border=0 src="bmg01.gif" HSPACE=1></a><BR>
+
+<a href="weapon1.htm" "#" target="main" onmouseover="msover(6) ; return true" onmouseout="msout(6)" ;
+onClick="msclk(6) ; return true">
+<img border=0 src="bb01.gif" HSPACE=1></a><BR>
+
+<a href="armor1.htm" "#" target="main" onmouseover="msover(7) ; return true" onmouseout="msout(7)" ;
+onClick="msclk(7) ; return true">
+<img border=0 src="bm01.gif" HSPACE=1></a><BR>
+
+<a href="item1.htm" "#" target="main" onmouseover="msover(8) ; return true" onmouseout="msout(8)" ;
+onClick="msclk(8) ; return true">
+<img border=0 src="be01.gif" HSPACE=1></a><BR>
+
+<a href="town1.htm" "#" target="main" onmouseover="msover(9) ; return true" onmouseout="msout(9)" ;
+onClick="msclk(9) ; return true">
+<img border=0 src="bt01.gif" HSPACE=1></a><BR>
+
+<a href="dungeon1.htm" "#" target="main" onmouseover="msover(10) ; return true" onmouseout="msout(10)" ;
+onClick="msclk(10) ; return true">
+<img border=0 src="bdun01.gif" HSPACE=1></a><BR>
+
+<a href="monster1.htm" "#" target="main" onmouseover="msover(11) ; return true" onmouseout="msout(11)" ;
+onClick="msclk(11) ; return true">
+<img border=0 src="ben01.gif" HSPACE=1></a><BR>
+
+<a href="boss1.htm" "#" target="main" onmouseover="msover(12) ; return true" onmouseout="msout(12)" ;
+onClick="msclk(12) ; return true">
+<img border=0 src="bbo01.gif" HSPACE=1></a><BR>
+
+<a href="backgrounds.htm" "#" target="main" onmouseover="msover(13) ; return true" onmouseout="msout(13)" ;
+onClick="msclk(13) ; return true">
+<img border=0 src="bti01.gif" HSPACE=1></a><BR>
+
+<a href="../lunar2web/index.html" "#" target="_top" onmouseover="msover(14) ; return true" onmouseout="msout(14)" ;
+onClick="msclk(14) ; return true">
+<img border=0 src="leb-b01.gif" HSPACE=1></a><BR>
+
+<a href="../../choose.htm" "#" target="_top" onmouseover="msover(15) ; return true" onmouseout="msout(15)" ;
+onClick="msclk(15) ; return true">
+<img border=0 src="psb-1.gif" HSPACE=1></a><BR>
+
+</BODY>
+</HTML>

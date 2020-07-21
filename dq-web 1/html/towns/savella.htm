@@ -1,0 +1,875 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Town of Savella Dragon Quest 8 The Journey of the Cursed King</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+<!--
+
+var ebenenref, aktdiv, i, max=6;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+
+      <!--
+
+
+
+      if (document.layers)
+
+      {
+
+      var startbreite = window.innerWidth;
+
+      var starthoehe = window.innerHeight;
+
+      }
+
+
+
+      function StylesLost()
+
+      {
+
+      if (document.layers && window.innerWidth != startbreite
+
+       || window.innerHeight != starthoehe)
+
+      {
+
+      location.reload();
+
+      }
+
+      }
+
+
+
+      //-->
+
+      </SCRIPT>
+
+
+
+
+
+</HEAD>
+
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+
+
+<DIV ID="ebene6" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_item.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Savella Item Shop</b>
+
+<table width=200 border=0>
+
+<tr>
+
+<td colspan=2><b>Item</b></td>
+
+<td align=right><b>Gold</b></td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/medicinal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Medicinal Herb</td>
+
+<td align=right>8</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/antidotal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Antidotal Herb</td>
+
+<td align=right>10</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/holy_water.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Holy Water</td>
+
+<td align=right>20</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/chimaera_wing.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Chimaera Wing</td>
+
+<td align=right>25</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/moonwort_bulb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Moonwort Bulb</td>
+
+<td align=right>30</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/gold_rosary.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Gold Rosary</td>
+
+<td align=right>500</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_inn.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Savella Inn</b><br>
+
+&nbsp;&nbsp;Offers day and overnight service<br>
+
+&nbsp;&nbsp;Price: 50 coins / person
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_armour.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Savella Armour Shop</b>
+
+<table width=200 border=0>
+
+<tr>
+
+<td colspan=2><b>Armour</b></td>
+
+<td align=right><b>Gold</b></td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/full_plate_armour.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Full Plate Armour </td>
+
+<td align=right>2,300</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/silver_mail.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Silver Mail</td>
+
+<td align=right>4,300</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/magic_vestment.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Magic Vestment</td>
+
+<td align=right>4,400</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/steel_shield.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Steel Shield</td>
+
+<td align=right>2,500</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/iron_mask.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Iron Mask</td>
+
+<td align=right>3,500</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_weapon.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Savella Weapon Shop</b>
+
+<table width=200 border=0>
+
+<tr>
+
+<td colspan=2><b>Weapon</b></td>
+
+<td align=right><b>Gold</b></td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/steel_scythe.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Steel Scythe</td>
+
+<td align=right>3,700</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/eagle_dagger.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Eagle Dagger</td>
+
+<td align=right>3,900</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/partisan.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Partisan</td>
+
+<td align=right>4,400</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../pictures/items/holy_silver_rapier.png" width="25" height="22" alt="" border="0" hspace=5></td>
+
+<td>Holy Silver Rapier</td>
+
+<td align=right>6,600</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_lift.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Elevator to Lord Highpriest</b><br>
+
+&nbsp;<b class="indent">What will happen:</b>
+
+<li> Meet Francisco
+
+<li> Find a recipe (later)
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td><img src="../../pictures/towns/savella_cathedral.png" width="200" height="150" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/back_01.png"><b class="indent">Offers the following services:</b>
+
+<li> Confession (Save)
+
+<li> Divination
+
+<li> Resurrection
+
+<li> Purification
+
+<li> Benediction
+
+</td>
+
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<div id=fix>
+
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+
+<tr><td colspan=2><span class="header">Savella Cathedral</span></td></tr>
+
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=5 cellpadding=0>
+
+<tr><td><img src="../../pictures/design/space.gif" width="310" height="37" alt="" border="0"></td></tr>
+
+<tr>
+
+<td><img src="../../pictures/towns/savella_map.png" width="278" height="207" alt="" border="0" usemap="#savella"><map name="savella">
+
+<area alt="" shape="poly" coords="100,17,99,35,80,47,77,38,70,42,71,84,104,103,109,99,124,104,152,84,151,53,145,47,143,27,127,25,127,34,119,38,113,31,113,16,101,12" href="#" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()"><!--Church-->
+
+<area alt="" coords="30,30,58,55" href="sav_lift.htm" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()"><!--Lift-->
+
+<area alt="" coords="204,130,224,148" href="#" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()"><!--Weapons-->
+
+<area alt="" coords="199,115,223,130" href="sav_armour.htm" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()"><!--Armour-->
+
+<area alt="" coords="200,96,224,115" href="#" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()"><!--Inn-->
+
+<area alt="" coords="224,133,240,112" href="#" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)" onfocus="this.blur()"><!--Weapons-->
+
+</map>
+
+</td>
+
+
+
+</tr>
+
+<tr><td>
+
+<table border=0 width=524>
+
+<tr><td width=278>
+
+Although not a &quot;real&quot; town I put Savella Cathedral here because I could not decide where I should place it properly.<br><br>Nevertheless you will find shops like in a normal town, search for an alchemy recipe and even meet a &quot;beloved&quot; half brother here.<br><br></td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr><td colspan=2>Use the map above for more information. A mouseover reveals the obvious while a mouseclick may show even more information about the chosen house or location (Spoilers included). Keep in mind that not all mouseover active areas are clickable, too.</td></tr>
+
+</table>
+
+</td></tr>
+
+</table>
+
+</div>
+
+
+
+
+
+</BODY>
+
+</HTML>

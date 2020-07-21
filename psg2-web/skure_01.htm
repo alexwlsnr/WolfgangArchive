@@ -1,0 +1,474 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Untitled</title>
+
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+
+
+var ebenenref, aktdiv, i, max=2;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</script>
+
+
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+
+</head>
+
+
+
+<body background="design/back.gif">
+
+<div id=fix>
+
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+
+<tr>
+
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td rowspan=12><img src="design/space.gif" width="70" height="2" alt="" border="0"></td>
+
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="18" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=418><span class="header1">Skure Spaceport Floor BF1</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=11><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=232><span class="header1">Information</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" rowspan=9 align=center valign=top><!--Map-->
+
+<br><img src="maps/skure01.png" width="430" height="560" alt="" border="0">
+
+</td>
+
+<td background="design/frame_rm.gif" rowspan=9><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=244 valign=top><!--Info--><p>
+
+<b>What's to find:</b><br>
+
+Nothing at all<br>
+
+<br>
+
+<b>Important:</b><br>
+
+
+
+What seems to be easy on the first look, <br>will turn out a bit more complicated in the end. Whoever said these words first might have thought of the Shure spaceport.
+
+<br><br>You are starting where your spaceship has landed (obviously). There are three lifts to choose from. If you are in doubt which one to take refer to the little help by moving the mouse over the town names. An arrow will show you the shortest way possible.
+
+<br><br>
+
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Lift to Aukba</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Lift to Zosa</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="#" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Lift to Ryuon</a><br><br> You can do the same on the next floors. <br>But how to get all the goodies on floor BF2 and BF3 you have to find out by yourself!
+
+
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="330" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+
+</tr>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=232><span class="header1">Agenda</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" valign=top><img src="maps/ele_dw.png" width="28" height="30" alt="" border="0" align=absmiddle hspace=19 vspace=15>Elevator down<br><img src="maps/ship.gif" width="46" height="58" alt="" border="0" align=absmiddle hspace=10 vspace=5>Spaceship
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="90" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+<tr><td colspan=3><img src="design/space.gif" width="4" height="10" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="10" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=232><span class="header1">More</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td><img src="design/space.gif" width="2" height="24" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=244 align=center><!--Info--><p>
+
+<a href="skure_02.htm" onfocus="this.blur()">To floor BF2</a>
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="40" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td><img src="design/space.gif" width="2" height="4" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+<br>
+
+
+
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 320px; Top: 528px; Visibility: hidden;"><img src="maps/abr.gif" width="30" height="30" alt="" border="0"></div>
+
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 202px; Top: 243px; Visibility: hidden;"><img src="maps/atr.gif" width="30" height="30" alt="" border="0"></div><br>
+
+</div>
+
+<br>
+
+</div>
+
+</body>
+
+</html>
+

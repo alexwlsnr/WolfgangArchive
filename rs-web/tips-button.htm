@@ -1,0 +1,210 @@
+<HTML>
+<HEAD>
+<script language="JavaScript">
+<!--
+//This script copyright 1996 4th Post Graphics/A. J. Sedlak
+//All rights reserved
+//E-mail the author at ajs249@psu.edu
+//Slightly modified by W.Landgraf to support MSIE 4.x
+
+b_name = navigator.appName;
+b_version = parseFloat(navigator.appVersion);
+
+if (b_name == "Netscape" && b_version < 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Netscape" && b_version == 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Netscape" && b_version >= 3.0)
+        {
+        is_ok = 'true';
+        }
+else if (b_name == "Microsoft Internet Explorer" && b_version <= 2.0)
+        {
+        is_ok = 'false';
+        }
+else if (b_name == "Microsoft Internet Explorer" && b_version >= 3.0)
+        {
+        is_ok = 'true';
+        }
+else
+        {
+        is_ok = 'false';
+        }
+
+if (is_ok== 'true') {
+    standard = new MakeArray(16)
+    over = new MakeArray(16)
+    click = new MakeArray(16)
+    words = new MakeArray(16)
+
+    standard[1].src = "part00-1.gif"
+    standard[2].src = "part01-1.gif"
+    standard[3].src = "part02-1.gif"
+    standard[4].src = "part03-1.gif"
+    standard[5].src = "part04-1.gif"
+    standard[6].src = "part05-1.gif"
+    standard[7].src = "part06-1.gif"
+    standard[8].src = "part07-1.gif"
+    standard[9].src = "part08-1.gif"
+    standard[10].src = "part09-1.gif"
+    standard[11].src = "part10-1.gif"
+    standard[12].src = "part11-1.gif"
+    standard[13].src = "part12-1.gif"
+    standard[14].src = "part13-1.gif"
+    standard[15].src = "part14-1.gif"
+    standard[16].src = "part15-1.gif"
+
+    over[1].src = "part00-2.gif"
+    over[2].src = "part01-2.gif"
+    over[3].src = "part02-2.gif"
+    over[4].src = "part03-2.gif"
+    over[5].src = "part04-2.gif"
+    over[6].src = "part05-2.gif"
+    over[7].src = "part06-2.gif"
+    over[8].src = "part07-2.gif"
+    over[9].src = "part08-2.gif"
+    over[10].src = "part09-2.gif"
+    over[11].src = "part10-2.gif"
+    over[12].src = "part11-2.gif"
+    over[13].src = "part12-2.gif"
+    over[14].src = "part13-2.gif"
+    over[15].src = "part14-2.gif"
+    over[16].src = "part15-2.gif"
+
+    click[1].src = "part00-3.gif"
+    click[2].src = "part01-3.gif"
+    click[3].src = "part02-3.gif"
+    click[4].src = "part03-3.gif"
+    click[5].src = "part04-3.gif"
+    click[6].src = "part05-3.gif"
+    click[7].src = "part06-3.gif"
+    click[8].src = "part07-3.gif"
+    click[9].src = "part08-3.gif"
+    click[10].src = "part09-3.gif"
+    click[11].src = "part10-3.gif"
+    click[12].src = "part11-3.gif"
+    click[13].src = "part12-3.gif"
+    click[14].src = "part13-3.gif"
+    click[15].src = "part14-3.gif"
+    click[16].src = "part15-3.gif"
+
+    words[1] = "Tips Start"
+    words[2] = "Tips Part 1"
+    words[3] = "Tips Part 2"
+    words[4] = "Tips Part 3"
+    words[5] = "Tips Part 4"
+    words[6] = "Tips Part 5"
+    words[7] = "Tips Part 6"
+    words[8] = "Tips Part 7"
+    words[9] = "Tips Part 8"
+    words[10] = "Tips Part 9"
+    words[11] = "Tips Part 10"
+    words[12] = "Tips Part 11"
+    words[13] = "Tips Part 12"
+    words[14] = "Tips Part 13"
+    words[15] = "Tips Part 14"
+    words[16] = "Tips Part 15"
+}
+
+    function MakeArray(n) {
+      this.length = n
+      for (var i = 1; i<=n; i++) {
+        this[i] = new Image()
+        }
+      return this
+    }
+    function msover(num) {
+      if (is_ok== 'true') {
+        if (over[num].src != "") {
+          document.images[num-1].src = over[num].src
+          window.status = words[num]
+        }
+      }
+    }
+
+    function msout(num) {
+      if (is_ok== 'true') {
+        if (standard[num].src != ""){
+          document.images[num-1].src = standard[num].src
+          window.status = ' '
+        }
+      }
+    }
+
+    function msclk(num) {
+      if (is_ok== 'true') {
+        if (click[num].src != ""){
+          document.images[num-1].src = click[num].src
+        }
+      }
+    }
+
+
+// -->
+</script>
+<TITLE>Menu</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF" BACKGROUND="backgr02.gif">
+<TABLE><TR><TD ALIGN=CENTER>
+<a href="tips0.htm" "#" target="tips-main" onmouseover="msover(1) ; return true" onmouseout="msout(1)" ;
+onClick="msclk(1) ; return true">
+<img border=0 src="part00-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips1.htm" "#" target="tips-main" onmouseover="msover(2) ; return true" onmouseout="msout(2)" ;
+onClick="msclk(2) ; return true">
+<img border=0 src="part01-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips2.htm" "#" target="tips-main" onmouseover="msover(3) ; return true" onmouseout="msout(3)" ;
+onClick="msclk(3) ; return true">
+<img border=0 src="part02-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips3.htm" "#" target="tips-main" onmouseover="msover(4) ; return true" onmouseout="msout(4)" ;
+onClick="msclk(4) ; return true">
+<img border=0 src="part03-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips4.htm" "#" target="tips-main" onmouseover="msover(5) ; return true" onmouseout="msout(5)" ;
+onClick="msclk(5) ; return true">
+<img border=0 src="part04-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips5.htm" "#" target="tips-main" onmouseover="msover(6) ; return true" onmouseout="msout(6)" ;
+onClick="msclk(6) ; return true">
+<img border=0 src="part05-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips6.htm" "#" target="tips-main" onmouseover="msover(7) ; return true" onmouseout="msout(7)" ;
+onClick="msclk(7) ; return true">
+<img border=0 src="part06-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips7.htm" "#" target="tips-main" onmouseover="msover(8) ; return true" onmouseout="msout(8)" ;
+onClick="msclk(8) ; return true">
+<img border=0 src="part07-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips8.htm" "#" target="tips-main" onmouseover="msover(9) ; return true" onmouseout="msout(9)" ;
+onClick="msclk(9) ; return true">
+<img border=0 src="part08-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips9.htm" "#" target="tips-main" onmouseover="msover(10) ; return true" onmouseout="msout(10)" ;
+onClick="msclk(10) ; return true">
+<img border=0 src="part09-1.gif" HSPACE=1 VSPACE=3></a><BR>
+
+<a href="tips10.htm" "#" target="tips-main" onmouseover="msover(11) ; return true" onmouseout="msout(11)" ;
+onClick="msclk(11) ; return true">
+<img border=0 src="part10-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips11.htm" "#" target="tips-main" onmouseover="msover(12) ; return true" onmouseout="msout(12)" ;
+onClick="msclk(12) ; return true">
+<img border=0 src="part11-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips12.htm" "#" target="tips-main" onmouseover="msover(13) ; return true" onmouseout="msout(13)" ;
+onClick="msclk(13) ; return true">
+<img border=0 src="part12-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips13.htm" "#" target="tips-main" onmouseover="msover(14) ; return true" onmouseout="msout(14)" ;
+onClick="msclk(14) ; return true">
+<img border=0 src="part13-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips14.htm" "#" target="tips-main" onmouseover="msover(15) ; return true" onmouseout="msout(15)" ;
+onClick="msclk(15) ; return true">
+<img border=0 src="part14-1.gif" HSPACE=1 VSPACE=3></a><BR>
+<a href="tips15.htm" "#" target="tips-main" onmouseover="msover(16) ; return true" onmouseout="msout(16)" ;
+onClick="msclk(16) ; return true">
+<img border=0 src="part15-1.gif" HSPACE=1 VSPACE=3></a><BR>
+</TD></TR></TABLE>
+</BODY>
+</HTML>

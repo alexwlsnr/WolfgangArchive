@@ -1,0 +1,29 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+awjsmngold10#$@main#$@0#$@0#$@10#$@10#$@5#$@#$@0#$@1000#$@0#$@arial,helvetica,times new roman#$@12#$@0#$@0#$@0#$@000000#$@5#$@0#$@1#$@5#$@1#$@progid:DXImageTransform.Microsoft.Stretch(duration=0.5,stretchStyle=push)#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Scenario 1#$@#$@main#$@105#$@20#$@s1_off.gif#$@s1_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@0#$@
+i1#$@i0#$@Intro#$@#$@main#$@105#$@20#$@intro_off.gif#$@intro_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i2#$@i0#$@Heroes#$@#$@main#$@105#$@20#$@hero_off.gif#$@hero_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i3#$@i0#$@Enemies#$@#$@main#$@105#$@20#$@enem_off.gif#$@enem_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i4#$@#$@Scenario 2#$@#$@main#$@105#$@20#$@s2_off.gif#$@s2_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@0#$@
+i5#$@i4#$@Intro#$@#$@main#$@105#$@20#$@intro_off.gif#$@intro_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i6#$@i4#$@Heroes#$@#$@main#$@105#$@20#$@hero_off.gif#$@hero_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i7#$@i4#$@Enemies#$@#$@main#$@105#$@20#$@enem_off.gif#$@enem_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i8#$@#$@Scenario 3#$@#$@main#$@105#$@20#$@s3_off.gif#$@s3_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@0#$@
+i9#$@i8#$@Intro#$@#$@main#$@105#$@20#$@intro_off.gif#$@intro_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i10#$@i8#$@Heroes#$@#$@main#$@105#$@20#$@hero_off.gif#$@hero_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i11#$@i8#$@Enemies#$@#$@main#$@105#$@20#$@enem_off.gif#$@enem_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@1#$@
+i12#$@#$@Premium Disk#$@#$@main#$@105#$@20#$@prem_off.gif#$@prem_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@0#$@
+i13#$@#$@Midi Music#$@#$@main#$@105#$@20#$@midi_off.gif#$@midi_on.gif#$@B79493#$@804040#$@000000#$@FFFFFF#$@#$@0#$@
+</Item_Parameters>

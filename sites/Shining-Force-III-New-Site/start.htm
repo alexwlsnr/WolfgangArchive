@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<title>Home of Shining Force III</title>
+	<link rel="STYLESHEET" type="text/css" href="sf.css">
+<script language=javascript1.2>
+var ns4=document.layers
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+//Drag und Drop Funktion fuer NS 4//
+var dragswitch=0
+var nsx
+var nsy
+var nstemp
+function drag_drop_ns(name){
+if (!ns4)
+return
+temp=eval(name)
+temp.captureEvents(Event.MOUSEDOWN | Event.MOUSEUP)
+temp.onmousedown=gons
+temp.onmousemove=dragns
+temp.onmouseup=stopns
+}
+function gons(e){
+temp.captureEvents(Event.MOUSEMOVE)
+nsx=e.x
+nsy=e.y
+}
+function dragns(e){
+if (dragswitch==1){
+temp.moveBy(e.x-nsx,e.y-nsy)
+return false
+}
+}
+function stopns(){
+temp.releaseEvents(Event.MOUSEMOVE)
+}
+
+//Drag und Drop Funktion fuer ie4+ und NS6//
+function drag_drop(e){
+if (ie4&&dragapproved){
+crossobj.style.left=tempx+event.clientX-offsetx
+crossobj.style.top=tempy+event.clientY-offsety
+return false
+}
+else if (ns6&&dragapproved){
+crossobj.style.left=tempx+e.clientX-offsetx
+crossobj.style.top=tempy+e.clientY-offsety
+return false
+}
+}
+function initializiere_drag(e){
+crossobj=ns6? document.getElementById("einepopupbox") : document.all.einepopupbox
+var firedobj=ns6? e.target : event.srcElement
+var topelement=ns6? "HTML" : "BODY"
+while (firedobj.tagName!=topelement&&firedobj.id!="dragbar"){
+firedobj=ns6? firedobj.parentNode : firedobj.parentElement
+}
+if (firedobj.id=="dragbar"){
+offsetx=ie4? event.clientX : e.clientX
+offsety=ie4? event.clientY : e.clientY
+tempx=parseInt(crossobj.style.left)
+tempy=parseInt(crossobj.style.top)
+dragapproved=true
+document.onmousemove=drag_drop
+}
+}
+document.onmousedown=initializiere_drag
+document.onmouseup=new Function("dragapproved=false")
+//Drag und Drop Funktionen enden hier//
+function box_weg(){
+if (ie4||ns6)
+crossobj.style.visibility="hidden"
+else if (ns4)
+document.einepopupbox.visibility="hide"
+}
+</script>
+</head>
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow: -moz-scrollbars-vertical; overflow-x: 'hidden'; overflow-y: 'auto';" bgcolor="#002080" BACKGROUND="design/blues2.gif" onload="if(parent.frames[0]&&parent.frames['main'].Go)parent.frames['main'].Go();">
+
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+<tr><td background="design/rl.gif" width="7"><img src="design/space.gif" width=7 alt="" border="0"></td>
+<td valign=top>
+<table border=0 cellpadding=0 cellspacing=0 width=770>
+<tr><td class=s1 colspan=2><img src="design/space.gif" width=1 height=20 alt="" border="0"><br><span class="header1">The  &quot;Home of Shining Force III&quot; site welcomes you!</span></td></tr>
+<tr><td class=s1 width=500><br><p align=justify>These pages were created just for fun and enjoyment as a dedication to one of the best series of strategy based games, the Shining Force series. <br><br>
+First of all, welcome to a site which to open I had to wait since the game Shining Force III hit the RPG scene 5 years ago. Back then I only could publish some intro pictures and face illustrations which I was able to get directly from the Shining Force III CDs for the Sega Saturn. As in 1998 no capable Saturn emulator could be found I had to wait until now to present what was only possible because the GiriGiri emulator was able to fulfill my dream of are nearly complete Tips and Tricks site for <b>Shining Force III</b>.
+<br><br>
+So, what is awaiting you when surfing the site? This time you will find all character faces animated, which, in fact, are the only animated pictures on the pages. Believe me, I tried to make animations of all characters and enemies as you are used to when being familiar with my RPG pages. But this time I had to quit, the job would have been too complex and the opening of the pages would have been delayed approximately until December 2010!!
+<br><br>Nevertheless you will find at least one picture of every enemy in the game, maps of all battles, screenshots of all main events and, what in my oppinion seems to be the best feature, a screenshot of every hidden item in the quest I could find! So enjoy, surf around, even those who played the game over and over might find some clues or secrets.
+<br><br><span class="footer">JAVA-Script code included, enable Java-Script on your browser.<br>Designed for a resolution of 800 x 600 pixels and 65.000 colors. <p>All quoted text, logos, screen shots, and artwork copyright and courtesy Sega and Camelot Soft. Japan.<br><img src="design/space.gif" width=400 height=20 alt="" border="0"></td><td width=250 align=center valign=top class=s1><img src="design/back.gif" width="250" height="384" alt="" border="0" vspace=1>
+</td></tr>
+<tr><td colspan=2 class=s1><p>&copy; 1998, 2003, Wolfgang Landgraf, Germany</td></tr>
+</table>
+</td>
+<td background="design/rr.gif" width="7"><img src="design/space.gif" width=7 alt="" border="0"></td></tr>
+<tr>
+<td background="design/rbl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/rb.gif"><img src="design/space.gif"  height="7" alt="" border="0"></td>
+<td background="design/rbr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table>
+<div id=einepopupbox style="LEFT: 370px; WIDTH: 400px; POSITION: absolute; TOP: 235px">
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td background="design/heroes.gif" width="400" height="240">
+<table cellspacing=0 cellpadding=0 height=100% width="100%" border=0>
+<tr>
+<td valign=bottom>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td background="design/rtl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/rt.gif"><img src="design/space.gif"  height="7" alt="" border="0"></td>
+<td background="design/rtr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/rl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/blues2.gif" valign=bottom class="s1" id=dragbar style="CURSOR: hand"><p>
+<ilayer onselectstart="return false" width="100%">
+<layer onmouseover="dragswitch=1;if (ns4) drag_drop_ns(einepopupbox)" onmouseout=dragswitch=0 width="100%"><b>Drag the faces&nbsp;&nbsp;&nbsp;</b></layer>
+</ilayer>
+</td>
+<td background="design/rr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/rbl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/rb.gif"><img src="design/space.gif"  height="7" alt="" border="0"></td>
+<td background="design/rbr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td valign=bottom align=right>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td background="design/rtl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/rt.gif"><img src="design/space.gif"  height="7" alt="" border="0"></td>
+<td background="design/rtr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/rl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/blues2.gif" class="s1" valign=bottom align=right><a class="map" onclick="box_weg();return false" href="#">&nbsp;&nbsp;&nbsp;Hide the faces&nbsp;&nbsp;&nbsp;</a></td>
+<td background="design/rr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="design/rbl.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+<td background="design/rb.gif"><img src="design/space.gif"  height="7" alt="" border="0"></td>
+<td background="design/rbr.gif" width="7" height="7"><img src="design/space.gif" width="7" height="7" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

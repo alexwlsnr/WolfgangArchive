@@ -1,0 +1,1525 @@
+ ____   _   _   _   _   _   _   _   _   _____
+/  __| | | | | | | | \ | | | | | \ | | |  ___|
+\ \_   | |_| | | | |  \| | | | |  \| | | | __
+ \_ \  |  _  | | | |     | | | |     | | |\  |
+ __\ \ | | | | | | | |\  | | | | |\  | | |_| |
+|____/ |_| |_| |_| |_| \_| |_| |_| \_| |_____|
+      ____   _____   _____   ____   ____
+     |  __| |  _  | |  _  | |  __| |  __|
+     | |_   | | | | | |_| | | |    | |_
+     |  _|  | | | | |    /  | |    |  _|
+     | |    | |_| | | |\ \  | |__  | |__
+     |_|    |_____| |_| \_\ |____| |____|
+             ____________________
+            |                    |
+            | The Sword of Hajya |
+            |____________________|
+          ___\   |           |   /___
+         \    \  |           |  /    /
+         /_____\_|           |_/_____\
+
+Shining Force: The Sword of Hajya is a trademark of Sega of
+America Inc. (C) 1993, 1994 Sega/Sonic Team
+
+--------------------------------------------------------------
+Strategy Guide ver. 1.0 (10-14-98)
+
+by Walter F. Williams III (wildman1981@hotmail.com)
+
+--------------------------------------------------------------
+          Disclaimer
+--------------------------------------------------------------
+Before I begin, I have to do this on each and every one of
+my guides, so pay attention....
+
+This strategy guide is an original work of mine. You are
+allowed to publish this at any Web site that you want, and
+give it to anyone you want. Just make sure that you give credit
+where credit is due. Also, if you want to make any changes to
+it, please e-mail me first. Oh, and one last thing...do not
+(I repeat, do NOT) try to make money off of this for any reason
+or purpose whatsoever.
+
+Okay, with that out of the way, let's get to the good stuff!
+--------------------------------------------------------------
+          Table of Contents
+--------------------------------------------------------------
+I. Combat Tips
+ A. Chapter 1
+  1. Defending Cypress Castle
+  2. Chasing the Thief
+  3. Thames Valley
+  4. Scaling the Mountain
+  5. Dark Mage
+ B. Chapter 2
+  1. The Defense Officer
+  2. A Castle in Ruins
+  3. Gordon
+  4. Portobello
+  5. The Shipyard
+ C. Chapter 3
+  1. Lost at Sea
+  2. Demis Fault
+  3. On the Other Side...
+  4. Assault on Algam
+  5. The Haunted Fortress
+  6. The Underground Caves
+  7. Reunion
+  8. Solo
+ D. Chapter 4
+  1. Getting Closer...
+  2. The Ancient Valley
+  3. The Iom General
+  4. Ghosts of the Past
+  5. The Inner Sanctum
+  6. Resurrection (not yet ready)
+II. Characters
+III. Equipment
+ A. Weapons
+  1. Swords
+  2. Rods
+  3. Axes
+  4. Spears
+  5. Gloves
+  6. Arrows
+ B. Items
+  1. Normal Items
+  2. Ability-Enhancing Items
+  3. Rings
+IV. Enemies
+V. Spells
+ A. Attack Magic
+ B. Heal Magic
+ C. Assist Magic
+VI. Playing the Game
+ A. Controls
+ B. Fighting
+  1. Display
+   a. Combat
+   b. Status
+  2. Moving
+  3. Commands
+   a. After making a move
+   b. Selecting ITM
+   c. Anytime during battle
+ C. Between Battle
+  1. Command Menus
+   a. Main menu
+   b. In camp
+VII. Secrets
+VIII. Revision Information
+IX. Coming Soon
+X. Special Thanks
+--------------------------------------------------------------
+I.        Combat Tips
+--------------------------------------------------------------
+
+************
+Introduction
+************
+
+Prince Nick of Cypress is about to leave on a journey with an
+army of soldiers in an attempt to win back his kingdom from
+the evil Iom empire. Unfortunately, in his previous fight,
+his right hand was turned to stone, so he cannot bring his
+trademark sword, the Sword of Hajya, into battle with him.
+On the advice of his partner, Gyan, he leaves it behind at the
+castle. He puts Princess Mayfair in charge of things while
+he is away. Before he can lower the drawbridge and send his
+army out to combat, possibly for the last time, Dawn, one of
+Cypress' young knights, comes back with an injured young boy
+named Deanna. He tells her to take the boy inside and tend to
+his wounds. Natasha, another of Cypress' warriors, tries to
+talk the Prince out of battle, but he tells her that it is
+unavoidable, and he and his army are off to save the kingdom.
+
+A.        Chapter 1
+
+A few days later, Deanna's wounds have healed. Mayfair puts
+everyone on guard duty. Their top priority is to protect the
+Sword of Hajya at all times. Deanna is named the leader of the
+group. Everyone is working hard, except for Eric, Jaha and Luke.
+They wish that they could have been at the front lines with
+Prince Nick. They see the error of their thoughts when monsters
+invade the castle. Everyone lines up in their defensive post
+in front of the castle.
+
+1.        Defending Cypress Castle
+
+Enemies - 5 Goblins, 2 Scabens, and a Drago Newt
+
+Battle Tips:
+
+* Natasha's Blaze spell is more effective than her regular
+attack, because it is more than twice as powerful, and she
+can use it from a distance.
+* Luke's attack and defense power are very weak at the
+beginning, but when his levels go up, he gets more powerful
+in a hurry.
+* Try to keep everyone's levels relatively equal. When one
+character's level goes up, have that character concentrate on
+defense until everyone else's level goes up. The scoring system
+is balanced so that the weaker characters gain more experience
+for fighting enemies than the strong ones do.
+* Jaha has the lowest HP of the group, but he has the highest
+defense power. Most attacks against him will only do 1 HP of
+damage.
+* Try to make the enemies come to you in this battle, since
+you're on the defensive.
+* The Scabens carry Medical Herbs. They can restore your HP.
+You can pick up items from a monster by killing it.
+* Monks and healers get more experience points for using healing
+items than any other class.
+* Protect Deanna at all times. If he dies, then you've lost the
+battle, and you also lose half of your gold.
+--------------------------------------------------------------
+
+You've driven the enemies out of the area, but you soon realize
+that the attack was a distraction, when someone sneaks into the
+castle and snatches Prince Nick's sword. The party catches a
+glimpse of the thief, but he escapes by ramming a hole into the
+castle wall.
+
+You follow him to an open field. The thief, known as Graham,
+tells a dwarf to hold you off while he makes a break for it.
+
+2.        Chasing the Thief
+
+Enemies - 3 Goblins, 2 Scabens, 2 Drago Newts, 2 Big Bats, and
+a Dwarf
+
+Battle Tips:
+
+* In some scenarios, you may only have to kill a certain enemy
+to win the battle. In this one, you need to kill the Dwarf.
+* Don't stay too close to the river when the Big Bats approach.
+They could surround you and hammer you with attacks if one of
+them puts you to sleep.
+* The Drago Newts use the Blaze spell starting with this battle.
+Try to keep a safe distance when approaching them, and keep your
+HP at 6 or above.
+* Move slowly and stick together so that you don't get surprised
+by the enemy.
+* The Big Bats carry some much-needed Antidotes. They cure you
+of poison.
+--------------------------------------------------------------
+
+After defeating the Dwarf's army, Mayfair tells you that there
+is a village called Thames near the field. Perhaps you could
+get some clues as to where Graham went.
+
+You and Mayfair look around town, but there is nobody in any of
+the houses, save for the weapons dealer and a healer named
+Slade. He tries to run away to avoid interrogation. You manage
+to stop him, but he won't answer any of your questions, because
+he fears that he'll put the lives of the villagers in danger.
+But Mayfair convinces him to join the Shining Force.
+Reluctantly, he joins, and he tells that he last saw Graham
+running toward Albert Cliffs to the north. But first, everybody
+decides to stop for rest and supplies.
+
+Make sure everyone has the following equipment before
+proceeding:
+Deanna - Middle Sword
+Natasha and Slade - Bronze Rod
+Jaha - Hand Axe
+Eric and Dawn - Bronze Lance
+Luke - Leather Glove
+Everyone should have one Medical Herb, except for Luke and Slade, who
+should have two each.
+
+To the north of the small vilage of Thames is the Albert
+Cliffs. Graham was last seen moving toward here. The Iom forces
+have already fortified the mountain, and have spotted Slade
+with the Cypress army, and they begin their assault.
+
+3.        Thames Valley
+
+Enemies - 3 Scabens, 3 Drago Newts, 2 Big Bats, 3 Dwarves, and
+an Iom Knight
+
+Battle Tips:
+
+* Eric and Dawn's lances do not have the same range as Spears,
+but they are more powerful.
+* Natasha learns the Freeze spell at level 4. It is an attack
+spell, like Blaze, but it is more powerful, and it costs her 3
+MP to use.
+* Luke learns Heal level 2 when he reaches level 3. It restores
+the same amount of HP as Heal level 1, but it has a wider range.
+* The Iom Knight is more resistant against magic than other
+enemies. Stick to physical attacks in order to avoid wasting
+magic.
+--------------------------------------------------------------
+
+The team follows Mayfair to Albert Cliffs. They've spotted
+Graham, but he is already halfway up the mountain when they
+arrive, and he is on his way to a cabin to the top of the mountain
+to meet Dark Mage.
+
+4.        Scaling the Mountain
+
+Enemies - Graham (does not fight), 2 Drago Newts, 4 Big Bats, 4
+Dwarves, 2 Iom Knights, 2 Incubuses, and a Death Archer
+
+Battle Tips:
+
+* It will be hard to move around here because of the narrow path.
+Be careful or you might have your path blocked by the enemy.
+* The Death Archer attacks with arrows. While they pack a punch,
+he can only use them to attack from a distance. If you can get in
+close and surround him, he won't be able to use his arrows.
+* Use the Egress spell to return to town and restock your supplies.
+In certain scenarios, you won't be allowed to return to town, so make
+sure you have everything that you need for the next battle.
+* One of the Incubuses holds Protect Milk. It increases your defense
+a few points. Let Natasha drink the Protect Milk.
+* The Death Archer has Power Water. Drinking it will increase your
+attack power. Slade should use the Power Water.
+--------------------------------------------------------------
+
+The Death Archer is dead, so they still have a chance to catch up
+with Graham. But it looks like he is having a little trouble of his
+own. The Dark Mage is holding back on his promise to release the
+villagers of Thames in exchange for the Sword of Hajya. He beats up
+Graham, then snatches the sword from his hands. Mayfair and the
+Cypress Army arrive just in time. She commands Graham to hurry and
+save the villagers.
+
+5.        Dark Mage
+
+Enemies - 5 Iom Knights, 2 Incubuses, 3 Death Archers, a Ratman,
+and Dark Mage
+
+Battle Tips:
+
+* You need to kill the Dark Mage to win the battle and complete
+this chapter.
+* Dark Mage's Blaze level 2 spell can take away 8-10 HP from its
+target, and anyone directly next to him/her. Stay spread out to
+keep damage and casualties to a minimum.
+* Luke learns the Detox spell at level 6. It cures you of poison.
+You shouldn't need to use this spell until later.
+* Ratman holds Cheerful Bread, which increases your maximum HP.
+You should give this to Jaha, since his HP are very low to begin
+with.
+* The treasure chest contains Quick Chicken, which increases your
+agility. Jaha is the best choice for this, but if you already gave
+him the Cheerful Bread, give the Chicken to Dawn.
+--------------------------------------------------------------
+
+Dark Mage has been defeated, but he is not going to give up yet. He
+hands the Sword of Hajya to a gargoyle, then he collapses. The
+gargoyle flies off in the distance near King Emild's castle. Graham
+bursts out of the cabin, takes aim with his crossbow, and fires. The
+arrow hits its mark, and the gargoyle is shot down over the horizon.
+Graham thanks Deanna and crew for helping him save the villagers of
+Thames, and he offers his assistance in finding the Sword of Hajya.
+
+B.        Chapter 2
+
+Graham and company search the area near Emild Castle for any signs
+of the gargoyle and sword, but nothing turns up. Graham thinks that
+somebody beat them to the punch.
+At the other side, there is a quarrel going on between the Emild
+defense officer, and an elf named Chester. The officer places
+Chester under arrest, and then raises the drawbridge, leaving the elf
+trapped. Chester finds out that the defense officer was really an Iom
+dark soldier. Disguised as Emild guards, they would wait for the
+Shining Force to arrive, then they would attack. Unfortunately, they
+messed up. But if they were to destroy the entire Cypress army here,
+then Sir Gordon would forgive them.
+
+1.        The Defense Officer
+
+Enemies - 2 Incubuses, 2 Death Archers, 4 Ratmen, 2 Dark Mages, 2
+Ratwings, and a Dark Soldier
+
+Battle Tips:
+
+* Defeat the Dark Soldier to win the battle.
+* Graham is a good ally to have around. He can attack from a
+distance with his Iron Arrows, and he can move around fairly quickly.
+* Slade learns the Muddle spell at level 7. It confuses a group of
+enemies, causing them to attack each other, or not to attack at all.
+Its use is very limited, because it consumes a good bit of Slade's
+MP, and it doesn't work all the time.
+* Natasha's Blaze spell powers up at level 8. She can now do as much
+damage with it as the Dark Mages.
+--------------------------------------------------------------
+
+Chester is thankful for your help in defeating the Dark Soldier. He
+takes you into the castle to meet King Emild. You look around the
+castle and find a shop.
+
+Pick up the following equipment at Emild Castle:
+Deanna - Long Sword
+Natasha and Slade - Iron Rod
+Jaha - Middle Axe
+Eric and Dawn - Steel Lance
+Luke - Power Glove
+Graham - Steel Arrow
+Everyone should have one Medical Herb, while Luke and Slade should
+each carry two.
+
+Chester takes everyone to see King Emild. When he asks the King for
+the Sword of Hajya, the King shows it to them, and asks Deanna to
+step forward and reclaim it. But suddenly, the King has a change of
+heart, and he decides to keep the Sword for itself, and reveals
+himself as Sir Gordon of Iom. Gordon tells Chester that the real
+King Emild was sacrificed to Iom. Then, using the powers given to
+him by Warderer, he devastates the castle, leaving it in ruins. He
+disappears down a secret tunnel hidden underneath the throne.
+Chester, outraged by the blatant destruction of his castle and the
+murder of his leader, decides to help Deanna defeat Gordon.
+
+2.         A Castle in Ruins
+
+Enemies - 3 Death Archers, a Dark Mage, 2 Ratwings, 5 Dark
+Soldiers, and a Dark Sniper
+
+Battle Tips:
+
+* Graham and Chester's arrows are best used against flying
+creatures, like the Ratwing. The Ratwings suffer close to 20 HP
+damage when hurt by arrows.
+* There's some more Protect Milk in the treasure chest on the
+lower right side. Save this and give it to May when she joins you.
+* The Dark Mages are strong against fire magic, and the Iom
+Knights are strong against ice magic.
+--------------------------------------------------------------
+
+May, the royal sorceress, comes in and tells you that the tunnel
+Gordon used leads to Portobello. She came to rescue the King once
+the castle started crumbling. She knew about King Emild's strange
+behavior, but she didn't know why, until Mayfair told her that
+Iom had killed the real King and Gordon was posing as him. May
+leads the team into the tunnel. It is like a maze, so they have
+to move very carefully. She spots Gordon up ahead, who is about
+to escape to Portobello with the Sword of Hajya.
+
+3.         Gordon
+
+Enemies - a Dark Mage, 2 Ratwings, 2 Dark Soldiers, 2 Dark
+Snipers, a Dark Monk, and Sir Gordon
+
+Battle Tips:
+
+* To win the scenario and recover the Sword of Hajya, Sir Gordon
+has to be killed.
+* Once you've made it past most of the enemies, and are getting
+close to Sir Gordon, he will summon Zombies. They are quite
+strong, and their touch is poisonous. (Now would be a good time
+to start using those Antidotes and Luke's Detox spell.) They
+are undead creatures, and their one weakness is fire.
+* Kill the Dark Monk to get a Power Stick, a weapon that can be
+used by mages and healers. Let Natasha hold this one. You can
+pick up more later in the game.
+* Stay spread out when you get near Gordon. While his Freeze
+level 2 spell isn't much stronger than Blaze level 2, it can
+still be dangerous if your party is clustered.
+* May's Slow spell decreases enemies' defense and agility by 2-4
+points. At level 1 it can slow down a group of enemies, but when
+she reaches level 9, it powers up to level 2, and it works
+more effectively, but only against a single enemy.
+* On the flip side, Slade learns Quick at level 10. It increases
+your allies' defense and agility.
+* Luke learns the Sleep spell at level 10. It puts enemies to
+sleep. All three spells (Slow, Quick, and Sleep) take a good
+amount of MP to cast.
+--------------------------------------------------------------
+
+Gordon has been defeated, and you have finally recovered the
+Sword of Hajya. You can't use it, so you put it away in your
+sheath. With this mission accomplished, Mayfair prepares to
+return to Cypress. Suddenly, the torches go out in the cave, and
+you can hear a dark voice tell you that you haven't won anything.
+Prince Nick's expedition failed, and he is being held hostage.
+Prince Nick of Cypress captive? That can't be right. To find out
+the truth, the voice tells you to go to Portobello. You have no
+idea who this person is, but if all of what you're hearing is
+accurate, then you could have a very long battle ahead of you.
+
+* You get a chance to promote your characters. To promote someone
+to a higher class, that person needs to be at least level 10.
+Before proceeding into the next battle, it is recommended that
+all of your characters be promoted. Here are the characters'
+class changes:
+Deanna becomes a Hero
+Natasha and May become Wizards
+Jaha becomes a Gladiator
+Eric and Dawn become Paladins
+Luke becomes a Master Monk
+Slade becomes a Sabbatarian
+Graham becomes a Bow Knight
+Chester becomes a Sniper
+
+Iom's armies have fortified the port town of Portobello. You need
+to bust through their defenses to reach the Shipyard.
+
+4.        Portobello
+
+Enemies - 2 Ratwings, 2 Dark Snipers, 2 Dark Monks, 2 Zombies, 2
+Skeletons, 2 Pegasus Knights, 2 Brass Rorders, and a Master Mage
+
+Battle Tips:
+
+* From now on, instead of Medical Herbs, everyone should carry
+Healing Seeds. They're more expensive than Medical Herbs, but
+they're more effective in healing the wounds you will receive
+from the enemies in the upcoming battles.
+* If Deanna has an Antidote, pass it to someone else. Since he is
+carrying his weapon, a healing item, and the Prince's Sword of
+Hajya, he needs to have one slot open for collecting items from
+enemies.
+* The Zombies and Skeletons are very resistant against ice magic.
+* The Master Mage's Blaze level 3 spell has a very wide area of
+destruction, and it is powerful enough to kill your characters.
+Be careful how your characters are lined up.
+* Get the Robin Arrow from the first Dark Sniper and give it to
+Graham. It has excellent range, and it is more powerful than the
+Steel Arrow.
+* When fighting an enemy that has powerful magic, such as the
+Master Mage, it is sometimes necessary to sacrifice a few of your
+characters to get him to use up his magic.
+* There's a Quick Ring in the treasure box. It increases your
+agility by 5 points when you wear it. You might want to let Jaha
+have this.
+--------------------------------------------------------------
+
+The Master Mage tells you that the Prince has been captured and
+is being held at Fort Algam. (So that mysterious voice was
+telling the truth...) The only way to reach Algam is by sea, so
+you need to get on a boat. Of course, Iom controls all seafaring
+craft going to and from Portobello, so once again you'll have to
+get rid of them in order to get to the ship.
+
+5.        The Shipyard
+
+Enemies - 2 Dark Snipers, 2 Dark Monks, 2 Zombies, 3 Skeletons,
+3 Pegasus Knights, 2 Brass Rorders, a Master Mage, and an
+Arch Knight
+
+Battle Tips:
+
+* Always take care of any casualties that you might have suffered
+from prevoius battles before going on. It costs 20 gold multiplied
+by the character's current level (plus an extra 200 gold if he/she
+has been promoted).
+* You can find two special weapons on this level. One of the
+treasure chests holds a Battle Axe. Give this weapon to Jaha. The
+Arch Knight has a Power Spear. This should go to Eric.
+* The Running Pimento increases your range of movement by 2
+squares. Have May eat it.
+* Promoted characters have access to the more powerful weapons
+and magic spells. For example, May's Freeze spell powers up to
+level 3 when she becomes a level 2 Wizard. It has a very wide
+area of destruction, and anyone who gets caught in it will suffer
+30-40 HP damage. That's enough to wipe out several enemies.
+* Slade learns Blast at level 2 of his promoted class. It attacks
+an enemy with a gust of wind. It doesn't do much more damage than
+his normal attack, but it's handy to have around.
+* Luke learns Dispel as a level 3 Master Monk. He casts a spell
+which prevents enemies from using their magic against him.
+--------------------------------------------------------------
+
+Mayfair, Deanna, Jaha, Eric, Slade, Chester, and May get aboard
+the ship. They are about to sail out to sea when Sir Randolf and
+Lady Sarah arrive. They were with the Prince's army at Algam, but
+they had lost. Randolf and Sarah managed to avoid being captured,
+along with a birdman named Claude. Randolf suspects something
+wrong, so he tells Mayfair to get off the ship. But it's too late.
+The anchor has already been lifted, and the ship sails out to sea
+on its own, separating the two parties. Deanna's team has no
+idea where they are going, or what caused the ship to sail away
+by itself. What will become of them now?...
+
+C.        Chapter 3
+
+Deanna and company begin to panic as their attempts to take
+control of the ship fail....It appears that they are running out
+of options. Jaha and Eric begin to worry about the others.
+Chester tells them to concentrate on the task at hand. May
+suspects that this could be a trap, to separate them from their
+friends at Portobello. A bishop appears out of a cloud of smoke,
+surprising the team. Yep, May guessed right. It was a trap.
+Now they're drifting aimlessly at sea with no idea when or if
+they're going to reach land. The bishop retreats to the rear of
+the ship, and battle commences once again.
+
+1.        Lost at Sea
+
+Enemies - 2 Ratwings, 4 Pegasus Knights, a Master Mage, an
+Evil Pixie, and a Dark Bishop
+
+Battle Tips:
+* At the beginning of each of the four chapters, people who
+died during combat are automatically resurrected.
+* A lot of flying enemies will appear on this level. They won't
+approach the ship until you move ahead. Be patient, move slowly,
+and wait for them to come to you.
+--------------------------------------------------------------
+
+Claude shows up and tells you that Randolf's group is headed
+toward Algam. Luckily, the ship is headed in thre right
+direction. You should land on the port of Demis any time soon.
+From there, you'll head to Algam Fort.
+
+Demis has some good equipment available. You'll need the
+following weapons before going on:
+Deanna and Claude - Broad Sword
+Jaha - Battle Axe (you should have this already)
+Eric - Chrome Lance
+Slade - Flail
+Chester - Assault Shell
+May - Power Stick
+
+The area near Demis is actively volcanic with many fault lines.
+You need to move carefully. The Iom forces won't make it any
+easier on you.
+
+2.        Demis Fault
+
+Enemies - 2 Arch Knights, 2 Evil Pixies, a Dark Bishop, 2 Lizard
+Men, 2 Dark Rangers, a Worm, and a Sorcerer
+
+Battle Tips:
+
+* The Sorcerer is the leader here. Kill him to win the battle.
+* Claude is the only charcter that can fly. He can move anywhere
+he wants to, and terrain does not affect him.
+* The Worm on this level has a poisonous touch. Sometimes it
+doesn't poison you, but you might want to keep a few Antidotes
+handy just in case.
+--------------------------------------------------------------
+
+Deanna's group has succeeded in defeating the enemy, but their
+victory is short-lived, when the earth opens up and causes them
+to fall into the underground.
+
+Meanwhile, Natasha's group is headed toward Iom. Up ahead is a
+town called Algam, which was built near the fortress of the same
+name. They have to climb a steep hill to get to it safely.
+
+3.        On the Other Side...
+
+Enemies - 2 Skeletons, 2 Pegasus Knights, a Master Mage, 2
+Arch Knights, 1 Dark Bishop, a Dark Sniper, and a Lizard Man
+
+Battle Tips:
+
+* Natasha's the leader of this group. Don't let her get killed.
+* It is hard for centaurs to climb up the vines on these cliffs.
+Dawn, Graham, and Randolf will have a tough time moving around
+here.
+* If you need extra cash, there's a treasure chest worth 500
+gold at the bottom of the cliffs.
+* You can clear the scenario by defeating the Lizard Man.
+--------------------------------------------------------------
+
+Rohde, an inhabitant of the village, thanks you for saving him.
+He and the people of Algam were instructed to build the
+fortress for Iom. They had to keep its weaknesses a secret.
+He joins your party because he has a score to settle with them.
+He takes you into the village for rest.
+
+Algam sells the same supplies as Demis. Make sure everybody has
+the newest equipment.
+Natasha - Power Stick (you should have this already)
+Dawn and Randolf - Chrome Lance
+Luke - Thorn Glove
+Graham - Assault Shell
+Rohde - Battle Axe (enters party equipped)
+
+At the fortress, Rohde tells you its secret: the fort is
+nearly impenetrable from the front, but it's weakest if you
+attack it from above. You overhear a conversation between
+some of the soldiers. They don't seem too happy with King
+Warderer's method of conquering countries just to get blood
+sacrifices. They say it helps him get closer to Iom. They
+mention theat Prince Nick will become the next victim.
+
+4.        Assault on Algam
+
+Enemies - 2 Arch Knights, 2 Dark Rangers, 3 Lizard Men, an
+Evil Pixie, a Dark Bishop, and a Sorcerer
+
+Battle Tips:
+
+* Kill the Sorcerer to get inside the fortress.
+* If you kill the Evil Pixies, more will appear. Don't worry
+about them.
+--------------------------------------------------------------
+
+The Sorcerer mentions that Lord Solo is the keeper of this
+fortress. Natasha's team heads inside.
+
+It's pitch black. There isn't a light in the room, and Lord
+Solo is nowhere to be found. His monsters are somewhere
+within the darkness, but you can't see them, either.
+
+5.        The Haunted Fortress
+
+Enemies - 5 Zombies, 4 Dark Rangers, 2 Sorcerers, 2 Lizard
+Men, 2 Dark Bishops, and a Wight
+
+Battle Tips:
+
+* Look for the Wight in this dark and scary place, then kill
+it.
+* Most of the enemies do not immediately appear. You have to
+search the fortress to open up new areas.
+* There's a Demon Rod in the treasure chests on the left.
+Give it to Natasha, but don't equip it. It's cursed, and if
+you try to attack with it, you'll either lose HP, or not move
+at all.
+* The Protect Ring is to the right, but you have to get past
+a Lizard Man and a Dark Bishop. Natasha should take this, too.
+It increases her defense by 5 points. When used as an item
+during battle, it casts the Quick spell.
+* Luke's Heal spell powers up to level 3 when he becomes a
+level 7 Master Monk. It has excellent range, and it restores
+30 HP.
+--------------------------------------------------------------
+
+After the monsters in the fortress are killed, Sarah tells
+everybody that they have to get to the Algam Plains to meet
+Deanna's group.
+
+Coincidentally, his team is also moving north towards the
+Algam plains. He has to get through the underground caves and
+past a fierce Hawkman.
+
+6.        Underground Caves
+
+Enemies - 4 Worms, 3 Pegasus Knights, 2 Evil Pixies, a
+Sorcerer, a Dark Bishop, and a Hawkman
+
+Battle Tips:
+
+* You need to defeat the Hawkman to find your way out of these
+caves.
+* The Dark Bishop has a Guardian Staff. Give it to Slade.
+* The volcanic eruptions near Demis will cause some of the
+ground to give out. This prevents you from taking shortcuts.
+--------------------------------------------------------------
+
+The tunnel is a dead end, and the Iom army is still pursuing
+them. The voice that Deanna heard at Portobello can be heard
+again here. A light can be seen from the ceiling, and a rope is
+mysteriously lowered. You still don't know who this mystery
+person is, or why you're receiving all this help, but all will
+be revealed when the time is right. For now, you climb out of
+the caves to meet the other group. With everyone reunited, Sarah
+suggests that you set up camp here at Algam Plains to decide
+your next move.
+
+You now have a total of 14 people in your party. You can't go
+into battle with more than 12, so let those who have the most
+experience points sit out for now. Sarah should be in the party,
+since she's the new character. You should also have at least
+one magic user, like Natasha or May.
+
+The Algam Plains is where Prince Nick's army was ambushed. With
+Sarah's help, you won't suffer the same fate. You will, however,
+have to face another Iom battalion. Just north of the plains
+is Iom Castle. Perhaps King Warderer is there....
+
+7.        Reunion
+
+Enemies - 2 Wights, 7 Worms, 2 Hawkmen, a Sorcerer, an Evil
+Cleric, and a Ghoul
+
+Battle Tips:
+
+* The Ghoul leads the pack. Destroy it to move on.
+* The Evil Cleric's Holy Staff will allow it to recover 3 hit
+points after every turn. If you kill it ahead of time, you can
+deny it the chance to recover.
+* There is a lot of forest here on the plains. Your characters
+will have trouble moving quickly, especially the centaurs.
+* Deanna learns his first real magic here - the Bolt spell.
+It strikes a group of enemies with lightning. He first learns
+it at level 6. May learns this spell when she hits level 5.
+* Sarah learns Aura at level 6. It heals several characters.
+--------------------------------------------------------------
+
+At Iom Castle, Barbara is mocking Solo because his forces have
+been decimated by Deanna and the Shining Force. Solo and Barbara
+start fighting, but Warderer steps in to break up the melee.
+Lately Warderer has been doing resurrection experiments with the
+King of Emild, whom he had sacrificed to Iom. The tests had
+proven successful. Warderer also suspects that there is a
+traitor among the Iom ranks. Just as he is about to finger the
+traitor, Barbara spots the Cypress army at the gates of the
+castle. She, Warderer and Sir Hindel retreat to the Shrine,
+while Solo stays to "entertain" the guests.
+
+8.        Solo
+
+Enemies - 2 Ghouls, a Cerberos, 2 Wights, 2 Sorcerers, 2 Bow
+Riders, 2 Hawkmen, a Death Balloon, an Evil Cleric, and Lord Solo
+
+Battle Tips:
+
+* Solo is a very powerful enemy. He knows Bolt level 2, which
+can do lots of damage to your characters. Fortunately for you,
+it takes a lot of magic power for him to use. He is also very
+resistant against your magic, so use regular attacks on him.
+* There are treasure chests littered around this place. The
+Healing Rain is one of the most essential items you will need
+in this game. It completely restores everybody's HP, no matter
+where you are on the battlefield. You'll want to save this for
+the end of the game.
+* If you look near the bottom wall, you'll find Higins, one
+of the secret charcters. He is a very useful ally, because he
+wields the Critical Sword, which increases his chances of
+getting a critical hit on the enemy.
+* If you find the Critical Sword, give it to Deanna. It
+increases his chances of scoring a critical hit.
+* The Heat Axe is a powerful weapon that casts Blaze level 2
+on enemies if you use it as an item. You have to be careful not
+to use it too much, or it'll break. Give this weapon to Rohde.
+* Wearing the Running Ring increases your range of movement by 2
+spaces. Higins should equip it.
+* The Halberd is a special weapon for knights and paladins. Give
+it to Dawn. It casts Bolt level 1 when you use it.
+* The Evil Cleric has a Black Ring. It increases a wizard's
+attack power by 10 points. Give it to May, or to Natasha if she
+is in your party.
+* Watch your step, because the Death Ballons will appear here.
+They won't attack you unless you provoke them. If you foolishly
+try to destroy them yourself, they explode and cause damage to
+your party. They also explode if you are standing within two
+spaces of them at the end of your turn.
+--------------------------------------------------------------
+
+Solo has been defeated. Before he dies, he accuses Deanna of
+betraying the Iom forces. You? A traitor? But you've served the
+Cypress army all this time. You couldn't possibly have anything
+to do with Iom. Or maybe Solo might have been hinting at
+something else....Mayfair tells everybody to go east after King
+Warderer, who has headed toward the Shrine of Iom. We are
+getting close to the final battle between Cypress and Iom....
+
+D.        Chapter 4
+
+Hindel and Barbara are taking the Prince to be sacrificed at the
+Shrine of Iom. Barbara has been told by Warderer himself not to
+take any orders from Hindel, and has been instructed to kill him
+if he tries anything funny. Hindel decides not to argue with
+Barbara, because it could mean the end for him. They go to the
+Shrine together with the Prince, and leave more monsters behind
+to stall you to give them time to reach the Shrine safely.
+
+1.        Getting Closer...
+
+Enemies - 4 Ghouls, 2 Cerberos, 2 Gargoyles, 2 Belials, 2 Evil
+Clerics, a Sorcerer, 4 Golems, and a Minotaur
+
+Battle Tips:
+
+* Just like on the Algam Plains, you will have trouble moving
+around near Iom because of the thick forestation.
+* You have to fight Golems when you've almost defeated all of the
+enemies. They move slowly, but their punches are devastating.
+They also have a high resistance to magic.
+--------------------------------------------------------------
+
+Gyan comes running to you from the small town nearby. Everyone
+is glad to see that he is still alive. He invites them in for some
+rest, but there is little time. They have to get to the Shrine of
+Iom before Barbara and Hindel do.
+
+This is your last chance to stock up on weapons. You should have
+the following before you go:
+Deanna and Higins - Critical Sword
+Natasha and May - Guardian Staff
+Jaha and Rohde - Great Axe
+Eric and Randolf - Chrome Lance
+Dawn - Halberd
+Luke - Iron Claw
+Slade and Sarah - Holy Staff
+Graham and Chester - Great Shot
+Claude - Great Sword
+Gyan doesn't need to use any weapons, so get him a Healing Seed and
+Healing Rain.
+
+Gyan knows of a shortcut in the valley, that will get them to the
+Shrine before Iom. There is an even bigger problem than just merely
+getting there ahead of Iom, because they also have to make it past
+a giant statue.
+
+2.        The Ancient Valley
+
+Enemies - a Gargoyle, a Belial, 2 Brass Gunners, 3 Golems, 2
+Minotaurs, 2 Cerberos, a Demon Master, an Evil Cleric, and the
+Statue of Iom
+
+Battle Tips:
+
+* While it may appear that you have to defeat the Statue of Iom, it
+is really the Demon Master that you're after.
+* Watch the Statue closely. It will start out blue, then turn
+yellow for two turns. After it turns yellow for the second time,
+take cover and stick to the sides. When the Statue's eye turns red,
+it will shoot a blast of light across the valley. Everything within
+its range will get hurt, including enemy characters. They cannot
+get away from the beam as early as you can. This can be used to
+your advantage by luring them into the path of the beam.
+* The Valkyrie spear is the best weapon for paladins. This is best
+used with Dawn when you find it.
+* The Buster shot fires an explosive shot at enemies. Give this to
+Graham when you find it.
+* Don't let the Minotaur get killed by the Iom beam. Instead,
+weaken it enough so that you can kill it, because you can pick up
+the Evil Axe. It's very strong, but cursed. Cursed items go for a
+lot of money in shops.
+* Demon Master's Freeze level 3 is powerful enough to kill one of
+your characters. He can only use it three times, so use the trick
+that you did for the Master Mages.
+* Higins can resist magic better than most characters.
+--------------------------------------------------------------
+
+Looks like the shortcut wasn't so short after all. The last fight
+with the Statue actually ended up delaying you, and Barbara and
+Hindel have already reached the Shrine, and are about to send
+Prince Nick to his imminent death. And just in time, too, because
+their evil deity is restless, and wants a blood sacrifice ---
+yesterday. Warderer and Hindel take the doomed Prince Nick into
+the King's inner sanctum, while Barbara stays behind to take care
+of the Cypress army. Barbara is a trained general. She will not
+be defeated as easily as Gordon or Solo were.
+
+3.        The Iom General
+
+Enemies - 2 Minotaurs, 2 Taros, 2 Chimeras, 2 Dullahans, 2 Brass
+Gunners, a Belial, an Evil Cleric, and Barbara
+
+Battle Tips:
+* Barbara leads the troops guarding the way into the Shrine of
+Evil. Defeat her...if she lets you. Your reward is the Atlas
+Axe, a weapon that casts Blaze level 3. Best used with Rohde.
+* As soon as you start, look in the first pillar to find Rush,
+a friendly samurai. His attack and defense power are very strong,
+and he can resist magic very well.
+* Be very careful when you approach the Taros that's holding the
+Dark Sword. He can use it to cast Desoul on you, and you might
+instantly die. If you pick it up, you can use its powers to help
+you. Don't equip it, though. It's cursed.
+* The Evil Claw is a cursed weapon for Luke.
+* Deanna's Bolt spell powers up to level 2 when he reaches level
+10, allowing him to hit more targets.
+* Sarah's Aura spell powers up to level 2 when she hits level 10,
+allowing her to heal more people.
+* The Chimeras can breathe fire, like the Cerberos at Iom Castle,
+but Chimera Breath takes away about 20 HP.
+--------------------------------------------------------------
+
+You have to hurry to rescue Prince Nick, because the Iom forces
+are still chasing you (don't they ever give up?) Luckily, Ruth,
+one of the Guardiana soldiers, comes to your aid. She takes care
+of the lone sentinel while you and the gang hurry inside.
+
+The inside of the shrine is very large, but for some reason,
+Warderer doesn't have any monsters guarding it. Soon, Mayfair
+hears a familiar voice. It's the ghost of Cypress' former
+ambassador, Walldol. He is not too happy about being left for
+dead a long time ago, and Warderer has brought him back to life
+to take revenge on his former allies.
+
+4.        Ghosts of the Past
+
+4 Dullahans, 4 Assassins, 2 Taros, a Chimera, a Demon Master,
+a Wyvern, an Evil Bishop, and Death Walldol
+
+Battle Tips:
+* Death Walldol had much power when he was living, and now he
+has even more power as a ghost. He can use the Freeze level 3
+spell. He also carries the Shining Sword. While not as strong
+as Freeze, the Shining Sword's spell can still inflict pain. This
+legendary sword can be yours if you send him back to his place.
+* Watch out for the Wyvern. Its ice breath can knock out up to
+27 HP from a character.
+* Evil Bishop knows Aura 3 and Blast 2. Aura 3 can restore 30
+HP to a lot of its allies. But this consumes a lot of his MP,
+so he can only use it a certain number of times.
+* Send people one by one to inflict a small amount of damage on
+Walldol. They'll probably end up getting finished off by Freeze
+3, but you get a chance to revive them later. On the next turn,
+the Evil Bishop will probably use Aura 3 on itself and Walldol,
+restoring 30 HP to each of them. Continue sending people in
+until both of them use up their MP, then go in for the kill.
+You'll end up losing a lot of characters this way, but it's
+easier than sending them in all at once.
+--------------------------------------------------------------
+
+Warderer has discovered that Hindel is the traitor in the Iom
+ranks. Because of him, Barbara, Solo, Gordon, and even Walldol
+were defeated, and the Prince almost escaped. Before punishing
+Hindel for his sin, they still have to worry about sacrificing
+Prince Nick. Time for some more "friendly intervention."
+
+5.        The Inner Sanctum
+
+Enemies - 3 Skull Knghts, a Sentinel, 2 Executioners, a Demon
+Master, 2 Assassins, a Wyvern, an Evil Bishop, and King
+Warderer
+
+Battle Tips:
+
+not available yet
+
+6.        Resurrection
+
+Enemies - Iom (hands and body), Iom Doll (other enemies unknown)
+
+Battle Tips:
+
+not available yet
+
+--------------------------------------------------------------
+II.       Characters
+--------------------------------------------------------------
+
+Deanna (you, the leader)
+Initial Class - SDMN
+Promoted Class - HERO
+Best Equipment - Shining Sword, Quick Ring
+Deanna starts out slow, but when promoted to a HERO, he becomes
+the most powerful defensive character.
+
+Natasha
+Initial Class - MAGE
+Promoted Class - WIZD
+Best Equipment - Guardian Staff, White Ring
+Natasha has good magic abilities, including the Blaze and Freeze
+spells. Her strength is very weak, however.
+
+Jaha
+Initial Class - WARR
+Promoted Class - GLDR
+Best Equipment - Great Axe
+Jaha's defensive abilities are as good as Deanna's, but he is
+also pretty slow.
+
+Eric
+Initial Class - KNTE
+Promoted Class - PLDN
+Best Equipment - Chrome Lance
+Eric can use weapons that attack close or at a distance. He
+can move very far, except in forests and on mountains.
+
+Dawn
+Initial Class - KNTE
+Promoted Class - PLDN
+Best Equipment - Valkyrie
+Dawn has the same advantages and limitiations as Eric, but she
+is better defensively.
+
+Luke
+Initial Class - MONK
+Promoted Class - MSMK
+Best Equipment - Iron Claw
+Luke starts out weak, but he gains attack and defense power
+faster than any character.
+
+Slade
+meet in Thames Village
+Initial Class - HEAL
+Promoted Class - SBRN
+Best Equipment - Holy Staff, Protect Ring
+Slade is good with healing magic, and his power and speed are
+good, but that's about it.
+
+Graham
+joins after fight with Dark Mage
+Initial Class - RANG
+Promoted Class - BWKN
+Best Equipment - Buster Shot
+Graham has the combined abilities of a centaur and an archer.
+He can travel long distances and attack from long range.
+
+Chester
+joins before battle at Emild
+Initial Class - ACHR
+Promoted Class - SNIP
+Best Equipment - Great Shot
+Chester is a good all-around character to have.
+
+May
+joins before the battle with Gordon
+Initial Class - MAGE
+Promoted Class - WIZD
+Best Equipment - Guardian Staff, Black Ring
+May has better magic abilities than Natasha. She learns the
+Desoul spell, which is useful for eliminating an enemy.
+
+Sarah
+joins at the battle on Algam Plains
+Class - SBRN
+Best Equipment - Holy Staff
+Sarah is the best of the healers. She can use the Aura spell,
+which heals several characters at once.
+
+Randolf
+joins Natasha's party
+Class - PLDN
+Best Equipment - Halberd
+Randolf is very powerful, but he is as limited as Eric and
+Dawn.
+
+Claude
+joins Deanna's party before Demis
+Class - SKYW
+Best Equipment - Critical Sword
+Claude is the only character that knows how to fly. Terrain
+does not have any effect on his movement range. He is very
+vulnerable to projectile attacks, though.
+
+Rohde
+joins Natasha's party before the raid on Algam
+Class - GLDR
+Best Equipment - Atlas Axe
+Rohde is slightly quicker than Jaha, but his attacks are a little
+bit weaker.
+
+Rush
+secret character - look in the pillar at the Shrine of Iom
+Class - SMRI
+Best Equipment - Katana
+Rush is an extremely powerful character, and he can resist magic
+very well.
+
+Higins
+secret character - look in the walls of Iom Castle.
+Class - NINJ
+Best Equipment - Critical Sword, Running Ring
+Higins is lightning-quick, and wields the deadly Critical Sword,
+which increases the chance of him getting a criticat hit.
+
+Gyan
+joins your party before the battle at the Ancient Valley
+Class - BSKR
+Gyan has excellent fighting abilities. He uses his punches and
+kicks rather than weapons.
+
+Nick
+joins your party before the final battle
+Class - PRNC
+Best Equipment - Sword of Hajya
+Prince Nick is the must-have character when fighting Iom. His
+legendary Sword of Hajya is the only thing that can hurt Iom.
+
+--------------------------------------------------------------
+III.      Equipment
+--------------------------------------------------------------
+A.        Weapons
+
+1.        Swords
+
+Sword           Attack Power  Effect        Which Class Can Use?
+Short Sword     5                           SDMN, HERO
+Middle Sword    8                           SDMN, HERO
+Long Sword      12                          SDMN, HERO
+Broad Sword     21                          HERO, SKYW
+Critical Sword  26            Critical hit  HERO, SKYW, SMRI, NINJ
+                              % up
+Katana          ?                           SMRI
+Shining Sword   33            Bolt 2        HERO
+Sword of Hajya  ?             Freeze 2      PRNC
+Dark Sword*     35            Desoul 1      HERO
+
+2.        Rods
+
+Rod or Staff    Attack Power  Effect        Which Class Can Use?
+Wooden Rod      3                           MAGE, WIZD, HEAL, SBRN
+Bronze Rod      6                           MAGE, WIZD, HEAL, SBRN
+Iron Rod        9                           MAGE, WIZD, HEAL, SBRN
+Power Stick     12                          MAGE, WIZD, HEAL, SBRN
+Flail           16                          SBRN
+Guardian Staff  20                          WIZD, SBRN
+Holy Staff      24            Recover 3 HP  SBRN
+                              per turn
+Demon Rod*      30            Steals 5 MP   WIZD
+
+3.        Axes
+
+Axe             Attack Power  Effect        Which Class Can Use?
+Short Axe       6                           WARR, GLDR
+Hand Axe        9                           WARR, GLDR
+Middle Axe      14                          WARR, GLDR
+Battle Axe      20                          GLDR
+Heat Axe        22            Blaze 2       GLDR
+Great Axe       28                          GLDR
+Atlas Axe       30            Blaze 3       GLDR
+Evil Axe*       34                          GLDR
+
+4.        Spears
+
+Spear           Attack Power  Effect        Which Class Can Use?
+Spear           6             long range    KNTE, PLDN
+Bronze Lance    9                           KNTE, PLDN
+Steel Lance     13                          KNTE, PLDN
+Power Spear     18            long range    PLDN
+Chrome Lance    22                          PLDN
+Halberd         24                          PLDN
+Valkyrie        28            long range;   PLDN
+                              Bolt 1
+Evil Lance*     35                          PLDN
+
+5.        Gloves
+
+Glove           Attack Power  Effect        Which Class Can Use?
+Leather Glove   5                           MONK, MSMK
+Power Glove     10                          MONK, MSMK
+Thorn Glove     14                          MONK, MSMK
+Iron Claw       18                          MSMK
+Evil Claw*      30                          MSMK
+
+6.        Arrows
+
+Arrow           Attack Power  Effect        Which Class Can Use?
+Iron Arrow      8             long range    RANG, BWKN, ACHR, SNIP
+Steel Arrow     11            long range    RANG, BWKN, ACHR, SNIP
+Robin Arrow     15            great range   BWKN, SNIP
+Assault Shell   19            great range   BWKN, SNIP
+Great Shot      23            great range   BWKN, SNIP
+Buster Shot     26            great range   BWKN, SNIP
+
+* - cursed
+
+B.        Items
+
+1.        Normal Items
+
+Item             Effect
+Medical Herb     Restores 10 HP.
+Healing Seed     Restores 20 HP.
+Healing Rain     Restores everybody's HP completely.
+Antidote         Cures poison.
+Angel Wing       Escapes battle.
+
+2.        Ability-Enhancing Items
+
+Item             Effect
+Power Water      Increases Attack 2-4 points.
+Protect Milk     Increases Defense 2-4 points.
+Quick Chicken    Increases Agility 2-4 points.
+Running Pimento  Increases Movement 2 points.
+Cheerful Bread   Increases Maximum HP 2-4 points.
+
+3.        Rings
+
+Ring             Effect                        Special  Which Class Can Use?
+Protect Ring     Increases Defense 5 points.   Quick 1  all
+Quick Ring       Increases Agility 5 points.            all
+Running Ring     Increases Movement 2 points.           all
+Black Ring       Increases Attack 10 points.   Blaze 2  WIZD
+White Ring       Increases Attack 15 points.            WIZD, SBRN
+
+--------------------------------------------------------------
+IV.       Enemies
+--------------------------------------------------------------
+
+Enemy         HP  MP  Att  Def  Agi  Mov  Equipment       Special   Battles
+Arch Knight   40  0   30   22   14   7    Bronze Lance              10,12-14
+Assassin      48  0   50   37   20   7    Buster Shot               22,23
+Barbara       92  0   55   41   21   6    Atlas Axe                 21
+Belial        41  18  43   33   17   6    none            Bolt 1    19-21
+Big Bat       14  0   13   8    6    6    none            sleep     2-4
+Bow Rider     49  0   33   27   14   7    Assault Shell,            18
+                                          Power Ring
+Brass Gunner  41  0   46   36   17   4    none                      20,21
+Brass Rorder  31  0   27   19   11   4    none                      9,10
+Cerberos      42  0   41   27   17   7    none            fire      18-20
+                                                          breath
+Chimera       50  0   51   35   20   4    none            fire      21,22
+                                                          breath
+Dark Bishop   47  19  29   22   13   5    Power Stick     Heal 3    11-16
+Dark Mage     36  8   15   10   11   5    Wooden Rod      Blaze 2   5-8
+Dark Monk     32  9   24   16   12   5    Power Stick     Heal 2    8-10
+Dark Ranger   49  0   33   27   14   7    Assault Shell             12,14,15
+Dark Sniper   31  0   25   20   13   5    Steel Arrow               6-10
+Dark Sniper   31  0   30   23   13   5    Steel Arrow,              13
+                                          Power Ring
+Dark Soldier  33  0   20   13   13   4    Hand Axe                  6-8
+Death Archer  32  0   18   10   10   5    Wooden Arrow              4-7
+Death Balloon 49  0   0    21   11   2    none            explode   18
+Death Walldol 116 70  57   41   21   6    none            Freeze 3  22
+Demon Master  71  32  43   32   19   6    none            Freeze 3  20-23
+Drago Newt    15  0   12   7    7    5    Middle Axe                1
+Drago Newt    15  5   12   7    7    5    Middle Axe      Blaze 1   2-4
+Dullahan      48  0   49   35   19   6    Broad Sword               21,22
+Dwarf         18  0   14   8    7    4    Hand Axe                  2-4
+Evil Bishop   65  61  43   36   19   4    Holy Staff      Aura 3,   22,23
+                                                          Blast 2
+Evil Cleric   52  40  35   29   16   5    Holy Staff      Heal 4,   17-21
+                                                          Blast 1
+Evil Pixie    36  8   28   20   14   6    none            Blaze 2   11,12,14
+Executioner   ??  ??  ??   ??   ??   ??   Battle Axe                23
+Gargoyle      47  0   42   30   16   6    none                      19,20
+Ghoul         66  0   42   25   18   6    none            poison    17-19
+Goblin        9   0   10   6    4    5    Short Sword               1,2
+Gordon        46  30  28   20   14   7    Guardian Staff  Freeze 2  8
+Hawkman       56  0   40   27   17   7    Bronze Lance              16-18
+Incubus       21  3   15   10   9    6    none            Blaze 1   4-6
+Iom Knight    27  0   15   10   9    7    Bronze Lance              3-5
+Lizard Man    46  0   33   22   15   6    Middle Axe                12-15
+Master Mage   43  17  26   19   13   5    Guardian Staff  Blaze 3   9-11,13
+Minotaur      60  0   46   33   19   5    Battle Axe                19-21
+Pegasus       28  0   25   20   13   7    Bronze Lance              9-11,13
+ Knight
+Pegasus       28  0   31   20   13   7    Bronze Lance,             16
+ Knight                                   Power Ring
+Ratman        18  0   16   13   8    5    Middle Sword              5,6
+Ratwing       29  0   19   16   12   7    none            sleep     6-9
+Ratwing       29  0   26   21   12   7    Power Ring,     sleep     11
+                                          Protect Ring
+Scaben        13  0   11   6    6    5    Middle Sword              1-3
+Sentinel      ??  ??  ??   ??   ??   ??   Battle Axe                23
+Skeleton      30  0   26   20   12   6    Middle Sword              9,10,13
+Skull Knight  ??  ??  ??   ??   ??   ??   Broad Sword               23
+Solo          65  51  48   35   19   6    Guardian Staff  Bolt 2    18
+Sorcerer      64  27  30   23   13   5    none            Freeze 2  12,14-19
+Statue of Iom 80  ??  0    35   17   0    none            beam of   20
+                                                          fire
+Taros         52  0   51   35   20   4    Battle Axe                21,22
+Warderer      ??  99  ??   ??   ??   ??   none            Bolt 3    23
+Wight         50  0   39   30   17   6    Middle Sword              15,17,18
+Worm          48  0   33   20   16   4    none            poison    12,16,17
+Zombie        35  0   24   16   11   5    none            poison    8-10
+Zombie        35  0   29   25   13   5    Power Ring      poison    15
+--------------------------------------------------------------
+V.        Spells
+--------------------------------------------------------------
+
+A.        Attack Magic
+
+Spell     Effect              MP  Range  Field  Who can use?
+Blaze 1   Small flame         2   2      1      Natasha
+Blaze 2   Fire rain           5   2      2      Natasha 8
+Blaze 3   Large fire rain     8   3      3      Natasha 7!
+Blaze 4
+Freeze 1  Small ice crystals  3   2      1      Natasha 4
+Freeze 2  Deep freeze         7   2      2      Natasha 3!,
+                                                May
+Freeze 3  Blizzard            10  3      3      May 2!
+Freeze 4
+Bolt 1    Lightning bolt      8   2      2      Deanna 6!,
+                                                May 5!
+Bolt 2    Powerful lightning  15  3      3      Deanna 10!,
+                                                May 10!
+Bolt 3    Electric storm      20  3      3
+Bolt 4
+Blast 1   Gust of wind        2   2      1      Slade 2!
+Blast 2   Wind blast          5   2      2      Sarah
+Blast 3
+Blast 4
+Sarah     Effect like Blaze 3 8   2      2      Higins 8!
+Randolf   Effect like Bolt 2  15  3      3      Higins 10!
+
+B.        Heal Magic
+
+Spell     Effect              MP  Range  Field  Who can use?
+Heal 1    Restores 15 HP      3   1      1      Luke
+Heal 2    Restores 15 HP      5   2      1      Luke 3,
+                                                Slade
+Heal 3    Restores 30 HP      10  3      1      Luke 7!,
+                                                Slade 7!,
+                                                Sarah
+Heal 4
+Aura 1    Restores 15 HP      7   2      2      Sarah 6!
+Aura 2    Restores 15 HP      11  3      3      Sarah 10!
+Aura 3    Restores 30 HP
+Aura 4    Restores all HP         all    all
+Detox     Cures poison        3   1      1      Luke 6
+
+C.        Assist Magic
+
+Spell     Effect              MP  Range  Field  Who can use?
+Quick 1   Raises Agi and Def  16  3      3      Slade 10
+Quick 2
+Slow 1    Lowers enemy's Agi  15  3      3      May
+          and Def
+Slow 2    Lowers enemy's Agi  15  3      1      May 9
+          and Def
+Sleep 1   Puts enemy to sleep 16  3      3      Luke 10
+Sleep 2
+Muddle 1  Confuses enemy      10  3      3      Slade 7
+Muddle 2  Confuses enemy      10  3      1      Slade 4!
+Dispel 1  Silences enemy      6   3      2      Luke 3!
+Dispel 2
+Desoul 1  Instantly kills     12  3      2      May 8!
+          enemy
+Desoul 2
+
+No number next to a character's name means that he/she starts out
+with that spell.
+! means that you need to be promoted to use that spell.
+-------------------------------------------------------------
+VI.       Playing the Game
+-------------------------------------------------------------
+A.        Controls
+
+Direction Pad - moves the selected character.
+Button 1 - selects a command.
+Button 2 - cancels a command.
+Start - removes the status bar.
+
+B.        Fighting
+
+Most of Shining Force: The Sword of Hajya is combat-oriented.
+You can see all of your characters on the screen, as well as
+the enemies that you are up against.
+
+1.        Displays
+ a.        Combat
+
+L.E. (Land Effect) - This shows how much the terrain will hinder
+your mobility. You will have more trouble walking through thick
+grass than on a soft dirt road.
+Name - The selected character's name.
+HP - The left number shows your current life force, and the right
+number shows your maximum life force. If you or a monster has 100
+HP or more, this number will be replaced by a ??. You lose
+HP as you take damage from enemies. If your character reaches zero
+HP, then he/she is exhausted and cannot fight anymore.
+MP - This shows how much magic power you have. Certain classes
+cannot use magic. If your MP run low, then you can't cast any magic
+spells.
+
+ b.        Status
+
+Name - The character's name.
+Class - The character's class (see section on Characters for details).
+Level - Current experience level.
+EXP - Your character's skill points. You gain points by fighting
+enemies and using healing items. When your EXP reaches 100, your Level
+increases by one.
+HP - Life force.
+MP - Magic power.
+ATT - Attack strength.
+DEF - Defensive ability.
+AGI - Agility.
+MOV - Range of movement.
+ITEM - Shows what items your character has. You can hold up to four.
+Equipped weapons are designated by a bracket.
+MAGIC - Shows what spells your character knows. The number next to the
+spell shows the maximum level of that spell.
+
+You can also check the status of your enemy by pressing button 2 when
+your turn comes next, and then moving the cursor onto an enemy.
+
+2.        Moving
+
+This is a turn-based strategy RPG. Players move in order of the
+highest agility rating. The cursor will move around to the
+character whose turn comes next. The flashing squares around him/her
+shows where that character can move. When you have moved to where
+you want to go, press button 1 to bring up the command menu.
+
+3.        Command Menu
+ a.        After making a move
+
+BAT - Attacks an enemy within range of your weapon.
+ITM - Brings up the Item Command Menu.
+MGC - Casts a magic spell.
+STY - Ends that character's turn without doing anything.
+CHK - Opens up a treasure chest (when facing one).
+
+ b.        Selecting ITM
+
+USE - Uses an item.
+EQP - Equips a weapon or ring.
+GIV - Gives an item to a character next to you. This will cost you
+one turn.
+DRP - Discards an item. Dropped items can never be recovered, so
+you must be absolutely sure you want to get rid of it.
+
+ c.        Anytime during battle
+
+To bring up the Game Menu, press button 2 when your character is
+highlighted, then move the cursor to a blank spot on the map.
+
+STT - Checks the status of any character in battle
+MSG - Turns on or off the message bars during fights.
+SPD - Sets the speed of the scrolling text.
+QIT - Stops the game at that point. Everything will be saved exactly as-is.
+
+C.        Between Battles
+
+After fighting a certain amount of battles, you get an opportunity to
+save your game, shop at towns, and promote characters.
+
+1.        Command Menus
+ a.        Main Menu
+
+CAMP - Goes to the Shining Force base.
+SHOP - Goes to the town's shop.
+EXIT - Leaves town and enters the next battle.
+
+ b.        In Camp
+
+RAS - Resurrects a defeated character. It costs 20 gold x the character's
+level to revive him/her (plus an extra 200 gold if said character has
+been promoted).
+CUR - Cures a character of poison, or lifts a curse placed on him/her.
+PRM - Once a character has gained a level of 10, then he/she can be
+promoted to the next class. The promoted characters gain access to the
+more powerful weapons and spells.
+SAV - Saves your game.
+
+ c.        Shopping
+
+BUY - Purchases an item at the shop.
+SEL - Sells back items at 75% of the purchasing price.
+DLS - Lets you buy back weapons that you might not have wanted
+to sell.
+FIX - Fixes a broken weapon. Weapons break if they are used too
+many times in battle.
+-------------------------------------------------------------
+VII.      Secrets
+-------------------------------------------------------------
+If you skipped ahead to this section without reading the rest
+of it or actually playing the game, then shame on you! Otherwise,
+take a look at a few of the secrets that this Game Gear cart has
+to offer.
+
+* Name Change - Start a new game, and after naming your character,
+hold the Start button while moving the cursor to END. This will allow
+you to change the names of everybody on the Shining Force team,
+including Prince Nick and Gyan.
+
+* Enhanced Mode - At the Sega screen, press Down on the Direction
+pad five times. The word "EXCELENT" will appear on the Shining
+Force title screen. I don't know what this means yet, or what
+it does...
+
+* Mime Show Ticket - In the battle with the Dark Mage, look in the
+well to find a ticket to the mime show.
+--------------------------------------------------------------
+VIII.     Revision Information
+--------------------------------------------------------------
+Version 1.0 - October 14, 1998
+ = first edition of the strategy guide, which shows you how to
+beat most of the areas (except for the last two; I'm still working
+on these).
+--------------------------------------------------------------
+IX.       Coming Soon
+--------------------------------------------------------------
+ - I am still trying to figure out how to beat the last two
+areas of the game. If you can give me some pointers, please
+send me e-mail, and you will be credited for it.
+ - Does anybody know the significance of the "EXCELENT" mode
+or the ticket to the mime show?
+
+--------------------------------------------------------------
+X.        Special Thanks
+--------------------------------------------------------------
+Special thanks to:
+
+Bruce Clemens (bclemens@vbimail.champlain.edu) on how to find
+the two secret characters, Rush and Higins.
+
+Sega of America on the Shining Force series.

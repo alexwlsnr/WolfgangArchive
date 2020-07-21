@@ -1,0 +1,998 @@
+<HTML>
+<HEAD>
+<TITLE>Town of Argonia Dragon Quest 8 The Journey of the Cursed King</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+var ebenenref, aktdiv, i, max=16;
+
+function ZeigeEbene(Nr)
+{
+aktdiv=0;
+for (i=1; i<=max; i++)
+{
+ebenenref="ebene"+i;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (i==Nr)
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (i==Nr)
+{
+document.layers[ebenenref].visibility="visible";
+}
+else
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (i==Nr)
+{
+document.all[ebenenref].style.visibility="visible";
+}
+else
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+}
+
+function VersteckeEbene(Nr)
+{
+ebenenref="ebene"+Nr;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (Nr!=aktdiv)
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (Nr!=aktdiv)
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (Nr!=aktdiv)
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+      <!--
+
+      if (document.layers)
+      {
+      var startbreite = window.innerWidth;
+      var starthoehe = window.innerHeight;
+      }
+
+      function StylesLost()
+      {
+      if (document.layers && window.innerWidth != startbreite
+       || window.innerHeight != starthoehe)
+      {
+      location.reload();
+      }
+      }
+
+      //-->
+      </SCRIPT>
+
+
+</HEAD>
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+
+<DIV ID="ebene16" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_out_item1.png" width="200" height="100" alt="" border="0"><br>
+<img src="../../pictures/design/tc.png" width="200" height="5" alt="" border="0"><br>
+<b>&nbsp;Bazaar Item Shop 1 (outside)</b><br>
+<img src="../../pictures/design/bc.png" width="200" height="5" alt="" border="0"><br>
+<img src="../../pictures/towns/ar_baz_in_item1.png" width="200" height="100" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Item Shop 1 (inside)</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/bunny_tail.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Bunny Tail</td>
+<td align=right>50</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/gold_bracer.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Gold Bracer</td>
+<td align=right>350</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/gold_ring.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Gold Ring</td>
+<td align=right>2,000</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/tough_guy_tattoo.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Tough Guy Tattoo</td>
+<td align=right>2,400</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/scholars_specs.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Scholar's Specs</td>
+<td align=right>2,700</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/ruby_o_protection.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Ruby of Protection</td>
+<td align=right>3,100</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene15" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_out_item2.png" width="200" height="100" alt="" border="0"><br>
+<img src="../../pictures/design/tc.png" width="200" height="5" alt="" border="0"><br>
+<b>&nbsp;Bazaar Item Shop 2 (outside)</b><br>
+<img src="../../pictures/design/bc.png" width="200" height="5" alt="" border="0"><br>
+<img src="../../pictures/towns/ar_baz_in_item2.png" width="200" height="100" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Item Shop 2 (inside)</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/rennet_powder.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Rennet Powder</td>
+<td align=right>10</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/fresh_milk.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Fresh Milk</td>
+<td align=right>30</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/red_mould.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Red Mould</td>
+<td align=right>30</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/waterweed_mould.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Waterweed Mould</td>
+<td align=right>35</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene14" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_out_ygd.png" width="200" height="100" alt="" border="0"><br>
+<img src="../../pictures/design/tc.png" width="200" height="5" alt="" border="0"><br>
+<b>&nbsp;Bazaar Yggdrasil Leafs (outside)</b><br>
+<img src="../../pictures/design/bc.png" width="200" height="5" alt="" border="0"><br>
+<img src="../../pictures/towns/ar_baz_in_ygd.png" width="200" height="100" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Yggdrasil Leafs (inside)</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/yggdrasil_leaf.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Yggdrasil Leaf</td>
+<td align=right>1,000</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene13" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_out_weap.png" width="200" height="100" alt="" border="0"><br>
+<img src="../../pictures/design/tc.png" width="200" height="5" alt="" border="0"><br>
+<b>&nbsp;Bazaar Weapon Shop (outside)</b><br>
+<img src="../../pictures/design/bc.png" width="200" height="5" alt="" border="0"><br>
+<img src="../../pictures/towns/ar_baz_in_weap.png" width="200" height="100" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Weapon Shop (inside)</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/chain_whip.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Chain Whip</td>
+<td align=right>2,200</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/razor_wing_boomerang.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Razor Wing Boomerang</td>
+<td align=right>3,800</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/zombiesbane.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Zombiesbane</td>
+<td align=right>6,300</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/war_hammer.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>War Hammer</td>
+<td align=right>6,700</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/falcon_knife.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Falcon Knife</td>
+<td align=right>7,700</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene12" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_out_arm.png" width="200" height="100" alt="" border="0"><br>
+<img src="../../pictures/design/tc.png" width="200" height="5" alt="" border="0"><br>
+<b>&nbsp;Bazaar Armour Shop (outside)</b><br>
+<img src="../../pictures/design/bc.png" width="200" height="5" alt="" border="0"><br>
+<img src="../../pictures/towns/ar_baz_in_arm.png" width="200" height="100" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Armour Shop (inside)</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/heavy_armour.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Heavy Armour</td>
+<td align=right>5,000</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/silk_bustier.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Silk Bustier</td>
+<td align=right>5,500</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/magic_armour.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Magic Armour</td>
+<td align=right>6,100</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/magic_shield.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Magic Shield</td>
+<td align=right>5,000</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/magical_hat.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Magical Hat</td>
+<td align=right>2,700</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/iron_mask.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Iron Mask</td>
+<td align=right>3,500</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene11" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_baz_peddler.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Bazaar Peddler</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/medicinal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Medicinal Herb</td>
+<td align=right>8</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/antidotal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Antidotal Herb</td>
+<td align=right>10</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/holy_water.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Holy Water</td>
+<td align=right>20</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/chimaera_wing.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Chimaera Wing</td>
+<td align=right>25</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/prayer_ring.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Prayer Ring</td>
+<td align=right>9,000</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene10" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_chan_house.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Chancellor's House</b>
+<table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/plain_cheese.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Plain Cheese</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/magic_water.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Magic Water</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene9" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_in_bazaar.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Argonia Indoor Bazaar</b>
+<table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/leather_cape.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Leather Cape</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Mini Medal (later)</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/seed_of_magic.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Seed of Magic (later)</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene8" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_h2.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">House next to Church</b>
+<table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/strong_antidote.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Strong Antidote</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/hairband.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Hairband</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene7" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_h1.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">House next to Town Entrance</b>
+<table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Mini Medal (outside)</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/cool_cheese.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Cool Cheese</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/turban.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Turban</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene6" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_inn.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Argonia Inn</b><br>
+&nbsp;&nbsp;Offers day and overnight service<br>
+&nbsp;&nbsp;Price: 20 coins / person
+<br><table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/gold_icon.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>38 Gold</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/strong_medicine.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Strong Medicine</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/mini_medal.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Mini Medal</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/wayfarers_clothes.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Wayfarer's Clothes</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_item.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Argonia Item Shop</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Item</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/medicinal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Medicinal Herb</td>
+<td align=right>8</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/antidotal_herb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Antidotal Herb</td>
+<td align=right>10</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/holy_water.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Holy Water</td>
+<td align=right>20</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/chimaera_wing.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Chimaera Wing</td>
+<td align=right>25</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/moonwort_bulb.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Moonwort Bulb</td>
+<td align=right>30</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_armour.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Argonia Weapon / Armour Shop</b>
+<table width=200 border=0>
+<tr>
+<td colspan=2><b>Weapon / Armour</b></td>
+<td align=right><b>Gold</b></td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/battle_axe.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Battle-Axe</td>
+<td align=right>4,300</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/partisan.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Partisan</td>
+<td align=right>4,400</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/silver_mail.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Silver Mail</td>
+<td align=right>4,300</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/magic_vestment.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Magic Vestment</td>
+<td align=right>4,400</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/light_shield.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Light Shield</td>
+<td align=right>2,250</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/silver_tiara.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Silver Tiara</td>
+<td align=right>1,450</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_castle.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Castle of Argonia</b><br>
+&nbsp;<b class="indent">What's to be done:</b>
+<li> Meet King Clavius
+<li> Find Prince Charmles
+<li> Get the Magical Mirror
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_church.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">Offers the following services:</b>
+<li> Confession (Save)
+<li> Divination
+<li> Resurrection
+<li> Purification
+<li> Benediction
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 320px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td background="../../pictures/design/tl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/tr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td><img src="../../pictures/towns/ar_h3.png" width="200" height="150" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/ml.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/back_01.png"><b class="indent">House near Weapon Shop<br>
+<table width=200 border=0>
+<tr>
+<td><img src="../../pictures/items/gold_icon.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>80 Gold</td>
+</tr>
+<tr>
+<td><img src="../../pictures/items/rennet_powder.png" width="25" height="22" alt="" border="0" hspace=5></td>
+<td>Rennet Powder</td>
+</tr>
+</table>
+</td>
+<td background="../../pictures/design/mr.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../../pictures/design/bl.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/br.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+</div>
+<div id=fix>
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+<tr><td colspan=2><span class="header">Town of Argonia</span></td></tr>
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="524" height="5" alt="" border="0"></td></tr>
+</table>
+</div>
+<div id=scroll>
+<table border=0 cellspacing=5 cellpadding=0>
+<tr><td><img src="../../pictures/design/space.gif" width="310" height="37" alt="" border="0"></td></tr>
+<tr>
+<td><img src="../../pictures/towns/argonia_map.png" width="278" height="207" alt="" border="0" usemap="#argonia"><map name="argonia">
+<area alt="" coords="160,48,179,68" href="#" OnMouseOver="ZeigeEbene(11)" OnMouseOut="VersteckeEbene(11)" onfocus="this.blur()"><!--Bazaar Peddlar-->
+<area alt="" coords="128,53,146,73" href="#" OnMouseOver="ZeigeEbene(12)" OnMouseOut="VersteckeEbene(12)" onfocus="this.blur()"><!--Bazaar Armoury-->
+<area alt="" coords="108,66,127,84" href="#" OnMouseOver="ZeigeEbene(13)" OnMouseOut="VersteckeEbene(13)" onfocus="this.blur()"><!--Bazaar Weapon-->
+<area alt="" coords="31,88,68,113" href="ar_bazaar.htm" OnMouseOver="ZeigeEbene(9)" OnMouseOut="VersteckeEbene(9)" onfocus="this.blur()"><!--Bazaar-->
+<area alt="" coords="84,141,105,162" href="#" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()"><!--Church-->
+<area alt="" coords="180,54,206,81" href="ar_chan.htm" OnMouseOver="ZeigeEbene(10)" OnMouseOut="VersteckeEbene(10)" onfocus="this.blur()"><!--Chancellor's House-->
+<area alt="" coords="185,88,210,108" href="ar_inn.htm" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)" onfocus="this.blur()"><!--Inn-->
+<area alt="" coords="147,66,158,78" href="ar_h3.htm" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()"><!--House 3-->
+<area alt="" coords="126,131,151,154" href="ar_h2.htm" OnMouseOver="ZeigeEbene(8)" OnMouseOut="VersteckeEbene(8)" onfocus="this.blur()"><!--House 2-->
+<area alt="" coords="151,162,175,137" href="ar_h1.htm" OnMouseOver="ZeigeEbene(7)" OnMouseOut="VersteckeEbene(7)" onfocus="this.blur()"><!--House 1-->
+<area alt="" coords="127,116,148,130" href="#" OnMouseOver="ZeigeEbene(14)" OnMouseOut="VersteckeEbene(14)" onfocus="this.blur()"><!--Bazaar Yggdrasil-->
+<area alt="" shape="poly" coords="58,19,58,81,104,80,104,64,124,64,125,24,72,24,72,15,58,15" href="../locations/ar_castle_index.htm" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()"><!--Castle-->
+<area alt="" coords="92,94,112,109" href="#" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()"><!--Item-->
+<area alt="" coords="82,109,102,128" href="#" OnMouseOver="ZeigeEbene(15)" OnMouseOut="VersteckeEbene(15)" onfocus="this.blur()"><!--Bazaar Item 2-->
+<area alt="" coords="142,91,160,108" href="#" OnMouseOver="ZeigeEbene(16)" OnMouseOut="VersteckeEbene(16)" onfocus="this.blur()"><!--Bazaar Item 1-->
+<area alt="" shape="poly" coords="149,78,176,78,176,83,184,83,184,100,160,100,160,89,148,89" href="ar_arm.htm" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()"><!--Weapons-->
+</map>
+</td>
+</tr>
+<tr><td>
+<table border=0 width=524>
+<tr><td width=278>
+Argonia is the hometown of Princess Medea's fiance Prince Charmles. Various events will happen here and you will visit this town often to buy rare items once the Argonian Bazaar has opened.<br><br>The Argonian Kingdom has to do will the hero, too, but this will be revealed very much later during your quest.<br><br></td>
+<td>&nbsp;</td>
+</tr>
+<tr><td colspan=2>Use the map above for more information. A mouseover reveals the obvious while a mouseclick may show even more information about the chosen house or location (Spoilers included). Keep in mind that not all mouseover active areas are clickable, too.</td></tr>
+</table>
+</td></tr>
+</table>
+</div>
+
+
+</BODY>
+</HTML>

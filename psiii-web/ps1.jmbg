@@ -1,0 +1,83 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+ps02#$@info#$@0#$@1#$@92#$@67#$@0#$@#$@0#$@1500#$@2#$@arial,helvetica,times new roman#$@10#$@0#$@0#$@1#$@63ADBD#$@0#$@30#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Site Info#$@#$@info#$@55#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i1#$@i0#$@Startpage#$@start.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i2#$@i0#$@News#$@site/news.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i3#$@i0#$@Credits#$@site/credits.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i4#$@i0#$@Sitemap#$@site/map.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i5#$@i0#$@Contact#$@site/contact.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i6#$@i0#$@Main Menu#$@../choose.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i7#$@#$@Planets#$@#$@info#$@50#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i8#$@i7#$@Palm#$@planets/palm.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i9#$@i7#$@Mota#$@planets/mota.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i10#$@i7#$@Dezo#$@planets/dezo.htm#$@info#$@80#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i11#$@#$@Towns#$@#$@info#$@50#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i12#$@i11#$@Arima#$@towns/arima.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i13#$@i11#$@Aukba#$@towns/aukba.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i14#$@i11#$@Kueri#$@towns/kueri.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i15#$@i11#$@Oputa#$@towns/oputa.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i16#$@i11#$@Paseo#$@towns/paseo.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i17#$@i11#$@Piata#$@towns/piata.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i18#$@i11#$@Ryuon#$@towns/ryuon.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i19#$@i11#$@Zema#$@towns/zema.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i20#$@i11#$@Zosa#$@towns/zosa.htm#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i21#$@#$@Items#$@#$@info#$@40#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i22#$@i21#$@Body Protection#$@items/body_prot.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i23#$@i21#$@Combat Clothes#$@items/clothes.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i24#$@i21#$@Footgear#$@items/footgear.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i25#$@i21#$@Headgear#$@items/headgear.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i26#$@i21#$@Important Items#$@items/important.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i27#$@i21#$@Medicine#$@items/healing.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i28#$@i21#$@Ocarina Pipes#$@items/pipes.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i29#$@i21#$@Weapons#$@items/weapons.htm#$@info#$@100#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i30#$@#$@Enemies#$@#$@info#$@60#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i31#$@i30#$@Enemies A-B#$@enemies/a_b.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i32#$@i30#$@Enemies C-E#$@enemies/c_e.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i33#$@i30#$@Enemies F-G#$@enemies/f_g.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i34#$@i30#$@Enemies H-K#$@enemies/h_k.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i35#$@i30#$@Enemies L-M#$@enemies/l_m.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i36#$@i30#$@Enemies O-P#$@enemies/o_p.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i37#$@i30#$@Enemies R-S#$@enemies/r_s.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i38#$@i30#$@Enemies T-W#$@enemies/t_w.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i39#$@i30#$@Bosses#$@enemies/bosses.htm#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i40#$@#$@Mota Places#$@#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i41#$@i40#$@Shure#$@dungeons/dungeon01.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i42#$@i40#$@Nido Tower#$@dungeons/dungeon02.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i43#$@i40#$@Biosystem Lab#$@dungeons/dungeon03.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i44#$@i40#$@Roron Tower#$@dungeons/dungeon04.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i45#$@i40#$@Uzo Island#$@dungeons/dungeon05.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i46#$@i40#$@Climatrol#$@dungeons/dungeon06.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i47#$@i40#$@Control Tower#$@dungeons/dungeon07.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i48#$@i40#$@Red Dam#$@dungeons/dungeon08.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i49#$@i40#$@Yellow Dam#$@dungeons/dungeon09.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i50#$@i40#$@Blue Dam#$@dungeons/dungeon10.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i51#$@i40#$@Green Dam#$@dungeons/dungeon11.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i52#$@#$@Dezo Places#$@#$@info#$@90#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i53#$@i52#$@Skue Spaceport#$@dungeons/dungeon12.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i54#$@i52#$@Esper Crevice#$@dungeons/dungeon13.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i55#$@i52#$@Esper Mansion#$@dungeons/dungeon14.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i56#$@i52#$@Menobe Dungeon#$@dungeons/dungeon15.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i57#$@i52#$@Ikuto Dungeon#$@dungeons/dungeon16.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i58#$@i52#$@Guaron Dungeon#$@dungeons/dungeon17.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i59#$@i52#$@Naval Dungeon#$@dungeons/dungeon18.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i60#$@i52#$@Outerspace#$@#$@#$@110#$@20#$@#$@#$@429CAD#$@429CAD#$@E0E0E0#$@E0E0E0#$@#$@1#$@
+i61#$@i52#$@Garia Satellite#$@dungeons/dungeon19.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i62#$@i52#$@Noah Spaceship#$@dungeons/dungeon20.htm#$@info#$@110#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i63#$@#$@And More#$@#$@info#$@65#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@0#$@
+i64#$@i63#$@Heroes#$@characters/heroes.htm#$@info#$@70#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i65#$@i63#$@People#$@characters/people.htm#$@info#$@70#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i66#$@i63#$@Techniques#$@more/techniques.htm#$@info#$@70#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+i67#$@i63#$@Music#$@more/music.htm#$@info#$@70#$@20#$@#$@#$@7BBDCE#$@429CAD#$@000000#$@E0E0E0#$@#$@1#$@
+</Item_Parameters>

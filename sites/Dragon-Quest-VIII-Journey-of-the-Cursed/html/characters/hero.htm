@@ -1,0 +1,272 @@
+<HTML>
+<HEAD>
+<TITLE>The Hero Dragon Quest 8 The Journey of the Cursed King</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+var ebenenref, aktdiv, i, max=3;
+
+function ZeigeEbene(Nr)
+{
+aktdiv=0;
+for (i=1; i<=max; i++)
+{
+ebenenref="ebene"+i;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (i==Nr)
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (i==Nr)
+{
+document.layers[ebenenref].visibility="visible";
+}
+else
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (i==Nr)
+{
+document.all[ebenenref].style.visibility="visible";
+}
+else
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+}
+
+function VersteckeEbene(Nr)
+{
+ebenenref="ebene"+Nr;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (Nr!=aktdiv)
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (Nr!=aktdiv)
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (Nr!=aktdiv)
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+      <!--
+
+      if (document.layers)
+      {
+      var startbreite = window.innerWidth;
+      var starthoehe = window.innerHeight;
+      }
+
+      function StylesLost()
+      {
+      if (document.layers && window.innerWidth != startbreite
+       || window.innerHeight != starthoehe)
+      {
+      location.reload();
+      }
+      }
+
+      //-->
+      </SCRIPT>
+
+
+</HEAD>
+<link rel="STYLESHEET" type="text/css" href="../dq8.css">
+<body style="padding : 0px; margin : 0px; height : 100% ; width : 100% ; overflow-x: 'hidden'; overflow-y: 'auto';" background="../../pictures/design/back_01.png" bgcolor="#313B4D">
+<div id=fix>
+<table border=0 cellspacing=5 cellpadding=0 background="../../pictures/design/back_01.png">
+<tr><td colspan=2><span class="header">The Hero</span>&nbsp;&nbsp;&nbsp;(Text taken from User's Manual)</td></tr>
+<tr><td colspan=2 background="../../pictures/design/bc.png"><img src="../../pictures/design/space.gif" width="680" height="5" alt="" border="0"></td></tr>
+</table>
+</div>
+<div id=scroll>
+<table border=0 cellspacing=5 cellpadding=0 width=680>
+<tr><td><img src="../../pictures/design/space.gif" width="680" height="37" alt="" border="0"></td></tr>
+<tr class="norm">
+<td valign=top><img src="../../pictures/casts/hero_01.png" width="223" height="341" alt="" border="0" align=right>
+A royal guard who had to leave his kinfdom when a curse was placed upon it.<br><br>Through his training as a royal guard, he is proficient with swords, spears, and boomerangs.<br><br>
+
+<table border=0 cellspacing=0 cellpadding=0>
+<tr class="norm">
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/but_m.png" height=23 width=90 align=center><a href="#" onfocus="this.blur()" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Skill Chart</a></td>
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr class="norm"><td colspan=3><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td></tr>
+<tr class="norm">
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/but_m.png" height=23 width=90 align=center><a href="#" onfocus="this.blur()" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)">Special Skills</a></td>
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr class="norm"><td colspan=3><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td></tr>
+<tr class="norm">
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/but_m.png" height=23 width=90 align=center><a href="#" onfocus="this.blur()" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Magic Chart</a></td>
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+<tr class="norm"><td colspan=3><img src="../../pictures/design/space.gif" width="5" height="135" alt="" border="0"></td></tr>
+<tr class="norm">
+<td background="../../pictures/design/but_l.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+<td background="../../pictures/design/but_m.png" height=23 width=90 align=center><a href="yangus.htm" onfocus="this.blur()">Next Character</a></td>
+<td background="../../pictures/design/but_r.png"><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 160px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=1 cellspacing=0 cellpadding=3 background="../../pictures/design/back_01.png" bordercolor="#8F9BA3" width=370>
+<tr>
+<td colspan=10 bgcolor="#3D4B61"><b>Hero's Skill Chart</b>&nbsp;&nbsp;(When does the Hero learn which skill)</td>
+</tr>
+<tr>
+<td>Sword</td><td>Level</td><td>Spear</td><td>Level</td><td>Boomerang</td><td>Level</td><td>Fisticuffs</td><td>Level</td><td>Courage</td><td>Level</td>
+</tr>
+<tr>
+<td>Attack&nbsp;+5</td><td align=right>4</td><td>Attack +5</td><td align=right>3</td><td>Crosscutter Throw</td><td align=right>6</td><td>Attack +5</td><td align=right>4</td><td>Zoom</td><td align=right>8</td>
+</tr>
+<tr>
+<td>Dragon<br>Slash</td><td align=right>9</td><td>Mercurial Thrust</td><td align=right>7</td><td>Attack +5</td><td align=right>12</td><td>Defending Champion</td><td align=right>11</td><td>Tingle</td><td align=right>16</td>
+</tr>
+<tr>
+<td>Flame Slash</td><td align=right>15</td><td>Thunder Thrust</td><td align=right>12</td><td>Power Throw</td><td align=right>18</td><td>Stones Throw</td><td align=right>17</td><td>Holy Protection</td><td align=right>28</td>
+</tr>
+<tr>
+<td>Attack +10</td><td align=right>22</td><td>Attack +10</td><td align=right>18</td><td>Attack +10</td><td align=right>25</td><td>Knuckle Sandwich</td><td align=right>24</td><td>Fizzle</td><td align=right>40</td>
+</tr>
+<tr>
+<td>Metal Slash</td><td align=right>30</td><td>Multithrust</td><td align=right>25</td><td>Firebird Throw</td><td align=right>32</td><td>Attack +20</td><td align=right>33</td><td>Zap</td><td align=right>48</td>
+</tr>
+<tr>
+<td>Critical<br>Hit&nbsp;Up</td><td align=right>40</td><td>Critical<br>Hit&nbsp;Up</td><td align=right>34</td><td>Attack +15</td><td align=right>40</td><td>Thin Air</td><td align=right>42</td><td>Spells cost 75%</td><td align=right>56</td>
+</tr>
+<tr>
+<td>Falcon<br>Slash</td><td align=right>52</td><td>Clean Sweep</td><td align=right>45</td><td>Super Throw</td><td align=right>52</td><td>Critical<br>Hit Up</td><td align=right>52</td><td>Kamikazee</td><td align=right>70</td>
+</tr>
+<tr>
+<td>Attack&nbsp;+25</td><td align=right>66</td><td>Lightning Thrust</td><td align=right>59</td><td>Attack +20</td><td align=right>66</td><td>Multifists</td><td align=right>68</td><td>Omniheal</td><td align=right>82</td>
+</tr>
+<tr>
+<td>Miracle<br>Slash</td><td align=right>82</td><td>Attack +25</td><td align=right>77</td><td>Starburst Throw</td><td align=right>82</td><td>Boulder Toss</td><td align=right>82</td><td>Spells cost 50%</td><td align=right>90</td>
+</tr>
+<tr>
+<td>Gigaslash</td><td align=right>100</td><td>Lightning Storm</td><td align=right>100</td><td>Gigathrow</td><td align=right>100</td><td>Attack +50</td><td align=right>100</td><td>Kazap</td><td align=right>100</td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 205px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=1 cellspacing=0 cellpadding=3 background="../../pictures/design/back_01.png" bordercolor="#8F9BA3" width=480>
+<tr>
+<td colspan=10 bgcolor="#3D4B61"><b>Hero's Special Skills</b>&nbsp;&nbsp;(Ordered by learning)</td>
+</tr>
+<tr>
+<td>Skill</td><td>Cost</td><td align=center>Learned</td>
+</tr>
+<tr>
+<td>Call Team</td><td align=right>10</td><td align=center>Beating Monster Arena Rank E</td>
+</tr>
+<tr>
+<td>Dragon Soul</td><td align=right>64</td><td align=center>Reaching experience level 65</td>
+</tr>
+<tr>
+<td>Gigagash</td><td align=right>10</td><td align=center>Skill of 100 at Sword and Courage</td>
+</tr>
+</table>
+</div>
+
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 205px; Top: 47px; Width: 200px; Height: 200px; Visibility: hidden; Z-Index: 1">
+<table border=1 cellspacing=0 cellpadding=3 background="../../pictures/design/back_01.png" bordercolor="#8F9BA3" width=480>
+<tr>
+<td colspan=10 bgcolor="#3D4B61"><b>Hero's Battle Magic Abilities</b>&nbsp;&nbsp;(Ordered by learning)</td>
+</tr>
+<tr>
+<td>Magic</td><td>Cost</td><td align=center>Learned</td><td rowspan=9><img src="../../pictures/design/space.gif" width="5" height="5" alt="" border="0"></td><td>Magic</td><td>Cost</td><td align=center>Learned</td>
+</tr>
+<tr>
+<td>Heal</td><td align=right>2</td><td align=center>3</td><td>Zoom</td><td align=right>1</td><td align=center>Courage Level 8</td>
+</tr>
+<tr>
+<td>Squelch</td><td align=right>2</td><td align=center>4</td><td>Tingle</td><td align=right>2</td><td  align=center>Courage Level 16</td>
+</tr>
+<tr>
+<td>Evac</td><td align=right>2</td><td align=center>6</td><td>Holy Protection</td><td align=right>4</td><td  align=center>Courage Level 28</td>
+</tr>
+<tr>
+<td>Sizz</td><td align=right>4</td><td align=center>11</td><td>Fizzle</td><td align=right>3</td><td align=center>Courage Level 40</td>
+</tr>
+<tr>
+<td>Sizzle</td><td align=right>6</td><td align=center>20</td><td>Zap</td><td align=right>6</td><td align=center>Courage Level 48</td>
+</tr>
+<tr>
+<td>Fullheal</td><td align=right>6</td><td align=center>27</td><td>Kamikazee</td><td align=right>1</td><td align=center>Courage Level 70</td>
+</tr>
+<tr>
+<td>Zing</td><td align=right>8</td><td align=center>29</td><td>Omniheal</td><td align=right>36</td><td align=center>Courage Level 82</td>
+</tr>
+<tr>
+<td>Kasizzle</td><td align=right>10</td><td align=center>32</td><td>Kazap</td><td align=right>15</td><td align=center>Courage Level 100</td>
+</tr>
+</table>
+</div>
+
+<script type="text/javascript"> 
+<!-- 
+var Farben = new Array("#3D4B61",""); // Hier Zeilenfarben definieren
+for(var i = 0; i < document.getElementsByTagName("tr").length; i++) { 
+
+var x = i % 2; 
+
+if(x == 0) 
+     index = 1; 
+
+else 
+     index = 0; 
+
+document.getElementsByTagName("tr")[i].bgColor = Farben[index];
+} 
+//--> 
+</script>
+
+</BODY>
+</HTML>

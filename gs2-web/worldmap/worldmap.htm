@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<title>Home of the Golden Sun 2</title>
+	<link rel="STYLESHEET" type="text/css" href="../golden_sun.css">
+	<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+var ebenenref, aktdiv, i, max=82;
+
+function ZeigeEbene(Nr)
+{
+aktdiv=0;
+for (i=1; i<=max; i++)
+{
+ebenenref="ebene"+i;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (i==Nr)
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (i==Nr)
+{
+document.layers[ebenenref].visibility="visible";
+}
+else
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (i==Nr)
+{
+document.all[ebenenref].style.visibility="visible";
+}
+else
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+}
+
+function VersteckeEbene(Nr)
+{
+ebenenref="ebene"+Nr;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (Nr!=aktdiv)
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (Nr!=aktdiv)
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (Nr!=aktdiv)
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+      <!--
+
+      if (document.layers)
+      {
+      var startbreite = window.innerWidth;
+      var starthoehe = window.innerHeight;
+      }
+
+      function StylesLost()
+      {
+      if (document.layers && window.innerWidth != startbreite
+       || window.innerHeight != starthoehe)
+      {
+      location.reload();
+      }
+      }
+
+      //-->
+      </SCRIPT>
+</head>
+<BODY TEXT="#000000" bgcolor="#006384" BACKGROUND="../design/back.gif" LINK="#0000FF" VLINK="#808080" ALINK="#00CEFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" OnResize="StylesLost()">
+
+<table border=0 cellpadding=0 cellspacing=0 width=780>
+<tr><td valign=top class=s1><img src="../design/space.gif" width=400 height=5 alt="" border="0"><br><br><span class="header1">Worldmap</span></td></tr>
+<tr><td class=s1><p align=justify><br>Move your mouse over the map and a magnify glas will appear if a special location is found! <br>Nearly all locations of &quot;<b>Golden Sun 2 The Lost Age</b>&quot; you find are linked to the corresponding pages. <br>The only exception are Djinn locations and all towns, villages and special locations of the &quot;<b>Golden Sun</b>&quot; adventure.<br><br></td></tr>
+<tr><td><p><table border=1 bordercolor="#4AADD6" cellspacing=0 cellpadding=0>
+<tr><td bgcolor="#4AADD6">&nbsp;<b>The world of Golden Sun</b></td></tr>
+<tr><td bgcolor="#4AADD6"><img src="worldmap.jpg" width="770" height="739" alt="" border="0" usemap="#worldmap"><map name="worldmap">
+<area alt="Northern Ocean" shape="CIRCLE" coords="289,58,44" href="../dungeons/country/north_ocean.htm" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()">
+
+<area alt="Kalt Islet" shape="CIRCLE" coords="289,127,18" href="../sidequest/kelto.htm" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()">
+
+<area alt="Angara Cave" shape="CIRCLE" coords="336,163,19" href="../dungeons/caves/angaria.htm" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()">
+
+<area alt="Loho" shape="circle" coords="296,224,13" href="../towns/robba.htm" target="main" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()">
+
+<area alt="Shaman Village" shape="CIRCLE" coords="196,198,12" href="../towns/shaman_village.htm" target="main" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()">
+
+<area alt="Shaman Cave" shape="CIRCLE" coords="178,214,12" href="../towns/shaman.htm" target="main" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)" onfocus="this.blur()">
+
+<area alt="Venus Djinn Petro" shape="poly" coords="203,168,194,176,199,184,208,192,216,194,221,186" href="#" target="main" OnMouseOver="ZeigeEbene(7)" OnMouseOut="VersteckeEbene(7)" onfocus="this.blur()">
+
+<area alt="Hesperia Village" shape="CIRCLE" coords="97,252,17" href="../sidequest/hisperia.htm" target="main" OnMouseOver="ZeigeEbene(8)" OnMouseOut="VersteckeEbene(8)" onfocus="this.blur()">
+
+<area alt="Jupiter Lighthouse" shape="circle" coords="166,336,18" href="../dungeons/buildings/jupiter_lighthouse.htm" target="main" OnMouseOver="ZeigeEbene(9)" OnMouseOut="VersteckeEbene(9)" onfocus="this.blur()">
+
+<area alt="Contigo Town" shape="CIRCLE" coords="200,370,14" href="../towns/giana.htm" target="main" OnMouseOver="ZeigeEbene(10)" OnMouseOut="VersteckeEbene(10)" onfocus="this.blur()">
+
+<area alt="Mars Djinn Core" shape="circle" coords="172,371,14" href="Mercury Djinn 1" href="#" target="main" OnMouseOver="ZeigeEbene(11)" OnMouseOut="VersteckeEbene(11)" onfocus="this.blur()">
+
+<area alt="Atteka Harbour" shape="CIRCLE" coords="165,413,14" href="../towns/ateka.htm" target="main" OnMouseOver="ZeigeEbene(12)" OnMouseOut="VersteckeEbene(12)" onfocus="this.blur()">
+
+<area alt="Gondowan House" shape="CIRCLE" coords="268,345,14" href="../sidequest/gondowan.htm" target="main" OnMouseOver="ZeigeEbene(13)" OnMouseOut="VersteckeEbene(13)" onfocus="this.blur()">
+
+<area alt="Magma Rock" shape="CIRCLE" coords="297,352,15" href="../dungeons/mountains/magma_rock.htm" target="main" OnMouseOver="ZeigeEbene(14)" OnMouseOut="VersteckeEbene(14)" onfocus="this.blur()">
+
+<area alt="Kibombo" shape="CIRCLE" coords="318,381,14" href="../towns/kimbombo.htm" target="main" OnMouseOver="ZeigeEbene(15)" OnMouseOut="VersteckeEbene(15)" onfocus="this.blur()">
+
+<area alt="Ming Moutains" shape="poly" coords="299,404,318,404,328,413,319,426,306,427,292,418" href="../dungeons/country/ming.htm" target="main" OnMouseOver="ZeigeEbene(16)" OnMouseOut="VersteckeEbene(16)" onfocus="this.blur()">
+
+<area alt="Indra Islet" shape="circle" coords="343,418,12" href="../sidequest/indora_island.htm" target="main" OnMouseOver="ZeigeEbene(17)" OnMouseOut="VersteckeEbene(17)" onfocus="this.blur()">
+
+<area alt="Naribwe Village" shape="CIRCLE" coords="310,468,12" href="../towns/niri.htm" target="main" OnMouseOver="ZeigeEbene(18)" OnMouseOut="VersteckeEbene(18)" onfocus="this.blur()">
+
+<area alt="Mercury Djinn Moose" shape="CIRCLE" coords="294,542,13" href="#" target="main" OnMouseOver="ZeigeEbene(82)" OnMouseOut="VersteckeEbene(82)" onfocus="this.blur()">
+
+<area alt="Indra Gondowan Cliffs" shape="circle" coords="322,511,14" href="../dungeons/country/indra_gondowan.htm" target="main" OnMouseOver="ZeigeEbene(19)" OnMouseOut="VersteckeEbene(19)" onfocus="this.blur()">
+
+<area alt="Atteka Cave" shape="CIRCLE" coords="212,475,16" href="../dungeons/caves/south_peak.htm" target="main" OnMouseOver="ZeigeEbene(20)" OnMouseOut="VersteckeEbene(20)" onfocus="this.blur()">
+
+<area alt="Rusty Weapon" shape="CIRCLE" coords="72,446,16" href="#" target="main" OnMouseOver="ZeigeEbene(21)" OnMouseOut="VersteckeEbene(21)" onfocus="this.blur()">
+
+<area alt="Atteka Islet" shape="poly" coords="80,527,100,527,108,540,92,552,64,561,48,562,49,548" href="../sidequest/west_island.htm" target="main" OnMouseOver="ZeigeEbene(22)" OnMouseOut="VersteckeEbene(22)" onfocus="this.blur()">
+
+<area alt="Venus Djinn Iron" shape="CIRCLE" coords="339,488,14" href="#" target="main" OnMouseOver="ZeigeEbene(23)" OnMouseOut="VersteckeEbene(23)" onfocus="this.blur()">
+
+<area alt="Madra Town" shape="circle" coords="385,508,13" href="../towns/madora.htm" target="main" OnMouseOver="ZeigeEbene(24)" OnMouseOut="VersteckeEbene(24)" onfocus="this.blur()">
+
+<area alt="Osenia Pass" shape="circle" coords="407,516,10" href="../dungeons/country/ocenia_pass.htm" target="main" OnMouseOver="ZeigeEbene(25)" OnMouseOut="VersteckeEbene(25)" onfocus="this.blur()">
+
+<area alt="Alhafra Town" shape="circle" coords="502,495,14" href="../towns/alpura.htm" target="main" OnMouseOver="ZeigeEbene(26)" OnMouseOut="VersteckeEbene(26)" onfocus="this.blur()">
+
+<area alt="Yampi Desert" shape="poly" coords="481,512,509,511,505,530,490,548,478,557,464,557,450,542,461,527,475,523" href="../dungeons/country/yanpi.htm" target="main" OnMouseOver="ZeigeEbene(27)" OnMouseOut="VersteckeEbene(27)" onfocus="this.blur()">
+
+<area alt="Indra Cave" shape="CIRCLE" coords="394,480,12" href="../dungeons/caves/indra.htm" target="main" OnMouseOver="ZeigeEbene(28)" OnMouseOut="VersteckeEbene(28)" onfocus="this.blur()">
+
+<area alt="Lemurian Ship" shape="CIRCLE" coords="423,477,10" href="../dungeons/ship/lemurian.htm" target="main" OnMouseOver="ZeigeEbene(29)" OnMouseOut="VersteckeEbene(29)" onfocus="this.blur()">
+
+<area alt="Dehkan Plateau" coords="391,448,429,466" href="../dungeons/country/dakan.htm" target="main" OnMouseOver="ZeigeEbene(30)" OnMouseOut="VersteckeEbene(30)" onfocus="this.blur()">
+
+<area alt="Kandorea Temple" shape="CIRCLE" coords="385,437,10" href="../towns/kandora.htm" target="main" OnMouseOver="ZeigeEbene(31)" OnMouseOut="VersteckeEbene(31)" onfocus="this.blur()">
+
+<area alt="Shrine of the Seagod" shape="CIRCLE" coords="411,411,14" href="../dungeons/caves/sea_shrine.htm" target="main" OnMouseOver="ZeigeEbene(32)" OnMouseOut="VersteckeEbene(32)" onfocus="this.blur()">
+
+<area alt="Daila Village" shape="CIRCLE" coords="384,414,12" href="../towns/dehli.htm" target="main" OnMouseOver="ZeigeEbene(33)" OnMouseOut="VersteckeEbene(33)" onfocus="this.blur()">
+
+<area alt="Tundaria Tower" shape="circle" coords="336,617,15" href="../dungeons/buildings/south_tower.htm" target="main" OnMouseOver="ZeigeEbene(34)" OnMouseOut="VersteckeEbene(34)" onfocus="this.blur()">
+
+<area alt="Jupiter Djinn Virus" shape="poly" coords="314,637,325,654,307,669,288,670,277,659,287,650" href="#" target="main" OnMouseOver="ZeigeEbene(35)" OnMouseOut="VersteckeEbene(35)" onfocus="this.blur()">
+
+<area alt="Osenia Cave" shape="CIRCLE" coords="497,561,12" href="../dungeons/caves/ocenia.htm" target="main" OnMouseOver="ZeigeEbene(36)" OnMouseOut="VersteckeEbene(36)" onfocus="this.blur()">
+
+<area alt="Mercury Djinn Cherry" shape="CIRCLE" coords="489,583,11" href="#" target="main" OnMouseOver="ZeigeEbene(37)" OnMouseOut="VersteckeEbene(37)" onfocus="this.blur()">
+
+<area alt="Mikasalla Village" shape="CIRCLE" coords="463,594,15" href="../towns/mikasera.htm" target="main" OnMouseOver="ZeigeEbene(38)" OnMouseOut="VersteckeEbene(38)" onfocus="this.blur()">
+
+<area alt="Garoh Village" shape="CIRCLE" coords="534,581,14" href="../towns/popichi.htm" target="main" OnMouseOver="ZeigeEbene(39)" OnMouseOut="VersteckeEbene(39)" onfocus="this.blur()">
+
+<area alt="Air's Rock" shape="CIRCLE" coords="526,549,18" href="../dungeons/mountains/ayers_rock.htm" target="main" OnMouseOver="ZeigeEbene(40)" OnMouseOut="VersteckeEbene(40)" onfocus="this.blur()">
+
+<area alt="Tundarian Islet" shape="CIRCLE" coords="594,673,19" href="../sidequest/southern_island.htm" target="main" OnMouseOver="ZeigeEbene(41)" OnMouseOut="VersteckeEbene(41)" onfocus="this.blur()">
+
+<area alt="Taopo Swamp" shape="CIRCLE" coords="586,575,16" href="../dungeons/caves/doupa.htm" target="main" OnMouseOver="ZeigeEbene(42)" OnMouseOut="VersteckeEbene(42)" onfocus="this.blur()">
+
+<area alt="Yallam Village" shape="CIRCLE" coords="605,518,21" href="../towns/yaramu.htm" target="main" OnMouseOver="ZeigeEbene(43)" OnMouseOut="VersteckeEbene(43)" onfocus="this.blur()">
+
+<area alt="Apo jii Village" shape="CIRCLE" coords="729,419,22" href="../towns/galabas.htm" target="main" OnMouseOver="ZeigeEbene(44)" OnMouseOut="VersteckeEbene(44)" onfocus="this.blur()">
+
+<area alt="Aqua Rock" shape="CIRCLE" coords="702,448,17" href="../dungeons/mountains/aqua_rock.htm" target="main" OnMouseOver="ZeigeEbene(45)" OnMouseOut="VersteckeEbene(45)" onfocus="this.blur()">
+
+<area alt="Sea of Time Islet" shape="CIRCLE" coords="644,357,17" href="../sidequest/turtle_island.htm" target="main" OnMouseOver="ZeigeEbene(46)" OnMouseOut="VersteckeEbene(46)" onfocus="this.blur()">
+
+<area alt="Osenia Islet" shape="circle" coords="507,397,15" href="../sidequest/ocenia_island.htm" target="main" OnMouseOver="ZeigeEbene(47)" OnMouseOut="VersteckeEbene(47)" onfocus="this.blur()">
+
+<area alt="Angara Islet" shape="CIRCLE" coords="501,292,14" href="../sidequest/bird_island.htm" target="main" OnMouseOver="ZeigeEbene(48)" OnMouseOut="VersteckeEbene(48)" onfocus="this.blur()">
+
+<area alt="Lemuria" shape="CIRCLE" coords="561,330,26" href="../towns/lemuria.htm" target="main" OnMouseOver="ZeigeEbene(49)" OnMouseOut="VersteckeEbene(49)" onfocus="this.blur()">
+
+<area alt="Izumo Village" shape="circle" coords="638,248,19" href="../towns/izumo.htm" target="main" OnMouseOver="ZeigeEbene(50)" OnMouseOut="VersteckeEbene(50)" onfocus="this.blur()">
+
+<area alt="Treasure Isle" shape="CIRCLE" coords="576,117,31" href="../dungeons/caves/northern_cave.htm" target="main" OnMouseOver="ZeigeEbene(51)" OnMouseOut="VersteckeEbene(51)" onfocus="this.blur()">
+
+<area alt="Champa Village" shape="CIRCLE" coords="446,260,13" href="../towns/champ.htm" target="main" OnMouseOver="ZeigeEbene(52)" OnMouseOut="VersteckeEbene(52)" onfocus="this.blur()">
+
+<area alt="Ankohl Ruins" shape="CIRCLE" coords="468,243,13" href="../dungeons/buildings/north_tower.htm" target="main" OnMouseOver="ZeigeEbene(53)" OnMouseOut="VersteckeEbene(53)" onfocus="this.blur()">
+
+<area alt="Venus Lighthouse" shape="CIRCLE" coords="391,334,11" href="../dungeons/buildings/venus_lighthouse.htm" target="main" OnMouseOver="ZeigeEbene(54)" OnMouseOut="VersteckeEbene(54)" onfocus="this.blur()">
+
+<area alt="Suhalla Gate" coords="342,337,373,354" href="../dungeons/country/suhalla.htm" target="main" OnMouseOver="ZeigeEbene(55)" OnMouseOut="VersteckeEbene(55)" onfocus="this.blur()">
+
+<area alt="Xian Village" shape="circle" coords="503,242,8" href="#" target="main" OnMouseOver="ZeigeEbene(56)" OnMouseOut="VersteckeEbene(56)" onfocus="this.blur()">
+
+<area alt="Mogall Forest" shape="poly" coords="518,219,531,226,535,249,528,256,516,251,508,223" href="#" target="main" OnMouseOver="ZeigeEbene(57)" OnMouseOut="VersteckeEbene(57)" onfocus="this.blur()">
+
+<area alt="Fuchin Temple" shape="circle" coords="524,210,10" href="#" target="main" OnMouseOver="ZeigeEbene(58)" OnMouseOut="VersteckeEbene(58)" onfocus="this.blur()">
+
+<area alt="Kolima Village" shape="circle" coords="488,185,10" href="#" target="main" OnMouseOver="ZeigeEbene(59)" OnMouseOut="VersteckeEbene(59)" onfocus="this.blur()">
+
+<area alt="Kolima Gate" shape="circle" coords="505,200,11" href="#" target="main" OnMouseOver="ZeigeEbene(60)" OnMouseOut="VersteckeEbene(60)" onfocus="this.blur()">
+
+<area alt="Kolima Forest" shape="poly" coords="448,138,432,159,447,172,462,178,476,173,484,163" href="#" target="main" OnMouseOver="ZeigeEbene(61)" OnMouseOut="VersteckeEbene(61)" onfocus="this.blur()">
+
+<area alt="Bilibin Gate" shape="circle" coords="458,194,9" href="#" target="main" OnMouseOver="ZeigeEbene(62)" OnMouseOut="VersteckeEbene(62)" onfocus="this.blur()">
+
+<area alt="Bilibin Town" shape="CIRCLE" coords="431,180,10" href="#" target="main" OnMouseOver="ZeigeEbene(63)" OnMouseOut="VersteckeEbene(63)" onfocus="this.blur()">
+
+<area alt="Altin Village / Lama Temple" shape="circle" coords="458,217,10" href="#" target="main" OnMouseOver="ZeigeEbene(64)" OnMouseOut="VersteckeEbene(64)" onfocus="this.blur()">
+
+<area alt="Lunpa Village" shape="CIRCLE" coords="376,176,10" href="#" target="main" OnMouseOver="ZeigeEbene(65)" OnMouseOut="VersteckeEbene(65)" onfocus="this.blur()">
+
+<area alt="Lamakan Desert" shape="poly" coords="440,229,450,230,454,240,435,249,426,260,406,267,392,255,392,241,418,229" href="#" target="main" OnMouseOver="ZeigeEbene(66)" OnMouseOut="VersteckeEbene(66)" onfocus="this.blur()">
+
+<area alt="Kolima Town" shape="CIRCLE" coords="354,256,10" href="#" target="main" OnMouseOver="ZeigeEbene(67)" OnMouseOut="VersteckeEbene(67)" onfocus="this.blur()">
+
+<area alt="Kolima Harbour" shape="circle" coords="338,266,8" href="#" target="main" OnMouseOver="ZeigeEbene(68)" OnMouseOut="VersteckeEbene(68)" onfocus="this.blur()">
+
+<area alt="Gondowan Cave" shape="CIRCLE" coords="351,286,12" href="#" target="main" OnMouseOver="ZeigeEbene(69)" OnMouseOut="VersteckeEbene(69)" onfocus="this.blur()">
+
+<area alt="Altmiller Cave" shape="circle" coords="292,246,9" href="#" target="main" OnMouseOver="ZeigeEbene(70)" OnMouseOut="VersteckeEbene(70)" onfocus="this.blur()">
+
+<area alt="Tolbi Town / Harbour" shape="circle" coords="298,271,11" href="#" target="main" OnMouseOver="ZeigeEbene(71)" OnMouseOut="VersteckeEbene(71)" onfocus="this.blur()">
+
+<area alt="Gondowan Gate" shape="circle" coords="301,299,11" href="#" target="main" OnMouseOver="ZeigeEbene(72)" OnMouseOut="VersteckeEbene(72)" onfocus="this.blur()">
+
+<area alt="Suhalla Village" shape="circle" coords="340,311,10" href="#" target="main" OnMouseOver="ZeigeEbene(73)" OnMouseOut="VersteckeEbene(73)" onfocus="this.blur()">
+
+<area alt="Suhalla Desert" shape="poly" coords="352,318,361,321,363,332,357,335,340,335,339,351,336,358,322,356,313,333,316,325,339,322" href="#" target="main" OnMouseOver="ZeigeEbene(74)" OnMouseOut="VersteckeEbene(74)" onfocus="this.blur()">
+
+<area alt="Bilibin Cave" shape="CIRCLE" coords="385,142,12" href="#" target="main" OnMouseOver="ZeigeEbene(75)" OnMouseOut="VersteckeEbene(75)" onfocus="this.blur()">
+
+<area alt="Imil Village" shape="circle" coords="369,117,13" href="#" target="main" OnMouseOver="ZeigeEbene(76)" OnMouseOut="VersteckeEbene(76)" onfocus="this.blur()">
+
+<area alt="Mercury Lighthouse" shape="CIRCLE" coords="387,101,10" href="#" target="main" OnMouseOver="ZeigeEbene(77)" OnMouseOut="VersteckeEbene(77)" onfocus="this.blur()">
+
+<area alt="Vault Village" shape="CIRCLE" coords="370,214,12" href="#" target="main" OnMouseOver="ZeigeEbene(78)" OnMouseOut="VersteckeEbene(78)" onfocus="this.blur()">
+
+<area alt="Vale Village / Mount Aleph" shape="CIRCLE" coords="359,187,11" href="#" target="main" OnMouseOver="ZeigeEbene(79)" OnMouseOut="VersteckeEbene(79)" onfocus="this.blur()">
+
+<area alt="Goma Cave" shape="circle" coords="412,190,10" href="#" target="main" OnMouseOver="ZeigeEbene(80)" OnMouseOut="VersteckeEbene(80)" onfocus="this.blur()">
+
+<area alt="Babi Tower / Lalivero" shape="CIRCLE" coords="391,300,11" href="#" target="main" OnMouseOver="ZeigeEbene(81)" OnMouseOut="VersteckeEbene(81)" onfocus="this.blur()">
+
+</map>
+
+</td></tr></table><br><br>
+
+
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="01.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="02.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="03.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="04.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="05.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene6" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="06.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene7" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="07.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene8" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="08.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene9" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="09.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene10" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="10.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene11" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="11.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene12" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="12.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene13" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="13.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene14" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="14.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene15" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="15.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene16" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="16.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene17" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="17.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene18" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="18.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene19" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="19.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene20" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="20.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene21" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="21.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene22" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="22.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene23" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="23.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene24" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="24.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene25" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="25.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene26" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="26.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene27" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="27.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene28" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="28.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene29" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="29.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene30" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="30.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene31" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="31.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene32" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="32.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene33" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="33.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene34" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="34.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene35" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="35.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene36" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="36.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene37" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="37.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene38" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="38.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene39" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="39.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene40" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="40.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene41" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="41.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene42" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="42.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene43" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="43.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene44" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="44.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene45" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="45.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene46" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="46.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene47" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="47.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene48" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="48.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene49" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="49.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene50" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="50.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene51" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="51.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene52" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="52.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene53" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="53.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene54" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="54.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene55" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="55.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene56" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="56.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene57" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="57.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene58" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="58.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene59" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="59.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene60" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="60.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene61" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="61.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene62" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="62.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene63" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="63.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene64" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="64.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene65" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="65.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene66" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="66.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene67" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="67.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene68" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="68.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene69" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="69.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene70" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="70.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene71" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="71.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene72" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="72.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene73" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="73.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene74" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="74.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene75" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="75.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene76" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="76.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene77" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="77.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene78" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="78.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene79" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="79.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene80" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="80.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene81" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="81.gif" width="238" height="238" alt="" border="0"></div>
+<DIV ID="ebene82" STYLE="Position: absolute; Left: 540px; bottom: 270px; Width: 238px; Height: 238px; Visibility: hidden; Z-Index: 1"><img src="82.gif" width="238" height="238" alt="" border="0"></div>
+</td></tr>
+</table>
+</body>
+</html>

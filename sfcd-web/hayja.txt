@@ -1,0 +1,252 @@
+----------------------------------------------------------------------------
+Missing Animations (Heroes)
+Name	Attack	Block	Magic	P/Att.	P/Block	P/Magic	Profession
+----------------------------------------------------------------------------
+Deanna	ok	ok	xx	ok	ok	ok	Swordman/Hero
+Natasha	ok	ok	ok	ok	ok	ok	Magican/Wizard
+Luke	ok	ok	ok	ok	ok	ok	Monk/Master Monk
+Dawn	ok/ok	ok	xx	ok/ok	ok	xx	Knight/Paladin
+Eric	ok/ok	ok	xx	ok/ok	ok	xx	Knight/Paladin
+Jaha	ok	ok	xx	ok	ok	ok (HA)	Warrior/Gladiator
+Slade	ok	ok	ok	ok	ok	ok	Priest/Vicar (Thames Village
+Graham	ok	ok	xx	ok	ok	xx	Ranger/Bowknight
+Chester	ok	ok	xx	ok	ok	xx	Archer/Sniper
+May	ok	ok	ok	ok	ok	ok	Magican/Wizard
+Randolf	xx	xx	xx	ok/ok	ok	xx	Knight
+Claude	xx	xx	xx	ok	ok	xx	Birdwarrior
+Rhode	xx	xx	xx	ok	ok	ok (HA)	Gladiator
+Sarah	xx	xx	xx	ok	ok	ok	Vicar
+Higins	xx	xx	xx	ok	ok	ok	Shinobi
+Rush	xx	xx	xx	ok	ok	xx	Samurai
+Nick	xx	xx	xx	ok	ok	ok	King
+----------------------------------------------------------------------------
+Name	Attack	Block	Magic	P/Att.	P/Block	P/Magic	Profession
+
+----------------------------------------------------------------------------
+Missing Animations (Enemies)
+Enemy		Status	Icon	Attack	Block	Magic
+----------------------------------------------------------------------------
+Goblin		ok	ok	ok	ok	xx
+Scavenger	ok	ok	ok	ok	xx
+Dragonewt	ok	ok	ok	ok	ok
+Huge Bat	ok	ok	ok	ok	xx
+Dwarf		ok	ok	ok	ok	xx
+Iom Knight	ok	ok	ok	ok	ok
+Incubus		ok	ok	ok	ok	ok
+Death Archer	ok	ok	ok	ok	xx
+Ratman		ok	ok	ok	ok	xx
+Dark Mage	ok	ok	ok	ok	ok
+Ratfly		ok	ok	ok	ok	xx
+Hell Soldier	ok	ok	ok	ok	xx
+Hell Sniper	ok	ok	ok	ok	xx
+Priest		ok	ok	ok	ok	ok
+Zombie		ok	ok	ok	ok	xx
+Gordon		ok	ok	ok	ok	ok
+Brass Loader	ok	ok	ok	ok	xx
+Skeleton	ok	ok	ok	ok	xx
+Pegasus Knight	ok	ok	ok	ok	ok
+Master Mage	ok	ok	ok	ok	ok
+Arch Knight	ok	ok	ok/ok	ok	ok
+Evil Pixie	ok	ok	ok	ok	ok
+Bishop		ok	ok	ok	ok	ok
+Lizardman	ok	ok	ok	ok	ok	(Heat Axe)
+Bowrider	ok	ok	ok	ok	xx
+Worm		ok	ok	ok	ok	xx
+Sorcerer	ok	ok	ok	ok	ok
+Deadly Born	ok	ok	ok	ok	xx
+Hawkman		ok	ok	ok	ok	ok
+Cleric		ok	ok	ok	ok	ok
+Ghoul		ok	ok	ok	ok	xx
+Cerberus	ok	ok	ok	ok	ok	(Flamebreath)
+Death Ballon	ok	ok	ok	ok	xx
+Solo		ok	ok	ok	ok	ok
+Gargyole	ok	ok	ok	ok	ok
+Belial		ok	ok	ok	ok	ok
+Minotaur	ok	ok	ok	ok	ok
+Demon Master	ok	ok	ok	ok	ok
+Brass Gunner	ok	ok	ok	ok	xx
+Iom Statue	ok	ok	ok	xx	xx
+Taros		ok	ok	ok	ok	ok	(Dark Sword)
+Chimera		ok	ok	ok	ok	ok	(Flame Breath)
+Barbara		ok	ok	ok	ok	ok	(Atlas Axe)
+Assassin	ok	ok	ok	ok	xx
+Evil Bishop	ok	ok	ok	ok	ok
+Wyvern		ok	ok	ok	ok	ok	(Ice Breath)
+Dead Woldol	ok	ok	ok	ok	ok	(Light Sword)
+Skull Knight	ok	ok	ok	ok	ok
+Executioner	ok	ok	ok	ok	xx
+Sentinel	ok	ok	ok	ok	xx
+Warderer	ok	ok	ok	ok	ok
+Iom Doll	ok	ok	ok	ok	ok
+Iom Worm	ok	ok	ok	ok	ok
+Iom		ok	ok	ok	ok	ok
+----------------------------------------------------------------------------
+Enemies		Status	Icon	Attack	Block	Magic	Special
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Weapons		Value	Costs	Special
+----------------------------------------------------------------------------
+Long Sword	+12ATK	  350G	--
+Iron Rod	 +9ATK	  240G	--
+Evil Lance	+35ATK	14000G	Cursed!
+Samurai Sword	+28ATK   6000G	for Rush only
+Light Sword	+33ATK	10000G	for Deanna
+Evil Claw	+30ATK	12000G	Cursed!
+
+Battle 1
+2x Medical Herb
+
+Battle 2
+2x Antidote
+2x Medical Herb
+
+Battle 3
+nothing special
+
+Battle 4
+Protect Milk
+Powerful Wine
+
+BATTLE 5
+Cheerful Bread
+Museum Ticket  	(well)
+Quick Chicken	(chest)
+
+Battle 6
+Antidote
+2x Medical Herb
+
+Battle 7
+Protect Milk	(chest)
+
+Battle 8
+Sword of Hajya
+
+Battle 9
+Steel Sword
+Robin Arrow
+Quick Ring 	(chest)
+
+Battle 10
+Running Pimento	(chest left)
+Battle Axe	(chest right)
+Power Spear
+
+Battle 11
+Medical Herb
+
+Battle 12
+nothing special
+
+Battle 13
+500 Gold	(chest)
+
+Battle 14
+nothing special
+
+Battle 15
+Protect Ring	(chest top right)
+Demon Rod	(chest middle left)
+
+Battle 16
+nothing special
+
+Battle 17
+Protect Staff
+
+Battle 18
+Healing Rain	(chest bottom left)
+Heat Axe	(chest top most right)
+800 Gold	(chest top)
+Running Ring	(chest top most left)
+Black Ring
+Halberd		(chest top left)
+Critical Sword	(chest middle left)
+
+Battle 19
+nothing Special
+
+Battle 20
+Buster Shot	(chest left)
+Valkyrie	(chest right)
+
+Battle 21
+10000 Gold	(chest middle right)
+Evil Claw	(chest top right)
+Atlas Axe
+
+Battle 22
+Evil Ring
+6000 Gold 	(chest left)
+Evil Lance 	(chest right)
+Light Sword
+
+Battle 23
+White Ring 	(chest top right)
+
+Battle 24
+Healing Rain
+
+Assassin
+Arch Knight
+Barbara
+Belial
+Bishop
+Bowrider
+Brass Gunner
+Brass Loader
+Cerberus
+Chimera
+Cleric
+-------------
+Dark Mage
+Dead Woldol
+Deadly Born
+Death Archer
+Death Ballon
+Demon Master
+Dragonewt
+Dwarf
+Evil Bishop
+Evil Pixie
+Executioner
+Gargyole
+Ghoul
+Goblin
+Gordon
+--------------
+Hawkman
+Hell Sniper
+Hell Soldier
+Huge Bat
+Incubus
+Iom
+Iom Doll
+Iom Knight
+Iom Statue
+Iom Worm
+Lizardman
+Master Mage
+Minotaur
+---------------
+Pegasus Knight
+Priest
+Ratfly
+Ratman
+Scavenger
+Sentinel
+Skeleton
+Skull Knight
+Solo
+Sorcerer
+Taros
+Warderer
+Worm
+Wyvern
+Zombie
+
+slade	heal	muddle	boost	hell
+may	freeze	slow	bolt	desoul
+sarah	heal	muddle	hell	aura
+higins	katon	raijin

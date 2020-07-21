@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+	<SCRIPT LANGUAGE="JavaScript">
+var image0 = new Image(); image0.src = "../design/dez_off.gif";
+var image1 = new Image(); image1.src = "../design/mot_off.gif";
+var image2 = new Image(); image2.src = "../design/pa_off.gif";
+var image3 = new Image(); image3.src = "../design/sit_off.gif";
+var image4 = new Image(); image4.src = "../design/bk_off.gif";
+</script>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+var ebenenref, aktdiv, i, max=20;
+
+function ZeigeEbene(Nr)
+{
+aktdiv=0;
+for (i=1; i<=max; i++)
+{
+ebenenref="ebene"+i;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (i==Nr)
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (i==Nr)
+{
+document.layers[ebenenref].visibility="visible";
+}
+else
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (i==Nr)
+{
+document.all[ebenenref].style.visibility="visible";
+}
+else
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+}
+
+function VersteckeEbene(Nr)
+{
+ebenenref="ebene"+Nr;
+if (document.getElementById) // IE 5.x und NN 6
+{
+if (Nr!=aktdiv)
+{
+document.getElementById(ebenenref).style.visibility="hidden";
+}
+else
+{
+document.getElementById(ebenenref).style.visibility="visible";
+}
+}
+
+if (document.layers) // NN 4.x
+{
+if (Nr!=aktdiv)
+{
+document.layers[ebenenref].visibility="hidden";
+}
+}
+
+if (document.all && !document.getElementById) // IE 4
+{
+if (Nr!=aktdiv)
+{
+document.all[ebenenref].style.visibility="hidden";
+}
+}
+}
+
+//-->
+</SCRIPT>
+<link rel="STYLESHEET" type="text/css" href="../ps1.css">
+</head>
+
+<body background="../design/back.gif" marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td colspan=2><img src="../design/planets.gif" width="167" height="48" alt="" border="0"></td>
+<td colspan=2 align=right><img src="../design/ps1_mini.gif" width="205" height="60" alt="" border="0" hspace=10 vspace=6></tr>
+<tr>
+<td><img src="../design/space.gif" width="20" height="10" alt="" border="0"></td>
+<td colspan=2 valign=top>
+<table border=0 cellspacing=0 cellpadding=0 background="palma_map.jpg">
+<tr>
+<td background="../design/ftl.gif"><img src="../design/space.gif" width="12" height="10" alt="" border="0"></td>
+<td colspan=2 background="../design/ft.gif"><img src="../design/space.gif" width="378" height="10" alt="" border="0"></td>
+<td background="../design/ftr.gif"><img src="../design/space.gif" width="10" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td background="../design/fl.gif"></td>
+<td colspan=2><img src="../design/space.gif" width="578" height="365" alt="" border="0"></td>
+<td background="../design/fr.gif"></td>
+</tr>
+<tr>
+<td background="../design/bpl.gif"><img src="../design/space.gif" width="12" height="24" alt="" border="0"></td>
+<td background="../design/bpm.gif" width="446"><img src="../design/space.gif" width="446" height="24" alt="" border="0"></td>
+<td background="../design/sign.gif" width="132" align=center><b class=white>PALMA</b></td>
+<td background="../design/bpr.gif"><img src="../design/space.gif" width="10" height="24" alt="" border="0"></td>
+</tr>
+</table>
+</td>
+<td valign=top align=right width=125><br>
+<a href="dezoris.htm" onmouseover="image0.src='../design/dez_on.gif';" onmouseout="image0.src='../design/dez_off.gif';" target="main" onfocus="this.blur()"><img name="image0" src= "../design/dez_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+<a href="motavia.htm" onmouseover="image1.src='../design/mot_on.gif';" onmouseout="image1.src='../design/mot_off.gif';" target="main" onfocus="this.blur()"><img name="image1" src= "../design/mot_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+<a href="palma.htm" onmouseover="image2.src='../design/pa_on.gif';" onmouseout="image2.src='../design/pa_off.gif';" target="main" onfocus="this.blur()"><img name="image2" src= "../design/pa_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+
+<br><br>
+<a href="planets.htm" onmouseover="image4.src='../design/bk_on.gif';" onmouseout="image4.src='../design/bk_off.gif';" target="main" onfocus="this.blur()"><img name="image4" src= "../design/bk_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<a href="../site/sitemap.htm" onmouseover="image3.src='../design/sit_on.gif';" onmouseout="image3.src='../design/sit_off.gif';" target="main" onfocus="this.blur()"><img name="image3" src= "../design/sit_off.gif"; width=120 height=20 alt="" border="0" align=bottom></a>
+<br>
+</td>
+</tr>
+<tr>
+<td><img src="../design/space.gif" width="20" height="3" alt="" border="0"></td>
+<td colspan=3>
+<table border=0 width=600><tr>
+<td valign=top width=150>
+<ul>
+<li><a href="#" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)" onfocus="this.blur()">Camineet</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)" onfocus="this.blur()">Parolit</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)" onfocus="this.blur()">Scion</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)" onfocus="this.blur()">Spaceport</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)" onfocus="this.blur()">Eppi</a></li>
+</ul></td>
+<td valign=top width=150>
+<ul>
+<li><a href="#" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)" onfocus="this.blur()">Gothic</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(7)" OnMouseOut="VersteckeEbene(7)" onfocus="this.blur()">Bortevo</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(8)" OnMouseOut="VersteckeEbene(8)" onfocus="this.blur()">Loar</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(9)" OnMouseOut="VersteckeEbene(9)" onfocus="this.blur()">Abion</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(10)" OnMouseOut="VersteckeEbene(10)" onfocus="this.blur()">Drasgow</a></li>
+</ul></td>
+<td valign=top width=150>
+<ul>
+<li><a href="#" OnMouseOver="ZeigeEbene(11)" OnMouseOut="VersteckeEbene(11)" onfocus="this.blur()">Gothic Prison</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(12)" OnMouseOut="VersteckeEbene(12)" onfocus="this.blur()">Medusa Tower</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(13)" OnMouseOut="VersteckeEbene(13)" onfocus="this.blur()">Lost Island</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(14)" OnMouseOut="VersteckeEbene(14)" onfocus="this.blur()">Great Wall</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(15)" OnMouseOut="VersteckeEbene(15)" onfocus="this.blur()">Baya Malay</a></li>
+</ul></td>
+<td valign=top width=150>
+<ul>
+<li><a href="#" OnMouseOver="ZeigeEbene(16)" OnMouseOut="VersteckeEbene(16)" onfocus="this.blur()">Odin Cave</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(17)" OnMouseOut="VersteckeEbene(17)" onfocus="this.blur()">Naula Cave</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(18)" OnMouseOut="VersteckeEbene(18)" onfocus="this.blur()">Jara Cave</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(19)" OnMouseOut="VersteckeEbene(19)" onfocus="this.blur()">Bortevo/Loar</a></li>
+<li><a href="#" OnMouseOver="ZeigeEbene(20)" OnMouseOut="VersteckeEbene(20)" onfocus="this.blur()">B. Malay Passage</a></li>
+</ul></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><img src="../design/space.gif" width="20" height="3" alt="" border="0"></td>
+<td><img src="../design/space.gif" width="490" height="3" alt="" border="0" hspace=10></td>
+<td><img src="../design/space.gif" width="125" height="3" alt="" border="0"></td>
+<td><img src="../design/space.gif" width="125" height="3" alt="" border="0"></td>
+</tr>
+</table>
+<DIV ID="ebene1" STYLE="Position: absolute; Left: 383px; top: 230px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene2" STYLE="Position: absolute; Left: 350px; top: 255px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene3" STYLE="Position: absolute; Left: 478px; top: 218px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene4" STYLE="Position: absolute; Left: 350px; top: 230px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene5" STYLE="Position: absolute; Left: 402px; top: 362px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene6" STYLE="Position: absolute; Left: 253px; top: 265px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene7" STYLE="Position: absolute; Left: 100px; top: 245px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene8" STYLE="Position: absolute; Left: 327px; top: 160px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene9" STYLE="Position: absolute; Left: 72px; top: 112px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene10" STYLE="Position: absolute; Left: 550px; top: 390px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene11" STYLE="Position: absolute; Left: 245px; top: 365px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene12" STYLE="Position: absolute; Left: 158px; top: 358px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene13" STYLE="Position: absolute; Left: 40px; top: 215px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene14" STYLE="Position: absolute; Left: 490px; top: 170px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene15" STYLE="Position: absolute; Left: 498px; top: 120px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene16" STYLE="Position: absolute; Left: 358px; top: 310px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene17" STYLE="Position: absolute; Left: 460px; top: 90px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene18" STYLE="Position: absolute; Left: 555px; top: 262px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene19" STYLE="Position: absolute; Left: 127px; top: 233px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+<DIV ID="ebene20" STYLE="Position: absolute; Left: 557px; top: 112px; Width: 48px; Height: 48px; Visibility: hidden; Z-Index: 1"><img src="circle1.gif" width="48" height="48" alt="" border="0"></div>
+</body>
+</html>

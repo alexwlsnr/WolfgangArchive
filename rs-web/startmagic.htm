@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+	<TITLE></TITLE>
+      <SCRIPT LANGUAGE = "JavaScript">
+      <!--
+      // You have to set the index value to the index of the image
+      // that should be replaced by the script. E.g if you have 3 images,
+      // before the slideshow image, index has to be set to 3.
+      var delay = 2000;
+      var imgs = new picarray;
+      var index = 2;
+      var count = 19;
+      var i = 1;
+      function picarray() {
+              this[0] = "bless01.gif";
+              this[1] = "dark01.gif";
+              this[2] = "dark02.gif"; 
+              this[3] = "fire01.gif";
+              this[4] = "fire02.gif";
+              this[5] = "freeze01.gif";
+              this[6] = "freeze02.gif";
+              this[7] = "life01.gif";
+              this[8] = "life02.gif";
+              this[9] = "life03.gif";
+              this[10] = "scan01.gif";
+              this[11] = "scan02.gif";
+              this[12] = "scan03.gif";
+              this[13] = "scan04.gif";
+              this[14] = "scan05.gif";
+              this[15] = "silence01.gif";
+              this[16] = "silence02.gif";
+              this[17] = "thunder01.gif";
+              this[18] = "thunder02.gif";
+      }
+      function change() {
+              if (i < count-1) {
+                      i += 1;
+              } else {
+                      i = 0;
+              }
+              document.images[index].src = imgs[i];
+              setTimeout("change()",delay);
+      }
+      // -->
+      </SCRIPT>
+</HEAD>
+<BODY BACKGROUND="backgr02.gif" BGCOLOR="FFFFFF" onLoad="setTimeout('change()',delay);">
+
+<TABLE HEIGHT=100% BORDER=0><TR>
+<TD><CENTER><IMG SRC="start-title.gif" WIDTH=104 HEIGHT=39 BORDER=0><BR>
+<IMG SRC="start-des.gif" WIDTH=104 HEIGHT=78 BORDER=0></CENTER></TD>
+</TR>
+<TR>
+<TD><CENTER><IMG SRC="scan01.gif" WIDTH=84 HEIGHT=140 BORDER=0></CENTER></TD>
+</TR>
+<TR>
+<TD><CENTER><IMG SRC="start-range.gif" WIDTH=104 HEIGHT=39 BORDER=0></CENTER></TD>
+</TR>
+<TR></TABLE>
+
+</BODY>
+</HTML>
+
+
+

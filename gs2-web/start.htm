@@ -1,0 +1,285 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<title>Home of the Golden Sun 2</title>
+	<link rel="STYLESHEET" type="text/css" href="golden_sun.css">
+	
+<script type="text/javascript">
+
+    //<![CDATA[
+
+    <!--
+
+    function scrollerObj(name,initH,initW,heightB,widthB,content,initBg,Bg,speed,initFl){
+
+    //**data**//
+
+    this.name=name;
+
+    this.initH=initH;
+
+    this.initW=initW;
+
+    this.heightB=heightB;
+
+    this.widthB=widthB;
+
+    this.content=content;
+
+    this.initBg=initBg;
+
+    this.Bg=Bg;
+
+    this.iniFl=initFl;
+
+    this.speed=parseInt(speed);
+
+    this.timer = name + "Timer";
+
+    this.elem;
+
+
+
+
+
+    //**methods**//
+
+    this.getElement = getElement;
+
+    this.createLayer=createLayer;
+
+    this.scrollLayer = scrollLayer; 
+
+    this.scrollLoop=scrollLoop;
+
+
+
+    //**initiate methods**//
+
+    this.createLayer();
+
+    this.getElement();
+
+    this.scrollLayer();
+
+    }
+
+
+
+    //**call this method to stop scrolling**//
+
+    function scrollLoop(s){
+
+    this.speed = s;
+
+    }
+
+
+
+    //**pretty obvious**//
+
+    function scrollLayer(){
+
+    if(parseInt(this.elem.style.top)>(this.elem.offsetHeight*(-1))){
+
+        this.elem.style.top = parseInt(this.elem.style.top)-this.speed;
+
+        //alert(parseInt(this.elem.style.top)+"\n"+this.elem.id);
+
+    }
+
+    else {this.elem.style.top = this.initH;}
+
+    }
+
+
+
+    //**get the specific dom-expression**//
+
+    function getElement(){
+
+    if(document.getElementById){
+
+        this.elem = document.getElementById(this.name);
+
+        }
+
+    else if (document.all){
+
+    this.elem = document.all[name];
+
+        }
+
+    else if (document.layers){
+
+    this.elem = document.layers[name];
+
+        }
+
+    }
+
+
+
+    //**pretty obvious - if NS4 - please upgrade to a standard compliant browser**//
+
+    function createLayer(){
+
+    if(document.getElementById || document.all){
+
+    document.write('<div id="layer'+this.name+'" style="position:relative;overflow:hidden;float:'+this.initFl+';background-color:#'+this.initBg+';width:'+this.initW+'px;height:'+this.initH+'px;" onMouseover="'+this.name+'.scrollLoop(0)" onMouseout="'+this.name+'.scrollLoop('+this.speed+')">');
+
+    document.write('<div id="'+this.name+'" style="position:absolute;top:'+this.initH+'px;left:0px;border:0px solid black;width:'+this.widthB+'px;height:'+this.heightB+'px;background-color:#'+this.Bg+'">');
+
+    document.write(this.content);
+
+    document.write('<\/div><\/div>');}
+
+    else if(document.layers){
+
+        document.write('<ilayer name="'+this.name+'" bgcolor="#'+this.Bg+'" width="'+this.widthB+'" height="'+this.heightB+'">'+this.content+'<\/ilayer>');
+
+        return;
+
+    }
+
+    if(this.scrollLayer){
+
+      this.timer = setInterval(this.name+'.scrollLayer()','30');
+
+    }
+
+    }
+
+
+
+    //-->
+
+
+
+
+
+    //]]>
+
+    </script>
+</head>
+<BODY TEXT="#000000" bgcolor="#006384" BACKGROUND="design/back.gif" LINK="#0000FF" VLINK="#808080" ALINK="#00CEFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<table border=0 cellpadding=0 cellspacing=0 width=800>
+<tr>
+<td valign=top colspan=2>
+<img src="design/gs2_logo.gif" width="228" height="113" alt="" border="0" hspace=10 vspace=18><img src="design/gs2_logo_t.gif" width="228" height="113" alt="" border="0" hspace=10 vspace=18></td>
+</tr>
+<tr><td colspan=2 class=s1><img src="design/space.gif" width=600 height=5 alt="" border="0"><br><span class="header1">The  &quot;Home of the Golden Sun, The Lost Age&quot; site welcomes you!</span></td></tr>
+<tr><td class=s1><br>
+		<p>It's finished, finally. It took a long time to build up the site you are up to visit now.<br><br>For the third time in my live I completed a site for a game which is available in Japanese only at the present time. The first complete &quot;walk through&quot; for a Japanese RPG game was <b>Royal Stone</b>, published back in 1995 by SEGA for the not so popular GameGear, followed by <b>Lunar2 Eternal Blue</b> for Playstation. This game was released in an English version short before Christmas 2000 by Working Design, but my site was opened in January 2000! <br><br>This time I beat Camelot Soft and big Nintendo, daring to open a complete English walk through months before the English version will hit the stores!
+<p>Golden Sun 2, &quot;The Lost Age&quot; is among the most awaited RPG sequels in the video game history. And right you are, I myself can't await to buy either the English or the German Version of the game. Don't think of me as a software pirate, who surfs the net to get his hands on the newest game roms available for free. Nothing in the world can destroy the gamers infrastructure more than those stupid idiots who blame Nintendo for their crusade against software pirates. If you see all the work the software companies have done to create such marvelous games like Golden Sun, you will finally understand that they must get their reward for their creations. <br>And the easiest way to pay your tribute to them is so simple: just <b>BUY</b> the games! Each RPG ROM stored on my computer has its counterpart in the original cartridge or game CD.<br>One more thing, I worked on these pages for nearly <b>4 months</b>. So, please, don't use stuff from here without permission, thanks!
+<p>Ok, enough small talk, surf and enjoy. If you like to get more information take a look under <b>News</b> in the Site Info section.<br><br><span class="footer">JAVA-Script code included, enable Java-Script on your browser.<br>Designed for a resolution of 800 x 600 pixels and 65.000 colors. <p>All quoted text, logos, screen shots, and artwork copyright and courtesy Camelot Soft and Nintendo, Japan.
+
+</td><td valign=center><div align="right">
+        <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var c = new scrollerObj('c','90','100','100','100','<span class=header1>Affiliates<\/span><p><a href="http://gsa.nin-gaming.com/" target="_top"><img src="design/gs_anonymous.gif" width="80" height="30" alt="" border="0"><\/a><br><a href="http://planetnintendo.com/goldensun/index.shtml" target="_top"><img src="design/gs_realm.jpg" width="80" height="32" alt="" border="0"><\/a><br><a href="http://gsvs.hmplace.com/" target="_top"><img src="design/gs_sanctum.jpg" width="80" height="28" alt="" border="0"><\/a><br><a href="http://gskraden.cjb.net/" target="_top"><img src="design/gsabutton.jpg" width="80" height="28" alt="" border="0"><\/a><br><a href="http://gsar.ionichost.com/" target="_top"><img src="design/gsar.gif" width="80" height="28" alt="" border="0"><\/a><br><a href="http://dynamic4.gamespy.com/~goldensun/topsites/main.cgi?ID=12"><img src="http://dynamic4.gamespy.com/~goldensun/topsites/img.cgi?id=12" width="80" border="0"><\/a><\/p>','','','1','center');
+        //-->
+        //]]>
+        </script></div>
+<img src="design/space.gif" width=290 height=69 alt="" border="0"><br>
+<script language="JavaScript1.2">
+
+//Fade-in image slideshow- By Dynamic Drive
+//For full source code and more DHTML scripts, visit http://www.dynamicdrive.com
+//This credit MUST stay intact for use
+
+var slideshow_width=290 //SET IMAGE WIDTH
+var slideshow_height=343 //SET IMAGE HEIGHT
+var pause=3000 //SET PAUSE BETWEEN TREMOR (3000=3 seconds)
+
+var fadeimages=new Array()
+//SET IMAGE PATHS. Extend or contract array as needed
+fadeimages[0]="characters/felix1.gif"
+fadeimages[1]="characters/jenna1.gif"
+fadeimages[2]="characters/sheeba1.gif"
+fadeimages[3]="characters/picard1.gif"
+
+////NO need to edit beyond here/////////////
+
+var preloadedimages=new Array()
+for (p=0;p<fadeimages.length;p++){
+preloadedimages[p]=new Image()
+preloadedimages[p].src=fadeimages[p]
+}
+
+var ie4=document.all&&navigator.userAgent.indexOf("Opera")==-1
+var dom=document.getElementById&&navigator.userAgent.indexOf("Opera")==-1
+
+if (ie4||dom)
+document.write('<div style="position:relative;width:'+slideshow_width+';height:'+slideshow_height+';overflow:hidden"><div  id="canvas0" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';top:0;left:0;filter:alpha(opacity=10);-moz-opacity:10"></div><div id="canvas1" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';top:0;left:0;filter:alpha(opacity=10);-moz-opacity:10"></div></div>')
+else
+document.write('<img name="defaultslide" src="'+fadeimages[0]+'">')
+
+var curpos=10
+var degree=10
+var curcanvas="canvas0"
+var curimageindex=0
+var nextimageindex=1
+
+
+function fadepic(){
+if (curpos<100){
+curpos+=10
+if (tempobj.filters)
+tempobj.filters.alpha.opacity=curpos
+else if (tempobj.style.MozOpacity)
+tempobj.style.MozOpacity=curpos/100
+}
+else{
+clearInterval(dropslide)
+nextcanvas=(curcanvas=="canvas0")? "canvas0" : "canvas1"
+tempobj=ie4? eval("document.all."+nextcanvas) : document.getElementById(nextcanvas)
+tempobj.innerHTML='<img src="'+fadeimages[nextimageindex]+'">'
+nextimageindex=(nextimageindex<fadeimages.length-1)? nextimageindex+1 : 0
+setTimeout("rotateimage()",pause)
+}
+}
+
+function rotateimage(){
+if (ie4||dom){
+resetit(curcanvas)
+var crossobj=tempobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.style.zIndex++
+var temp='setInterval("fadepic()",150)'
+dropslide=eval(temp)
+curcanvas=(curcanvas=="canvas0")? "canvas1" : "canvas0"
+}
+else
+document.images.defaultslide.src=fadeimages[curimageindex]
+curimageindex=(curimageindex<fadeimages.length-1)? curimageindex+1 : 0
+}
+
+function resetit(what){
+curpos=10
+var crossobj=ie4? eval("document.all."+what) : document.getElementById(what)
+if (crossobj.filters)
+crossobj.filters.alpha.opacity=curpos
+else if (crossobj.style.MozOpacity)
+crossobj.style.MozOpacity=curpos/100
+}
+
+function startit(){
+var crossobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.innerHTML='<img src="'+fadeimages[curimageindex]+'">'
+rotateimage()
+}
+
+if (ie4||dom)
+window.onload=startit
+else
+setInterval("rotateimage()",pause)
+</script><br><img src="design/space.gif" width=1 height=5 alt="" border="0">
+</td></tr>
+<tr><td colspan=2 class=s1><p>&copy; 2002, 2003, Wolfgang Landgraf, Germany</td></tr>
+</table>
+<br>
+</body>
+</html>

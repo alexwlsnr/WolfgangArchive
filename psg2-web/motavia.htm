@@ -1,0 +1,434 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+	<title>Untitled</title>
+
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+
+
+var ebenenref, aktdiv, i, max=18;
+
+
+
+function ZeigeEbene(Nr)
+
+{
+
+aktdiv=0;
+
+for (i=1; i<=max; i++)
+
+{
+
+ebenenref="ebene"+i;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (i==Nr)
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (i==Nr)
+
+{
+
+document.layers[ebenenref].visibility="visible";
+
+}
+
+else
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (i==Nr)
+
+{
+
+document.all[ebenenref].style.visibility="visible";
+
+}
+
+else
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+}
+
+
+
+function VersteckeEbene(Nr)
+
+{
+
+ebenenref="ebene"+Nr;
+
+if (document.getElementById) // IE 5.x und NN 6
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.getElementById(ebenenref).style.visibility="hidden";
+
+}
+
+else
+
+{
+
+document.getElementById(ebenenref).style.visibility="visible";
+
+}
+
+}
+
+
+
+if (document.layers) // NN 4.x
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.layers[ebenenref].visibility="hidden";
+
+}
+
+}
+
+
+
+if (document.all && !document.getElementById) // IE 4
+
+{
+
+if (Nr!=aktdiv)
+
+{
+
+document.all[ebenenref].style.visibility="hidden";
+
+}
+
+}
+
+}
+
+
+
+//-->
+
+</script>
+
+
+
+<link rel="STYLESHEET" type="text/css" href="ps3.css">
+
+</head>
+
+
+
+<body background="design/back.gif">
+
+<div id=fix>
+
+<table border=0 cellpadding=0 cellspacing=0 background="design/back.gif">
+
+<tr>
+
+<td><img src="design/space.gif" width="60" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+<td><img src="design/menu_bot100.png" width="100" height="8" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div id=scroll>
+
+<table border=0 cellspacing=0 cellpadding=0>
+
+<tr>
+
+<td rowspan=8><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=7><img src="design/space.gif" width="10" height="18" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=588><span class="header1">Planet Motavia</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td rowspan=3><img src="design/space.gif" width="10" height="2" alt="" border="0"></td>
+
+<td colspan=3>
+
+<table border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td background="design/mh_l.gif"><img src="design/space.gif" width="16" height="24" alt="" border="0"></td>
+
+<td background="design/mh_m.gif" valign=bottom align=right width=122><span class="header1">Information</span></td>
+
+<td background="design/mh_r.gif"><img src="design/space.gif" width="4" height="24" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif"><!--Map-->
+
+</map>
+
+<img src="planets/motavia.jpg" width="600" height="440" alt="" border="0">
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_lm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+<td background="design/frame_mm.gif" width=134 valign=top><!--Info--><p>
+
+Motavia has changed much since our last visit 1000 years ago. <br>The desert of former times was terraformed by <b>Mother Brain</b> into a green world.<br><br>Motavia offers a lot of interesting places. <br><b>Move</b> over the names and an enlarged picture of the location will be shown. <br>A <b>Click</b> and you will 'warp' there!<br><br>
+
+<table cellpadding=2 cellspacing=0>
+
+<tr>
+
+<td><a href="paseo.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(1)" OnMouseOut="VersteckeEbene(1)">Paseo</a></td>
+
+<td><a href="arima.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(2)" OnMouseOut="VersteckeEbene(2)">Arima</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="oputa.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(3)" OnMouseOut="VersteckeEbene(3)">Oputa</a></td>
+
+<td><a href="zema.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(4)" OnMouseOut="VersteckeEbene(4)">Zema</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="kueri.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(5)" OnMouseOut="VersteckeEbene(5)">Kueri</a></td>
+
+<td><a href="piata.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(6)" OnMouseOut="VersteckeEbene(6)">Piata</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="shure_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(7)" OnMouseOut="VersteckeEbene(7)">Shure</a></td>
+
+<td><a href="nido_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(8)" OnMouseOut="VersteckeEbene(8)">Nido</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="bridge.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(9)" OnMouseOut="VersteckeEbene(9)">N.Bridge</a></td>
+
+<td><a href="biolab_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(10)" OnMouseOut="VersteckeEbene(10)">Biolab</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="roron_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(11)" OnMouseOut="VersteckeEbene(11)">Roron</a></td>
+
+<td><a href="uzo.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(12)" OnMouseOut="VersteckeEbene(12)">Uzo Island</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="climatrol_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(13)" OnMouseOut="VersteckeEbene(13)">Climatrol</a></td>
+
+<td><a href="c_tower_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(14)" OnMouseOut="VersteckeEbene(14)">Control T.</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="rd_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(15)" OnMouseOut="VersteckeEbene(15)">Red Dam</a></td>
+
+<td><a href="yd_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(16)" OnMouseOut="VersteckeEbene(16)">Yellow&nbsp;Dam</a></td>
+
+</tr>
+
+<tr>
+
+<td><a href="bd_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(17)" OnMouseOut="VersteckeEbene(17)">Blue&nbsp;Dam</a></td>
+
+<td><a href="gd_01.htm" onfocus="this.blur()" target="main" OnMouseOver="ZeigeEbene(18)" OnMouseOut="VersteckeEbene(18)">Green Dam</a></td>
+
+</tr>
+
+</table>
+
+
+
+</td>
+
+<td background="design/frame_rm.gif"><img src="design/space.gif" width="4" height="2" alt="" border="0"></td>
+
+</tr>
+
+<tr>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_lb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_b.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+<td background="design/frame_rb.gif"><img src="design/space.gif" width="4" height="4" alt="" border="0"></td>
+
+</tr>
+
+</table>
+
+<br>
+
+<div class="transbox" id="ebene1" style="Position: absolute; Left: 210px; Top: 215px; Visibility: hidden;"><img src="planets/paseo.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene2" style="Position: absolute; Left: 260px; Top: 180px; Visibility: hidden;"><img src="planets/arima.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene3" style="Position: absolute; Left: 140px; Top: 150px; Visibility: hidden;"><img src="planets/oputa.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene4" style="Position: absolute; Left: 165px; Top: 250px; Visibility: hidden;"><img src="planets/zema.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene5" style="Position: absolute; Left:100px; Top: 295px; Visibility: hidden;"><img src="planets/kueri.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene6" style="Position: absolute; Left: 270px; Top: 280px; Visibility: hidden;"><img src="planets/piata.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene7" style="Position: absolute; Left: 415px; Top: 95px; Visibility: hidden;"><img src="planets/shure.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene8" style="Position: absolute; Left: 375px; Top: 205px; Visibility: hidden;"><img src="planets/nido.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene9" style="Position: absolute; Left: 185px; Top: 95px; Visibility: hidden;"><img src="planets/n_bridge.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene10" style="Position: absolute; Left: 95px; Top: 205px; Visibility: hidden;"><img src="planets/biosystem.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene11" style="Position: absolute; Left: 300px; Top: 405px; Visibility: hidden;"><img src="planets/roron.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene12" style="Position: absolute; Left: 540px; Top: 345px; Visibility: hidden;"><img src="planets/uzo.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene13" style="Position: absolute; Left: 535px; Top: 45px; Visibility: hidden;"><img src="planets/climatrol.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene14" style="Position: absolute; Left: 270px; Top: 280px; Visibility: hidden;"><img src="planets/piata.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene15" style="Position: absolute; Left: 242px; Top: 260px; Visibility: hidden;"><img src="planets/rd.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene16" style="Position: absolute; Left: 140px; Top: 225px; Visibility: hidden;"><img src="planets/yd.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene17" style="Position: absolute; Left: 250px; Top: 225px; Visibility: hidden;"><img src="planets/bd.png" width="60" height="60" alt="" border="0"></div>
+
+<div class="transbox" id="ebene18" style="Position: absolute; Left: 185px; Top: 175px; Visibility: hidden;"><img src="planets/gd.png" width="60" height="60" alt="" border="0"></div><br>
+
+</div>
+
+</body>
+
+</html>
+

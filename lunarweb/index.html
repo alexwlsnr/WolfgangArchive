@@ -1,0 +1,138 @@
+<html>
+<!-- Created with Java Script MouseOver Creator v.1.0 -->
+<!-- by dimsis@futureland.gr - www.futureland.gr/dimsis  -->
+
+<head>
+    <title></title>
+
+</head>
+<BODY BGCOLOR="0f1242" LINK="#ffff00">
+<script language="JavaScript">
+
+browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 3 )))
+
+if ( browser) {
+imgoff = new MakeArray(2)
+imgon = new MakeArray(2)
+iconpict = new MakeArray(2)
+iconpict2 = new MakeArray(2)
+
+clickit = new MakeArray(2)
+
+windowstatus = new MakeArray(3)
+
+imgoff[1].src = "ltss01.gif"
+imgoff[2].src = "leb-b01.gif"
+
+imgon[1].src = "ltss02.gif"
+imgon[2].src = "leb-b02.gif"
+
+iconpict[1].src = "lunar1lgo.jpg"
+iconpict[2].src = "lunar2lgo.jpg"
+
+iconpict2[1].src = "l2_cast.gif"
+iconpict2[2].src = "l1_cast.gif"
+
+clickit[1].src = "ltss03.gif"
+clickit[2].src = "leb-b03.gif"
+
+windowstatus[1] = "Lunar the Silver Star Story Complete"
+windowstatus[2] = "Lunar Eternal Blue"
+windowstatus[3] = ""
+
+
+}
+
+function MakeArray(n) {
+this.length = n
+for (var i = 1; i<=n; i++) {
+this[i] = new Image()
+}
+return this
+}
+
+function msover1(num) {
+if ( browser) {
+document.menuitemIMG1.src = imgon[num].src
+window.status = windowstatus[num]
+document.iconpictIMG.src = iconpict[1].src
+document.iconpict2IMG.src = iconpict2[1].src
+}
+}
+
+function msout1(num) {
+if ( browser) {
+document.menuitemIMG1.src = imgoff[num].src
+window.status = windowstatus[3]
+}
+}
+
+function clickit1(num) {
+if ( browser) {
+document.menuitemIMG1.src = clickit[num].src
+window.status = windowstatus[3]
+}
+}
+
+function msover2(num) {
+if ( browser) {
+document.menuitemIMG2.src = imgon[num].src
+window.status = windowstatus[num]
+document.iconpictIMG.src = iconpict[2].src
+document.iconpict2IMG.src = iconpict2[2].src
+}
+}
+
+function msout2(num) {
+if ( browser) {
+document.menuitemIMG2.src = imgoff[num].src
+window.status = windowstatus[3]
+}
+}
+
+function clickit2(num) {
+if ( browser) {
+document.menuitemIMG2.src = clickit[num].src
+window.status = windowstatus[3]
+}
+}
+
+
+// -->
+
+</script>
+<SCRIPT LANGUAGE="JavaScript">
+var image0 = new Image(); image0.src = "lcd-b01.gif";
+</script>
+<center>
+<FONT color="fffff" SIZE=7><CENTER><B>Welcome to</FONT><BR>
+<TABLE HEIGHT=100%>
+<TR><TD>
+<TABLE BORDER=0>
+<TR>
+<TD>
+<IMG SRC="lunarhp.jpg" NAME="iconpictIMG" BORDER="0">
+</TD>
+<TD>
+<IMG SRC="l_blind.gif" NAME="iconpict2IMG" BORDER="0">
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=2 ALIGN=CENTER><A HREF="lunar1web/index.html" onmouseover="msover1(1) ; return true" onmouseout="msout1(1)"><IMG SRC="ltss01.gif" Name="menuitemIMG1" ALT="" Align=BOTTOM Width="212" Height="22" BORDER="0"></A>
+<A HREF="lunar2web/index.html" onmouseover="msover2(2) ; return true" onmouseout="msout2(2)"><IMG SRC="leb-b01.gif" Name="menuitemIMG2" ALT="" Align=BOTTOM Width="212" Height="22" BORDER="0"></A></td></tr>
+<tr><td colspan=2 align=center><a href="lunar2mcd/index.html" onmouseover="image0.src='lcd-b02.gif';" onmouseclick="image0.src='lcd-b03.gif';" onmouseout="image0.src='lcd-b01.gif';" target="_top"><img name="image0" src="lcd-b01.gif" width="212" height="22" alt="" border="0" align=bottom hspace=3></a><br><br></td></tr>
+<tr><td colspan=2>
+<P>
+<FONT COLOR=FFFFFF SIZE =2>Some parts of our pages include JAVA-Script code. Please enable Java-Script on your Internet browser.<BR>These web pages are
+designed for a monitor resolution of 800 x 600 pixels and 65.000 colors.
+<P>All quoted text, logos, screenshots, and artwork copyright and courtesy<BR> 
+GAME ARTS, STUDIO ALEX, KADOKAWA SHOTEN PUBLISHING, JAM, ESP, <BR>and VANGUARD WORKS, Japan and Working Designs, USA.<BR>
+And always remember, if you want use some of the stuff from these pages, please ask <A HREF="mailto:wl@seh.de">wl@seh.de</A><BR>&copy; 1999, 2000 by Wolfgang Landgraf, Bielefeld, Germany</FONT></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</center>
+</BODY>
+</HTML>

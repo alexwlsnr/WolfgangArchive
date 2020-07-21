@@ -1,0 +1,63 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+psgd#$@info#$@0#$@1#$@106#$@67#$@0#$@#$@0#$@1000#$@2#$@arial,helvetica,times new roman#$@10#$@0#$@0#$@1#$@EF8431#$@0#$@30#$@0#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Site Info#$@#$@info#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i1#$@i0#$@Startpage#$@start.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i2#$@i0#$@News#$@news.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i3#$@i0#$@Credits#$@credits.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i4#$@i0#$@Sitemap#$@sitemap.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i5#$@i0#$@Contact#$@contact.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i6#$@i0#$@Main Menu#$@choose.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i7#$@#$@Heroes#$@#$@info#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i8#$@i7#$@Alec#$@characters/alec.htm#$@info#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i9#$@i7#$@Minina#$@characters/minina.htm#$@info#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i10#$@i7#$@Doromu#$@characters/doromu.htm#$@info#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i11#$@i7#$@Dalos#$@characters/dalos.htm#$@_self#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i12#$@i7#$@Alis#$@characters/alis.htm#$@_self#$@60#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i13#$@#$@Maps#$@#$@info#$@45#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i14#$@i13#$@Worldmap#$@maps/world.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i15#$@i13#$@Forest#$@maps/forest.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i16#$@#$@Towns#$@#$@info#$@55#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i17#$@i16#$@Tedo#$@maps/tedo.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i18#$@i16#$@Gypsy#$@maps/gypsy.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i19#$@i16#$@Mechatron#$@maps/mechatron.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i20#$@i16#$@Taini#$@maps/taini.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i21#$@i16#$@Karukatto#$@maps/karukatto.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i22#$@i16#$@Purimu#$@maps/purimu.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i23#$@i16#$@Forest House#$@maps/house.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i24#$@i16#$@Tarimu#$@maps/tarimu.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i25#$@#$@Enemies#$@#$@info#$@65#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i26#$@i25#$@Enemies A-B#$@a_b.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i27#$@i25#$@Enemies C-E#$@c_e.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i28#$@i25#$@Enemies F-G#$@f_g.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i29#$@i25#$@Enemies H-M#$@h_m.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i30#$@i25#$@Enemies N-R#$@n_r.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i31#$@i25#$@Enemies S#$@s.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i32#$@i25#$@Enemies T-Z#$@t_z.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i33#$@i25#$@Bosses#$@bosses.htm#$@info#$@90#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i34#$@#$@Dungeons#$@#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i35#$@i34#$@Cave 1#$@maps/dungeon01.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i36#$@i34#$@Cave 2#$@maps/dungeon02.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i37#$@i34#$@Cave 3#$@maps/dungeon03.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i38#$@i34#$@Cave 4#$@maps/dungeon04.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i39#$@i34#$@Cave 5#$@maps/dungeon05.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i40#$@i34#$@Cave 6#$@maps/dungeon06.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i41#$@i34#$@Cave 7#$@maps/dungeon07.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i42#$@i34#$@Ruins#$@maps/dungeon08.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i43#$@i34#$@Castle#$@maps/dungeon09.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i44#$@#$@And More#$@#$@info#$@65#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@0#$@
+i45#$@i44#$@People#$@characters/people.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i46#$@i44#$@Backgrounds#$@more/backgrounds.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+i47#$@i44#$@Tips#$@more/tips.htm#$@info#$@80#$@20#$@#$@#$@F79C5A#$@DE6B10#$@000000#$@E0E0E0#$@#$@1#$@
+</Item_Parameters>
