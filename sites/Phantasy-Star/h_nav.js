@@ -38,7 +38,7 @@
 	var RightToLeft=0;
 	var BottomUp=0;
 	var UnfoldsOnClick=0;
-	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; //http://www.wolfgangarchive.com/psi-web/
+	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; ////www.wolfgangarchive.com/psi-web/
 	
 
 	var Arrws="";
@@ -74,7 +74,7 @@ Menu1=new Array("Site Info","","",6,18,55,"","","","","","",-1,-1,-1,"","");
 		Menu1_3=new Array("Sitemap","site/map.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
 		Menu1_4=new Array("Credits","site/credits.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
 		Menu1_5=new Array("Contact","site/contact.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
-		Menu1_6=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); //http://www.wolfgangarchive.com/choose.htm
+		Menu1_6=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); ////www.wolfgangarchive.com/choose.htm
 		
 Menu2=new Array("Planets","","",3,18,50,"","","","","","",-1,-1,-1,"","");
 	Menu2_1=new Array("Palma","maps/palma.htm","",0,18,50,"","","","","","",-1,-1,-1,"","");

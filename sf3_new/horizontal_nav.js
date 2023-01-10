@@ -246,7 +246,7 @@ Menu1=new Array("Site Info","","",7,18,80,"","","","","","",-1,-1,-1,"","");
 
 		Menu1_6=new Array("Contact","site/contact.htm","",0,18,80,"","","","","","",-1,-1,-1,"","");
 
-		Menu1_7=new Array("Main menu","javascript:top.document.location.href='http://www.wolfgangarchive.com/choose.htm'","",0,18,80,"","","","","","",-1,-1,-1,"","");
+		Menu1_7=new Array("Main menu","javascript:top.document.location.href='//www.wolfgangarchive.com/choose.htm'","",0,18,80,"","","","","","",-1,-1,-1,"","");
 
 		
 

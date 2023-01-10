@@ -78,7 +78,7 @@
 
 	var UnfoldsOnClick=0;
 
-	var BaseHref="http://www.wolfgangarchive.com/psii-web/"; //http://www.wolfgangarchive.com/psii-web/
+	var BaseHref="//www.wolfgangarchive.com/psii-web/"; ////www.wolfgangarchive.com/psii-web/
 
 	
 
@@ -150,7 +150,7 @@ Menu1=new Array("Site Info","","",6,18,55,"","","","","","",-1,-1,-1,"","");
 
 		Menu1_5=new Array("Contact","site/contact.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
 
-		Menu1_6=new Array("Main menu","javascript:top.document.location.href='http://www.wolfgangarchive.com/choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); //http://www.wolfgangarchive.com/choose.htm
+		Menu1_6=new Array("Main menu","javascript:top.document.location.href='//www.wolfgangarchive.com/choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); ////www.wolfgangarchive.com/choose.htm
 
 		
 

@@ -38,7 +38,7 @@
 	var RightToLeft=0;
 	var BottomUp=0;
 	var UnfoldsOnClick=0;
-	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; //http://www.wolfgangarchive.com/psiii-web/
+	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; ////www.wolfgangarchive.com/psiii-web/
 	
 
 	var Arrws="";
@@ -70,7 +70,7 @@
 
 Menu1=new Array("Site Info","","",2,18,60,"","","","","","",-1,-1,-1,"","");
 		Menu1_1=new Array("Startpage","start.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
-		Menu1_2=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); //http://www.wolfgangarchive.com/choose.htm
+		Menu1_2=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); ////www.wolfgangarchive.com/choose.htm
 		
 Menu2=new Array("Towns","","",1,18,60,"","","","","","",-1,-1,-1,"","");
 	Menu2_1=new Array("Landen","town01.htm","",0,18,60,"","","","","","",-1,-1,-1,"","");

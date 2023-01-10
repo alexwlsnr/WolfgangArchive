@@ -76,7 +76,7 @@
 
 	var UnfoldsOnClick=0;
 
-	var BaseHref="http://www.wolfgangarchive.com/dq-web/html/";//  ../dragon_quest_8/index.html for internal use (external use: http://www.wolfgangarchive.com/sf3_new/)
+	var BaseHref="//www.wolfgangarchive.com/dq-web/html/";//  ../dragon_quest_8/index.html for internal use (external use: //www.wolfgangarchive.com/sf3_new/)
 
 	
 
@@ -150,7 +150,7 @@ Menu1=new Array("Site Info","","",7,17,55,"","","","","","",-1,-1,-1,"","");
 
 		Menu1_6=new Array("Contact","site/contact_index.htm","",0,17,80,"","","","","","",-1,-1,-1,"","");
 
-		Menu1_7=new Array("Main menu","javascript:top.document.location.href='http://www.wolfgangarchive.com/choose.htm'","",0,17,80,"","","","","","",-1,-1,-1,"","");
+		Menu1_7=new Array("Main menu","javascript:top.document.location.href='//www.wolfgangarchive.com/choose.htm'","",0,17,80,"","","","","","",-1,-1,-1,"","");
 
 		
 

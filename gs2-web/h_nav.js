@@ -78,7 +78,7 @@
 
 	var UnfoldsOnClick=0;
 
-	var BaseHref="http://www.wolfgangarchive.com/gs2-web/"; 
+	var BaseHref="//www.wolfgangarchive.com/gs2-web/"; 
 
 	
 
@@ -142,9 +142,9 @@ Menu1=new Array("Jump to","","",3,18,60,"","","","","","",-1,-1,-1,"","");
 
 		Menu1_1=new Array("Startpage","start.htm","",0,18,80,"","","","","","",-1,-1,-1,"","");
 
-		Menu1_2=new Array("Golden Sun","javascript:top.document.location.href='http://www.wolfgangarchive.com/gs-web/index.html'","",0,18,80,"","","","","","",-1,-1,-1,"",""); 
+		Menu1_2=new Array("Golden Sun","javascript:top.document.location.href='//www.wolfgangarchive.com/gs-web/index.html'","",0,18,80,"","","","","","",-1,-1,-1,"",""); 
 
-Menu1_3=new Array("Main Menu","javascript:top.document.location.href='http://www.wolfgangarchive.com/choose.htm'","",0,18,80,"","","","","","",-1,-1,-1,"",""); 
+Menu1_3=new Array("Main Menu","javascript:top.document.location.href='//www.wolfgangarchive.com/choose.htm'","",0,18,80,"","","","","","",-1,-1,-1,"",""); 
 
 
 

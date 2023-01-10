@@ -80,7 +80,7 @@
 
 	var UnfoldsOnClick=0;
 
-	var BaseHref="http://www.wolfgangarchive.com/psg2-web/";
+	var BaseHref="//www.wolfgangarchive.com/psg2-web/";
 
 	var Arrws="";
 
@@ -140,7 +140,7 @@ Menu1=new Array("Site Info","",BaseHref+"design/menu_top100.png",7,24,100,"","",
 
 	Menu1_5=new Array("Contact","contact.htm",BaseHref+"design/menu_text100.png",0,0,0,"","","","","","",-1,-1,-1,"","");
 
-	Menu1_6=new Array("Main Menu","javascript:top.document.location.href='http://www.wolfgangarchive.com/choose.htm'",BaseHref+"design/menu_text100.png",0,0,0,"","","","","","",-1,-1,-1,"","");
+	Menu1_6=new Array("Main Menu","javascript:top.document.location.href='//www.wolfgangarchive.com/choose.htm'",BaseHref+"design/menu_text100.png",0,0,0,"","","","","","",-1,-1,-1,"","");
 
 	Menu1_7=new Array("","",BaseHref+"design/menu_bot100.png",0,8,100,"","","","","","",-1,-1,-1,"","");
 

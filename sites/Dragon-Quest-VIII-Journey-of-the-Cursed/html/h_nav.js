@@ -37,7 +37,7 @@
 	var RightToLeft=0;
 	var BottomUp=0;
 	var UnfoldsOnClick=0;
-	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location;//  ../dragon_quest_8/index.html for internal use (external use: http://www.wolfgangarchive.com/sf3_new/)
+	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location;//  ../dragon_quest_8/index.html for internal use (external use: //www.wolfgangarchive.com/sf3_new/)
 	
 
 	var Arrws="";

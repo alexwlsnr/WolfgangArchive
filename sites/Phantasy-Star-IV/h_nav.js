@@ -38,7 +38,7 @@
 	var RightToLeft=0;
 	var BottomUp=0;
 	var UnfoldsOnClick=0;
-	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; //http://www.wolfgangarchive.com/psiv-web/
+	var BaseHref=(window.location != window.parent.location) ? document.referrer: document.location; ////www.wolfgangarchive.com/psiv-web/
 	
 
 	var Arrws="";
@@ -75,7 +75,7 @@ Menu1=new Array("Site Info","","",7,18,55,"","","","","","",-1,-1,-1,"","");
 		Menu1_4=new Array("Credits","site/credits.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
 		Menu1_5=new Array("Copyright","site/copyright.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
 		Menu1_6=new Array("Contact","site/contact.htm","",0,18,70,"","","","","","",-1,-1,-1,"","");
-		Menu1_7=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); //http://www.wolfgangarchive.com/choose.htm
+		Menu1_7=new Array("Main menu","javascript:top.document.location.href='../choose.htm'","",0,18,70,"","","","","","",-1,-1,-1,"",""); ////www.wolfgangarchive.com/choose.htm
 		
 Menu2=new Array("Characters","","",3,18,70,"","","","","","",-1,-1,-1,"","");
 	Menu2_1=new Array("Heroes","","",10,18,70,"","","","","","",-1,-1,-1,"","");
